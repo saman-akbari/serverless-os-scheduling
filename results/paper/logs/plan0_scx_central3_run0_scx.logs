@@ -1,0 +1,479 @@
+libbpf: struct_ops central_ops: member priv not found in kernel, skipping it as it's set to zero
+[SEQ 0]
+total   :         8    local:         0   queued:         0  lost:         0
+timer   :        18 dispatch:         8 mismatch:         3 retry:         0
+overflow:         0
+[SEQ 1]
+total   :       182    local:        17   queued:         0  lost:         0
+timer   :       975 dispatch:       439 mismatch:         5 retry:         0
+overflow:         0
+[SEQ 2]
+total   :       298    local:        36   queued:         0  lost:         0
+timer   :      1927 dispatch:       710 mismatch:         6 retry:         0
+overflow:         0
+[SEQ 3]
+total   :       400    local:        56   queued:         0  lost:         0
+timer   :      2885 dispatch:       946 mismatch:         7 retry:         0
+overflow:         0
+[SEQ 4]
+total   :       518    local:        82   queued:         0  lost:         0
+timer   :      3849 dispatch:      1200 mismatch:         8 retry:         0
+overflow:         0
+[SEQ 5]
+total   :       647    local:       101   queued:         0  lost:         0
+timer   :      4810 dispatch:      1499 mismatch:         9 retry:         0
+overflow:         0
+[SEQ 6]
+total   :       751    local:       115   queued:         0  lost:         0
+timer   :      5771 dispatch:      1742 mismatch:        10 retry:         0
+overflow:         0
+[SEQ 7]
+total   :       864    local:       135   queued:         0  lost:         0
+timer   :      6731 dispatch:      1995 mismatch:        11 retry:         0
+overflow:         0
+[SEQ 8]
+total   :       972    local:       159   queued:         0  lost:         0
+timer   :      7692 dispatch:      2229 mismatch:        12 retry:         0
+overflow:         0
+[SEQ 9]
+total   :      1079    local:       175   queued:         0  lost:         0
+timer   :      8654 dispatch:      2475 mismatch:        13 retry:         0
+overflow:         0
+[SEQ 10]
+total   :      1174    local:       186   queued:         0  lost:         0
+timer   :      9615 dispatch:      2699 mismatch:        14 retry:         0
+overflow:         0
+[SEQ 11]
+total   :      1260    local:       200   queued:         0  lost:         0
+timer   :     10575 dispatch:      2910 mismatch:        15 retry:         0
+overflow:         0
+[SEQ 12]
+total   :      1392    local:       218   queued:         0  lost:         0
+timer   :     11533 dispatch:      3213 mismatch:        16 retry:         0
+overflow:         0
+[SEQ 13]
+total   :      1490    local:       231   queued:         0  lost:         0
+timer   :     12495 dispatch:      3444 mismatch:        17 retry:         0
+overflow:         0
+[SEQ 14]
+total   :      1596    local:       247   queued:         0  lost:         0
+timer   :     13458 dispatch:      3696 mismatch:        18 retry:         0
+overflow:         0
+[SEQ 15]
+total   :      1715    local:       267   queued:         0  lost:         0
+timer   :     14420 dispatch:      3967 mismatch:        19 retry:         0
+overflow:         0
+[SEQ 16]
+total   :      1863    local:       281   queued:         0  lost:         0
+timer   :     15384 dispatch:      4344 mismatch:        21 retry:         0
+overflow:         0
+[SEQ 17]
+total   :      1980    local:       305   queued:         0  lost:         0
+timer   :     16349 dispatch:      4606 mismatch:        22 retry:         0
+overflow:         0
+[SEQ 18]
+total   :      2086    local:       322   queued:         0  lost:         0
+timer   :     17313 dispatch:      4841 mismatch:        23 retry:         0
+overflow:         0
+[SEQ 19]
+total   :      2190    local:       337   queued:         0  lost:         0
+timer   :     18276 dispatch:      5096 mismatch:        24 retry:         0
+overflow:         0
+[SEQ 20]
+total   :      2306    local:       355   queued:         0  lost:         0
+timer   :     19239 dispatch:      5372 mismatch:        25 retry:         0
+overflow:         0
+[SEQ 21]
+total   :      2423    local:       375   queued:         0  lost:         0
+timer   :     20201 dispatch:      5623 mismatch:        26 retry:         0
+overflow:         0
+[SEQ 22]
+total   :      2540    local:       394   queued:         0  lost:         0
+timer   :     21163 dispatch:      5891 mismatch:        27 retry:         0
+overflow:         0
+[SEQ 23]
+total   :      2640    local:       410   queued:         0  lost:         0
+timer   :     22126 dispatch:      6122 mismatch:        29 retry:         0
+overflow:         0
+[SEQ 24]
+total   :      2756    local:       430   queued:         0  lost:         0
+timer   :     23091 dispatch:      6373 mismatch:        30 retry:         0
+overflow:         0
+[SEQ 25]
+total   :      2862    local:       444   queued:         0  lost:         0
+timer   :     24056 dispatch:      6642 mismatch:        32 retry:         0
+overflow:         0
+[SEQ 26]
+total   :      2970    local:       464   queued:         0  lost:         0
+timer   :     25018 dispatch:      6883 mismatch:        33 retry:         0
+overflow:         0
+[SEQ 27]
+total   :      3085    local:       483   queued:         0  lost:         0
+timer   :     25981 dispatch:      7156 mismatch:        34 retry:         0
+overflow:         0
+[SEQ 28]
+total   :      3189    local:       507   queued:         0  lost:         0
+timer   :     26943 dispatch:      7386 mismatch:        35 retry:         0
+overflow:         0
+[SEQ 29]
+total   :      3294    local:       522   queued:         0  lost:         0
+timer   :     27905 dispatch:      7633 mismatch:        36 retry:         0
+overflow:         0
+[SEQ 30]
+total   :      3454    local:       564   queued:         0  lost:         0
+timer   :     28863 dispatch:      7949 mismatch:        37 retry:         0
+overflow:         0
+[SEQ 31]
+total   :      3630    local:       603   queued:         0  lost:         0
+timer   :     29825 dispatch:      8279 mismatch:        38 retry:         0
+overflow:         0
+[SEQ 32]
+total   :      3750    local:       623   queued:         0  lost:         0
+timer   :     30787 dispatch:      8551 mismatch:        39 retry:         0
+overflow:         0
+[SEQ 33]
+total   :      3854    local:       639   queued:         0  lost:         0
+timer   :     31750 dispatch:      8786 mismatch:        40 retry:         0
+overflow:         0
+[SEQ 34]
+total   :      3960    local:       659   queued:         0  lost:         0
+timer   :     32714 dispatch:      9020 mismatch:        41 retry:         0
+overflow:         0
+[SEQ 35]
+total   :      4103    local:       677   queued:         0  lost:         0
+timer   :     33677 dispatch:      9353 mismatch:        42 retry:         0
+overflow:         0
+[SEQ 36]
+total   :      4207    local:       696   queued:         0  lost:         0
+timer   :     34637 dispatch:      9583 mismatch:        43 retry:         0
+overflow:         0
+[SEQ 37]
+total   :      4325    local:       720   queued:         0  lost:         0
+timer   :     35600 dispatch:      9844 mismatch:        44 retry:         0
+overflow:         0
+[SEQ 38]
+total   :      4441    local:       739   queued:         0  lost:         0
+timer   :     36562 dispatch:     10090 mismatch:        45 retry:         0
+overflow:         0
+[SEQ 39]
+total   :      4544    local:       754   queued:         0  lost:         0
+timer   :     37526 dispatch:     10327 mismatch:        47 retry:         0
+overflow:         0
+[SEQ 40]
+total   :      4660    local:       770   queued:         0  lost:         0
+timer   :     38489 dispatch:     10580 mismatch:        48 retry:         0
+overflow:         0
+[SEQ 41]
+total   :      4772    local:       785   queued:         0  lost:         0
+timer   :     39450 dispatch:     10830 mismatch:        49 retry:         0
+overflow:         0
+[SEQ 42]
+total   :      4900    local:       808   queued:         0  lost:         0
+timer   :     40412 dispatch:     11115 mismatch:        50 retry:         0
+overflow:         0
+[SEQ 43]
+total   :      5015    local:       825   queued:         0  lost:         0
+timer   :     41376 dispatch:     11378 mismatch:        52 retry:         0
+overflow:         0
+[SEQ 44]
+total   :      5113    local:       842   queued:         0  lost:         0
+timer   :     42340 dispatch:     11609 mismatch:        53 retry:         0
+overflow:         0
+[SEQ 45]
+total   :      5256    local:       860   queued:         0  lost:         0
+timer   :     43302 dispatch:     11954 mismatch:        55 retry:         0
+overflow:         0
+[SEQ 46]
+total   :      5365    local:       876   queued:         0  lost:         0
+timer   :     44267 dispatch:     12209 mismatch:        56 retry:         0
+overflow:         0
+[SEQ 47]
+total   :      5470    local:       893   queued:         0  lost:         0
+timer   :     45229 dispatch:     12470 mismatch:        57 retry:         0
+overflow:         0
+[SEQ 48]
+total   :      5570    local:       913   queued:         0  lost:         0
+timer   :     46192 dispatch:     12687 mismatch:        58 retry:         0
+overflow:         0
+[SEQ 49]
+total   :      5677    local:       928   queued:         0  lost:         0
+timer   :     47154 dispatch:     12932 mismatch:        59 retry:         0
+overflow:         0
+[SEQ 50]
+total   :      5815    local:       946   queued:         0  lost:         0
+timer   :     48114 dispatch:     13267 mismatch:        60 retry:         0
+overflow:         0
+[SEQ 51]
+total   :      5922    local:       960   queued:         0  lost:         0
+timer   :     49073 dispatch:     13523 mismatch:        62 retry:         0
+overflow:         0
+[SEQ 52]
+total   :      6035    local:       979   queued:         0  lost:         0
+timer   :     50033 dispatch:     13782 mismatch:        63 retry:         0
+overflow:         0
+[SEQ 53]
+total   :      6131    local:       996   queued:         0  lost:         0
+timer   :     50994 dispatch:     13991 mismatch:        65 retry:         0
+overflow:         0
+[SEQ 54]
+total   :      6241    local:      1013   queued:         0  lost:         0
+timer   :     51956 dispatch:     14241 mismatch:        67 retry:         0
+overflow:         0
+[SEQ 55]
+total   :      6354    local:      1025   queued:         0  lost:         0
+timer   :     52917 dispatch:     14520 mismatch:        68 retry:         0
+overflow:         0
+[SEQ 56]
+total   :      6463    local:      1045   queued:         0  lost:         0
+timer   :     53879 dispatch:     14766 mismatch:        69 retry:         0
+overflow:         0
+[SEQ 57]
+total   :      6568    local:      1065   queued:         0  lost:         0
+timer   :     54840 dispatch:     15008 mismatch:        70 retry:         0
+overflow:         0
+[SEQ 58]
+total   :      6675    local:      1083   queued:         0  lost:         0
+timer   :     55801 dispatch:     15253 mismatch:        71 retry:         0
+overflow:         0
+[SEQ 59]
+total   :      6782    local:      1101   queued:         0  lost:         0
+timer   :     56764 dispatch:     15497 mismatch:        72 retry:         0
+overflow:         0
+[SEQ 60]
+total   :      7071    local:      1132   queued:         0  lost:         0
+timer   :     57721 dispatch:     16165 mismatch:        74 retry:         0
+overflow:         0
+[SEQ 61]
+total   :      7192    local:      1154   queued:         0  lost:         0
+timer   :     58685 dispatch:     16439 mismatch:        76 retry:         0
+overflow:         0
+[SEQ 62]
+total   :      7308    local:      1177   queued:         0  lost:         0
+timer   :     59645 dispatch:     16702 mismatch:        77 retry:         0
+overflow:         0
+[SEQ 63]
+total   :      7425    local:      1196   queued:         0  lost:         0
+timer   :     60608 dispatch:     16997 mismatch:        78 retry:         0
+overflow:         0
+[SEQ 64]
+total   :      7533    local:      1219   queued:         0  lost:         0
+timer   :     61574 dispatch:     17240 mismatch:        80 retry:         0
+overflow:         0
+[SEQ 65]
+total   :      7880    local:      1263   queued:         0  lost:         0
+timer   :     62535 dispatch:     17999 mismatch:        81 retry:         0
+overflow:         0
+[SEQ 66]
+total   :      8290    local:      1289   queued:         0  lost:         0
+timer   :     63486 dispatch:     19017 mismatch:        82 retry:         0
+overflow:         0
+[SEQ 67]
+total   :      8987    local:      1361   queued:         0  lost:         0
+timer   :     64441 dispatch:     20584 mismatch:        83 retry:         0
+overflow:         0
+[SEQ 68]
+total   :      9878    local:      1466   queued:         0  lost:         0
+timer   :     65403 dispatch:     22630 mismatch:        84 retry:         0
+overflow:         0
+[SEQ 69]
+total   :     10232    local:      1533   queued:         0  lost:         0
+timer   :     66367 dispatch:     23379 mismatch:        86 retry:         0
+overflow:         0
+[SEQ 70]
+total   :     10805    local:      1620   queued:         0  lost:         0
+timer   :     67327 dispatch:     24595 mismatch:        87 retry:         0
+overflow:         0
+[SEQ 71]
+total   :     11289    local:      1705   queued:         0  lost:         0
+timer   :     68284 dispatch:     25577 mismatch:        88 retry:         0
+overflow:         0
+[SEQ 72]
+total   :     11731    local:      1789   queued:         0  lost:         0
+timer   :     69243 dispatch:     26493 mismatch:        89 retry:         0
+overflow:         0
+[SEQ 73]
+total   :     12459    local:      1897   queued:         0  lost:         0
+timer   :     70204 dispatch:     28130 mismatch:        90 retry:         0
+overflow:         0
+[SEQ 74]
+total   :     12996    local:      1939   queued:         0  lost:         0
+timer   :     71167 dispatch:     29456 mismatch:        91 retry:         0
+overflow:         0
+[SEQ 75]
+total   :     13532    local:      2023   queued:         0  lost:         0
+timer   :     72128 dispatch:     30673 mismatch:        93 retry:         0
+overflow:         0
+[SEQ 76]
+total   :     14229    local:      2114   queued:         0  lost:         0
+timer   :     73091 dispatch:     32319 mismatch:        95 retry:         0
+overflow:         0
+[SEQ 77]
+total   :     15065    local:      2257   queued:         0  lost:         0
+timer   :     74054 dispatch:     34108 mismatch:        96 retry:         0
+overflow:         0
+[SEQ 78]
+total   :     16309    local:      2477   queued:         0  lost:         0
+timer   :     75025 dispatch:     36392 mismatch:        98 retry:         0
+overflow:         0
+[SEQ 79]
+total   :     16990    local:      2582   queued:         0  lost:         0
+timer   :     75991 dispatch:     37783 mismatch:        99 retry:         0
+overflow:         0
+[SEQ 80]
+total   :     17817    local:      2682   queued:         0  lost:         0
+timer   :     76957 dispatch:     39611 mismatch:       100 retry:         0
+overflow:         0
+[SEQ 81]
+total   :     19172    local:      2891   queued:         0  lost:         0
+timer   :     77922 dispatch:     42533 mismatch:       101 retry:         0
+overflow:         0
+[SEQ 82]
+total   :     20558    local:      3101   queued:         0  lost:         0
+timer   :     78889 dispatch:     45484 mismatch:       103 retry:         0
+overflow:         0
+[SEQ 83]
+total   :     20961    local:      3139   queued:         0  lost:         0
+timer   :     79854 dispatch:     46354 mismatch:       104 retry:         0
+overflow:         0
+[SEQ 84]
+total   :     22124    local:      3356   queued:         0  lost:         0
+timer   :     80820 dispatch:     48805 mismatch:       105 retry:         0
+overflow:         0
+[SEQ 85]
+total   :     23342    local:      3606   queued:         0  lost:         0
+timer   :     81785 dispatch:     51270 mismatch:       107 retry:         0
+overflow:         0
+[SEQ 86]
+total   :     24336    local:      3766   queued:         0  lost:         0
+timer   :     82752 dispatch:     53308 mismatch:       108 retry:         0
+overflow:         0
+[SEQ 87]
+total   :     24881    local:      3862   queued:         0  lost:         0
+timer   :     83715 dispatch:     54434 mismatch:       109 retry:         0
+overflow:         0
+[SEQ 88]
+total   :     26183    local:      4114   queued:         0  lost:         0
+timer   :     84678 dispatch:     57041 mismatch:       110 retry:         0
+overflow:         0
+[SEQ 89]
+total   :     27353    local:      4318   queued:         0  lost:         0
+timer   :     85641 dispatch:     59510 mismatch:       111 retry:         0
+overflow:         0
+[SEQ 90]
+total   :     27760    local:      4366   queued:         0  lost:         0
+timer   :     86602 dispatch:     60398 mismatch:       112 retry:         0
+overflow:         0
+[SEQ 91]
+total   :     29206    local:      4545   queued:         0  lost:         0
+timer   :     87565 dispatch:     63208 mismatch:       113 retry:         0
+overflow:         0
+[SEQ 92]
+total   :     30308    local:      4773   queued:         0  lost:         0
+timer   :     88529 dispatch:     65443 mismatch:       114 retry:         0
+overflow:         0
+[SEQ 93]
+total   :     31131    local:      4936   queued:         0  lost:         0
+timer   :     89492 dispatch:     67119 mismatch:       115 retry:         0
+overflow:         0
+[SEQ 94]
+total   :     31810    local:      5042   queued:         0  lost:         0
+timer   :     90460 dispatch:     68355 mismatch:       116 retry:         0
+overflow:         0
+[SEQ 95]
+total   :     33001    local:      5252   queued:         0  lost:         0
+timer   :     91427 dispatch:     70832 mismatch:       117 retry:         0
+overflow:         0
+[SEQ 96]
+total   :     34398    local:      5492   queued:         0  lost:         0
+timer   :     92395 dispatch:     73669 mismatch:       118 retry:         0
+overflow:         0
+[SEQ 97]
+total   :     34961    local:      5547   queued:         0  lost:         0
+timer   :     93366 dispatch:     74770 mismatch:       119 retry:         0
+overflow:         0
+
+DEBUG DUMP
+================================================================================
+
+track-ctx-per-c[608282] triggered exit kind 1024:
+  runtime error (SCX_DSQ_LOCAL[_ON] cannot move migration disabled track-ctx-per-c[608282] from CPU 4 to 0)
+
+Backtrace:
+  task_can_run_on_remote_rq+0x13c/0x150
+  dispatch_to_local_dsq+0x70/0x2e0
+  flush_dispatch_buf+0x143/0x190
+  balance_one+0x1ed/0x3a0
+  balance_scx+0x37/0x1e0
+  prev_balance+0x48/0xc0
+  __pick_next_task+0x78/0x1c0
+  pick_next_task+0x2b/0xa10
+  __schedule+0x178/0x710
+  schedule_idle+0x23/0x40
+  do_idle+0xaa/0xe0
+  cpu_startup_entry+0x29/0x30
+  rest_init+0xd7/0xe0
+  start_kernel+0x49a/0x4a0
+  x86_64_start_reservations+0x24/0x30
+  x86_64_start_kernel+0xf2/0x100
+  common_startup_64+0x13e/0x141
+
+CPU states
+----------
+
+CPU 0   : nr_run=1 flags=0x3 cpu_rel=0 ops_qseq=2263678 pnt_seq=142637
+          curr=track-ctx-per-c[608282] class=ext_sched_class
+  idle_to_kick   : 08
+
+ *R track-ctx-per-c[608282] +0ms
+      scx_state/flags=3/0x5 dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=0 slice=18446744073709551615 weight=100
+      cpus=ff
+
+    scx_dump_state+0x7a6/0x900
+    scx_ops_error_irq_workfn+0x47/0x50
+    irq_work_single+0x27/0x70
+    irq_work_run_list+0x33/0x60
+    irq_work_run+0x18/0x40
+    __sysvec_irq_work+0x1c/0x90
+    sysvec_irq_work+0x9b/0xc0
+    asm_sysvec_irq_work+0x1b/0x20
+    finish_task_switch.isra.0+0x9d/0x310
+    irqentry_exit_to_user_mode+0x109/0x1d0
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+CPU 1   : nr_run=1 flags=0x3 cpu_rel=0 ops_qseq=143664 pnt_seq=299301
+          curr=cat[608281] class=ext_sched_class
+
+ *R cat[608281] -1ms
+      scx_state/flags=3/0x5 dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=0 slice=18446744073709551615 weight=100
+      cpus=ff
+
+CPU 2   : nr_run=1 flags=0x3 cpu_rel=0 ops_qseq=131356 pnt_seq=240785
+          curr=python3[605802] class=ext_sched_class
+
+ *R python3[605802] -91ms
+      scx_state/flags=3/0x5 dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=0 slice=18446744073709551615 weight=100
+      cpus=ff
+
+    rcu_core_si+0xe/0x20
+    handle_softirqs+0xe4/0x310
+
+CPU 3   : nr_run=1 flags=0x3 cpu_rel=0 ops_qseq=130327 pnt_seq=210647
+          curr=track-ctx-per-c[608283] class=ext_sched_class
+
+ *R track-ctx-per-c[608283] +0ms
+      scx_state/flags=3/0x5 dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=0 slice=18446744073709551615 weight=100
+      cpus=ff
+
+================================================================================
+
+EXIT: runtime error (SCX_DSQ_LOCAL[_ON] cannot move migration disabled track-ctx-per-c[608282] from CPU 4 to 0)

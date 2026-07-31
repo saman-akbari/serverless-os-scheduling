@@ -1,0 +1,768 @@
+12:05:18 [0m[33m[WARN] [0mCPU capacity information is not available under sysfs.
+12:05:21 [0m[34m[INFO] [0mRustLand version 1.0.17-g36048b96-dirty x86_64-unknown-linux-gnu - scx_rustland_core 2.4.7
+
+DEBUG DUMP
+================================================================================
+
+kworker/u32:2[34908] triggered exit kind 1026:
+  runnable task stall (python3[188251] failed to run for 6.489s)
+
+Backtrace:
+  scx_watchdog_workfn+0x182/0x240
+  process_one_work+0x167/0x2f0
+  worker_thread+0x32a/0x460
+  kthread+0xe5/0x210
+  ret_from_fork+0x44/0x70
+  ret_from_fork_asm+0x1a/0x30
+
+CPU states
+----------
+
+CPU 0   : nr_run=6 flags=0x1 cpu_rel=0 ops_qseq=3622445 pnt_seq=449981
+          curr=python3[224091] class=ext_sched_class
+
+ *R python3[224091] -146ms
+      scx_state/flags=3/0x5 dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1290326805974 slice=7767976 weight=100
+      cpus=ff
+
+  R python3[224900] -58ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/3622435
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289623704670 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224980] -47ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/3622437
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289800303887 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224929] -25ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/3622439
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289854398440 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224950] -14ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/3622441
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1290062087344 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224949] -3ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/3622443
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1290182543844 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+CPU 1   : nr_run=12 flags=0x1 cpu_rel=0 ops_qseq=1403521 pnt_seq=618860
+          curr=python3[225016] class=ext_sched_class
+
+ *R python3[225016] -56ms
+      scx_state/flags=3/0x5 dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1290334045986 slice=9750618 weight=100
+      cpus=ff
+
+  R python3[188251] -6489ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1402348
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=19432598417126 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[195888] -6478ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1402349
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=19436311375920 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224899] -110ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1403496
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289039372759 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224988] -88ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1403501
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289559793631 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224981] -77ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1403503
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289625305862 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[225007] -45ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1403510
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289809860978 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224881] -36ms
+      scx_state/flags=3/0x9 dsq_flags=0x0 ops_state/qseq=2/1403512
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289645608549 slice=1648160 weight=100
+      cpus=ff
+
+    __futex_wait+0x15b/0x1d0
+    futex_wait+0x73/0x130
+    do_futex+0x105/0x260
+    __x64_sys_futex+0x128/0x200
+    x64_sys_call+0x1f06/0x2310
+    do_syscall_64+0x7e/0x170
+    entry_SYSCALL_64_after_hwframe+0x76/0x7e
+
+  R python3[224995] -34ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1403513
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289876364561 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224907] -23ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1403515
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289964428787 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224908] -12ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1403517
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1290095270634 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224959] -1ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1403519
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1290216089219 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+CPU 2   : nr_run=7 flags=0x9 cpu_rel=0 ops_qseq=1383176 pnt_seq=539017
+          curr=python3[224996] class=ext_sched_class
+
+ *R python3[224996] -128ms
+      scx_state/flags=3/0x5 dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1290238475243 slice=10708000 weight=100
+      cpus=ff
+
+  R python3[208482] -6489ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1382164
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=19430866975880 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224756] -154ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1383164
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1288941091907 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224898] -143ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1383166
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289129611765 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[225061] -55ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1383170
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289336952663 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224977] -44ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1383172
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289822110417 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224979] -11ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1383174
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289898190505 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+CPU 3   : nr_run=7 flags=0x21 cpu_rel=0 ops_qseq=1379172 pnt_seq=517351
+          curr=python3[224823] class=ext_sched_class
+
+ *R python3[224823] -62ms
+      scx_state/flags=3/0xd dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1290281011064 slice=6743965 weight=100
+      cpus=ff
+
+    __futex_wait+0x163/0x1d0
+    futex_wait+0x73/0x130
+
+  R python3[224936] -113ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1379158
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289259773320 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224848] -80ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1379160
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289439338388 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224874] -37ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1379165
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289843414470 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224927] -26ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1379166
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289952861308 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224916] -15ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1379168
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1290052330072 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[225015] -4ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1379170
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1290150814544 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+CPU 4   : nr_run=9 flags=0x9 cpu_rel=0 ops_qseq=1495148 pnt_seq=604408
+          curr=python3[224897] class=ext_sched_class
+
+ *R python3[224897] -190ms
+      scx_state/flags=3/0x5 dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289963458453 slice=6712106 weight=100
+      cpus=ff
+
+  R python3[224958] -103ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1495133
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289391715127 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224872] -92ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1495135
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289523672991 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224951] -81ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1495137
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289592049841 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[225045] -70ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1495139
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289635617301 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[225006] -59ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1495141
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289678898027 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R ol[172283] -49ms
+      scx_state/flags=3/0x9 dsq_flags=0x0 ops_state/qseq=2/1495143
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1273342510393 slice=10675323 weight=100
+      cpus=ff
+
+    do_epoll_wait+0xc3/0xe0
+    do_compat_epoll_pwait.part.0+0xf/0x80
+    __x64_sys_epoll_pwait+0x8f/0x140
+    x64_sys_call+0x155b/0x2310
+    do_syscall_64+0x7e/0x170
+    entry_SYSCALL_64_after_hwframe+0x76/0x7e
+
+  R python3[225063] -48ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1495144
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289799864115 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224859] -37ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1495146
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289854168986 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+CPU 5   : nr_run=7 flags=0x9 cpu_rel=0 ops_qseq=1383535 pnt_seq=473625
+          curr=python3[224987] class=ext_sched_class
+
+ *R python3[224987] -146ms
+      scx_state/flags=3/0x5 dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1290206367224 slice=7712792 weight=100
+      cpus=ff
+
+  R python3[206394] -6464ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1382368
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=19432862422868 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224882] -179ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1383521
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1288316518759 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224925] -135ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1383524
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289152683887 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224767] -69ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1383528
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289336311842 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[225008] -36ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1383530
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289679647686 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224873] -14ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1383533
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289964084972 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+CPU 6   : nr_run=9 flags=0x1 cpu_rel=0 ops_qseq=1371861 pnt_seq=457554
+          curr=kworker/u32:2[34908] class=ext_sched_class
+
+ *R kworker/u32:2[34908] -51ms
+      scx_state/flags=3/0x5 dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1290378131244 slice=10708000 weight=100
+      cpus=ff
+
+    scx_dump_state+0x7a6/0x900
+    scx_ops_error_irq_workfn+0x47/0x50
+    irq_work_single+0x27/0x70
+    irq_work_run_list+0x33/0x60
+    irq_work_run+0x18/0x40
+    __sysvec_irq_work+0x1c/0x90
+    sysvec_irq_work+0x9b/0xc0
+    asm_sysvec_irq_work+0x1b/0x20
+    scx_watchdog_workfn+0x19c/0x240
+    process_one_work+0x167/0x2f0
+    worker_thread+0x32a/0x460
+    kthread+0xe5/0x210
+    ret_from_fork+0x44/0x70
+    ret_from_fork_asm+0x1a/0x30
+
+  R python3[222020] -6508ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1370789
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=4605943213569 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224552] -44ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1371851
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289787278808 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[225044] -33ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1371852
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289888714077 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R dockerd[52682] -27ms
+      scx_state/flags=3/0x9 dsq_flags=0x0 ops_state/qseq=2/1371854
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1251564995615 slice=10687298 weight=100
+      cpus=ff
+
+    __futex_wait+0x15b/0x1d0
+    futex_wait+0x73/0x130
+    do_futex+0x105/0x260
+    __x64_sys_futex+0x128/0x200
+    x64_sys_call+0x1f06/0x2310
+    do_syscall_64+0x7e/0x170
+    entry_SYSCALL_64_after_hwframe+0x76/0x7e
+
+  R python3[224935] -22ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1371855
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1290051743859 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224858] +0ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1371857
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1290128567239 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R scx_rustland[170722] +0ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=0x401
+      dsq_vtime=0 slice=10708000 weight=100
+      cpus=ff
+
+    __do_sys_sched_yield+0xe/0x20
+    x64_sys_call+0x52b/0x2310
+    do_syscall_64+0x7e/0x170
+    entry_SYSCALL_64_after_hwframe+0x76/0x7e
+
+  R kworker/u32:3[4146130] +0ms
+      scx_state/flags=3/0x9 dsq_flags=0x0 ops_state/qseq=2/1371860
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1282293260447 slice=10671585 weight=100
+      cpus=ff
+
+    kthread+0xe5/0x210
+    ret_from_fork+0x44/0x70
+    ret_from_fork_asm+0x1a/0x30
+
+CPU 7   : nr_run=16 flags=0x1 cpu_rel=0 ops_qseq=1363664 pnt_seq=455038
+          curr=python3[224928] class=ext_sched_class
+
+ *R python3[224928] -167ms
+      scx_state/flags=3/0x5 dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1290261692926 slice=5281474 weight=100
+      cpus=ff
+
+  R python3[218129] -6467ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1362519
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=9954950512996 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[225040] -117ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1363633
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289282540795 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224914] -95ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1363637
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289511612080 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[225064] -73ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1363641
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289634441442 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224875] -62ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1363645
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289667646865 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224816] -51ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1363647
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289792218555 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224978] -40ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1363649
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289822586439 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[224822] -29ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1363651
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1289919218050 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R dockerd[170665] -23ms
+      scx_state/flags=3/0x9 dsq_flags=0x0 ops_state/qseq=2/1363653
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1251092478002 slice=10637160 weight=100
+      cpus=ff
+
+    do_epoll_wait+0xc3/0xe0
+    do_compat_epoll_pwait.part.0+0xf/0x80
+    __x64_sys_epoll_pwait+0x8f/0x140
+    x64_sys_call+0x155b/0x2310
+    do_syscall_64+0x7e/0x170
+    entry_SYSCALL_64_after_hwframe+0x76/0x7e
+
+  R python3[224915] -18ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1363654
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1290051878058 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R rcu_sched[17] -14ms
+      scx_state/flags=3/0x9 dsq_flags=0x0 ops_state/qseq=2/1363657
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1290139302330 slice=10693491 weight=100
+      cpus=ff
+
+    rcu_gp_kthread+0xe9/0x180
+    kthread+0xe5/0x210
+    ret_from_fork+0x44/0x70
+    ret_from_fork_asm+0x1a/0x30
+
+  R python3[224948] -7ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1363658
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=1290149189766 slice=0 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R track-ctx-per-c[225122] -7ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1363660
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=0 slice=10708000 weight=100
+      cpus=ff
+
+  R track-ctx-per-c[225123] -6ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1363661
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=0 slice=10708000 weight=100
+      cpus=ff
+
+  R track-ctx-per-c[225124] -6ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=2/1363662
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=0 slice=10708000 weight=100
+      cpus=ff
+
+================================================================================
+
+12:10:31 [0m[34m[INFO] [0mUnregister RustLand scheduler
+Error: EXIT: runnable task stall (python3[188251] failed to run for 6.489s)

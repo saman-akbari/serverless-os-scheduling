@@ -1,0 +1,95 @@
+[
+  {
+    "name": "open-lambda",
+    "comment": "OpenLambda layer",
+    "template": null,
+    "matches": [
+      [
+        {
+          "CommPrefix": "ol"
+        }
+      ],
+      [
+        {
+          "CgroupPrefix": "ol-sandboxes"
+        }
+      ]
+    ],
+    "kind": {
+      "Grouped": {
+        "util_range": [
+          0.5,
+          0.6
+        ],
+        "cpus_range": [
+          1,
+          8
+        ],
+        "cpus_range_frac": null,
+        "membw_gb": null,
+        "protected": false,
+        "min_exec_us": 200,
+        "yield_ignore": 0.0,
+        "slice_us": 53930,
+        "fifo": false,
+        "preempt": true,
+        "preempt_first": false,
+        "exclusive": false,
+        "allow_node_aligned": false,
+        "skip_remote_node": false,
+        "prev_over_idle_core": false,
+        "weight": 214,
+        "disallow_open_after_us": null,
+        "disallow_preempt_after_us": null,
+        "perf": 1024,
+        "idle_resume_us": null,
+        "nodes": [],
+        "llcs": [],
+        "placement": "Standard",
+        "member_expire_ms": 0
+      }
+    }
+  },
+  {
+    "name": "normal",
+    "comment": "the rest",
+    "template": null,
+    "matches": [
+      []
+    ],
+    "kind": {
+      "Grouped": {
+        "util_range": [
+          0.5,
+          0.6
+        ],
+        "cpus_range": [
+          0,
+          8
+        ],
+        "cpus_range_frac": null,
+        "membw_gb": null,
+        "protected": false,
+        "min_exec_us": 200,
+        "yield_ignore": 0.0,
+        "slice_us": 19100,
+        "fifo": false,
+        "preempt": false,
+        "preempt_first": false,
+        "exclusive": false,
+        "allow_node_aligned": false,
+        "skip_remote_node": false,
+        "prev_over_idle_core": false,
+        "weight": 100,
+        "disallow_open_after_us": null,
+        "disallow_preempt_after_us": null,
+        "perf": 1024,
+        "idle_resume_us": null,
+        "nodes": [],
+        "llcs": [],
+        "placement": "Standard",
+        "member_expire_ms": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,2824 @@
+libbpf: struct_ops flatcg_ops: member priv not found in kernel, skipping it as it's set to zero
+slice=20.0ms intv=2.0s dump_cgrps=0
+[SEQ      0 cpu= 69.8 hweight_gen=3]
+       act:     2  deact:     0 global:     0 local:     1
+HWT  cache:     0 update:     2   skip:     0  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:     7  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ      1 cpu=  0.5 hweight_gen=206]
+       act:   165  deact:   166 global:     0 local:   277
+HWT  cache:    96 update:   107   skip:   128  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   289  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ      2 cpu=  0.5 hweight_gen=300]
+       act:   123  deact:   123 global:     0 local:   237
+HWT  cache:    47 update:    47   skip:   152  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   233  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ      3 cpu=  0.5 hweight_gen=400]
+       act:   126  deact:   126 global:     0 local:   233
+HWT  cache:    50 update:    50   skip:   152  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   248  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ      4 cpu=  0.6 hweight_gen=500]
+       act:   112  deact:   112 global:     0 local:   221
+HWT  cache:    47 update:    53   skip:   124  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   224  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ      5 cpu=  0.4 hweight_gen=590]
+       act:   115  deact:   115 global:     0 local:   220
+HWT  cache:    45 update:    45   skip:   140  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   237  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ      6 cpu=  0.4 hweight_gen=672]
+       act:   114  deact:   114 global:     0 local:   212
+HWT  cache:    41 update:    41   skip:   146  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   215  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ      7 cpu=  0.5 hweight_gen=768]
+       act:   114  deact:   114 global:     0 local:   217
+HWT  cache:    47 update:    49   skip:   132  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   236  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ      8 cpu=  0.5 hweight_gen=866]
+       act:   114  deact:   114 global:     0 local:   227
+HWT  cache:    49 update:    49   skip:   130  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   228  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ      9 cpu=  0.6 hweight_gen=968]
+       act:   121  deact:   121 global:     0 local:   226
+HWT  cache:    51 update:    51   skip:   140  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   247  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     10 cpu=  0.4 hweight_gen=1052]
+       act:    97  deact:    97 global:     0 local:   201
+HWT  cache:    44 update:    42   skip:   108  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   199  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     11 cpu=  0.4 hweight_gen=1118]
+       act:    91  deact:    91 global:     0 local:   171
+HWT  cache:    33 update:    33   skip:   116  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   190  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     12 cpu=  0.6 hweight_gen=1210]
+       act:   116  deact:   116 global:     0 local:   221
+HWT  cache:    46 update:    46   skip:   140  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   217  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     13 cpu=  0.6 hweight_gen=1312]
+       act:   121  deact:   121 global:     0 local:   240
+HWT  cache:    49 update:    53   skip:   140  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   256  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     14 cpu=  0.5 hweight_gen=1414]
+       act:   117  deact:   117 global:     0 local:   222
+HWT  cache:    51 update:    51   skip:   132  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   222  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     15 cpu=  0.7 hweight_gen=1494]
+       act:   148  deact:   148 global:     0 local:   292
+HWT  cache:    40 update:    40   skip:   216  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   271  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     16 cpu=  0.5 hweight_gen=1584]
+       act:   128  deact:   128 global:     0 local:   235
+HWT  cache:    44 update:    46   skip:   166  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   230  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     17 cpu=  0.4 hweight_gen=1666]
+       act:   109  deact:   109 global:     0 local:   221
+HWT  cache:    37 update:    45   skip:   136  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   229  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     18 cpu=  0.5 hweight_gen=1774]
+       act:   126  deact:   126 global:     0 local:   240
+HWT  cache:    54 update:    54   skip:   144  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   233  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     19 cpu=  0.6 hweight_gen=1882]
+       act:   133  deact:   133 global:     0 local:   258
+HWT  cache:    54 update:    54   skip:   158  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   269  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     20 cpu=  0.4 hweight_gen=1978]
+       act:   116  deact:   116 global:     0 local:   238
+HWT  cache:    48 update:    48   skip:   136  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   233  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     21 cpu=  0.6 hweight_gen=2060]
+       act:   113  deact:   113 global:     0 local:   217
+HWT  cache:    41 update:    41   skip:   144  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   228  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     22 cpu=  0.4 hweight_gen=2154]
+       act:   102  deact:   102 global:     0 local:   217
+HWT  cache:    47 update:    47   skip:   110  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   216  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     23 cpu=  0.6 hweight_gen=2328]
+       act:   154  deact:   154 global:     0 local:   258
+HWT  cache:    87 update:    87   skip:   134  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   272  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     24 cpu=  0.5 hweight_gen=2466]
+       act:   150  deact:   150 global:     0 local:   261
+HWT  cache:    69 update:    69   skip:   162  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   258  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     25 cpu=  0.4 hweight_gen=2576]
+       act:   126  deact:   126 global:     0 local:   230
+HWT  cache:    46 update:    64   skip:   142  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   244  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     26 cpu=  0.6 hweight_gen=2656]
+       act:   114  deact:   114 global:     0 local:   215
+HWT  cache:    40 update:    40   skip:   148  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   211  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     27 cpu=  0.5 hweight_gen=2784]
+       act:   143  deact:   143 global:     0 local:   254
+HWT  cache:    64 update:    64   skip:   158  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   270  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     28 cpu=  0.4 hweight_gen=2898]
+       act:   126  deact:   126 global:     0 local:   230
+HWT  cache:    55 update:    59   skip:   138  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   227  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     29 cpu=  0.5 hweight_gen=2988]
+       act:   116  deact:   116 global:     0 local:   222
+HWT  cache:    45 update:    45   skip:   142  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   237  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     30 cpu=  1.1 hweight_gen=3340]
+       act:   286  deact:   286 global:     0 local:   443
+HWT  cache:    52 update:   300   skip:   220  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   390  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     31 cpu=  0.6 hweight_gen=3444]
+       act:   145  deact:   145 global:     0 local:   289
+HWT  cache:    47 update:    57   skip:   186  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   294  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     32 cpu=  0.6 hweight_gen=3544]
+       act:   147  deact:   147 global:     0 local:   267
+HWT  cache:    50 update:    50   skip:   194  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     0  gone:     0
+PNC   next:     0  empty:     0 nocgrp:   262  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     33 cpu= 12.6 hweight_gen=3758]
+       act:   433  deact:   431 global:     0 local:   834
+HWT  cache:   101 update:   128   skip:   650  race:     0
+ENQ   skip:     1   race:     0
+CNS   keep:     0 expire:    13  empty:     1  gone:     0
+PNC   next:    15  empty:    14 nocgrp:   874  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     34 cpu= 19.7 hweight_gen=4058]
+       act:   608  deact:   610 global:     0 local:  1265
+HWT  cache:   131 update:   192   skip:   918  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:    19  empty:     5  gone:     0
+PNC   next:    23  empty:    23 nocgrp:  1300  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     35 cpu=  5.5 hweight_gen=4254]
+       act:   323  deact:   323 global:     0 local:   965
+HWT  cache:    84 update:   120   skip:   448  race:     0
+ENQ   skip:     1   race:     0
+CNS   keep:     0 expire:     4  empty:     2  gone:     0
+PNC   next:     6  empty:     5 nocgrp:   950  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     36 cpu=  4.6 hweight_gen=4438]
+       act:   328  deact:   328 global:     0 local:   837
+HWT  cache:    84 update:   101   skip:   472  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     1  empty:     0  gone:     0
+PNC   next:     1  empty:     1 nocgrp:   803  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     37 cpu= 14.3 hweight_gen=4899]
+       act:   649  deact:   648 global:     0 local:  1420
+HWT  cache:   215 update:   257   skip:   836  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     8  empty:     3  gone:     0
+PNC   next:    11  empty:    11 nocgrp:  1403  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     38 cpu= 14.8 hweight_gen=5067]
+       act:   540  deact:   539 global:     0 local:   932
+HWT  cache:    89 update:    90   skip:   911  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:    11  empty:     0  gone:     0
+PNC   next:    11  empty:    11 nocgrp:   975  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     39 cpu= 21.9 hweight_gen=5278]
+       act:   448  deact:   450 global:     0 local:  1130
+HWT  cache:   163 update:   145   skip:   708  race:     0
+ENQ   skip:   154   race:     0
+CNS   keep:    92 expire:    71  empty:    47  gone:     0
+PNC   next:   118  empty:    56 nocgrp:  1103  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     40 cpu= 18.5 hweight_gen=5636]
+       act:   701  deact:   699 global:     0 local:  1911
+HWT  cache:   165 update:   214   skip:  1040  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:    18  empty:     1  gone:     0
+PNC   next:    19  empty:    19 nocgrp:  1831  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     41 cpu= 30.7 hweight_gen=5906]
+       act:   682  deact:   682 global:     0 local:  1849
+HWT  cache:   129 update:   158   skip:  1094  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:    17  empty:     0  gone:     0
+PNC   next:    17  empty:    17 nocgrp:  1849  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     42 cpu= 19.6 hweight_gen=6226]
+       act:   620  deact:   622 global:     0 local:  1775
+HWT  cache:   142 update:   210   skip:   922  race:     0
+ENQ   skip:     4   race:     0
+CNS   keep:     3 expire:    24  empty:     8  gone:     0
+PNC   next:    32  empty:    31 nocgrp:  1733  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     43 cpu= 11.2 hweight_gen=6661]
+       act:   779  deact:   778 global:     0 local:  2399
+HWT  cache:   185 update:   252   skip:  1122  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     2  empty:     0  gone:     0
+PNC   next:     2  empty:     2 nocgrp:  2236  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     44 cpu=  6.9 hweight_gen=6971]
+       act:   472  deact:   472 global:     0 local:  1314
+HWT  cache:   132 update:   179   skip:   634  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     1  empty:     0  gone:     0
+PNC   next:     1  empty:     1 nocgrp:  1246  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     45 cpu= 18.4 hweight_gen=7339]
+       act:   664  deact:   664 global:     0 local:  2145
+HWT  cache:   177 update:   208   skip:   960  race:     0
+ENQ   skip:     1   race:     0
+CNS   keep:     0 expire:    12  empty:     5  gone:     0
+PNC   next:    17  empty:    16 nocgrp:  2058  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     46 cpu= 24.0 hweight_gen=7671]
+       act:   559  deact:   559 global:     0 local:  1673
+HWT  cache:   152 update:   198   skip:   786  race:     0
+ENQ   skip:     1   race:     0
+CNS   keep:     0 expire:    17  empty:     1  gone:     0
+PNC   next:    18  empty:    17 nocgrp:  1681  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     47 cpu= 26.1 hweight_gen=7993]
+       act:   574  deact:   573 global:     0 local:  1747
+HWT  cache:   204 update:   188   skip:   836  race:     0
+ENQ   skip:    59   race:     0
+CNS   keep:    20 expire:    47  empty:    34  gone:     0
+PNC   next:    81  empty:    42 nocgrp:  1707  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     48 cpu= 22.3 hweight_gen=8265]
+       act:   476  deact:   477 global:     0 local:  1792
+HWT  cache:   136 update:   162   skip:   682  race:     0
+ENQ   skip:     8   race:     0
+CNS   keep:     3 expire:    13  empty:    14  gone:     0
+PNC   next:    27  empty:    22 nocgrp:  1741  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     49 cpu= 26.8 hweight_gen=8587]
+       act:   529  deact:   529 global:     0 local:  1466
+HWT  cache:   180 update:   208   skip:   751  race:     0
+ENQ   skip:    45   race:     0
+CNS   keep:     8 expire:    51  empty:    30  gone:     0
+PNC   next:    81  empty:    44 nocgrp:  1467  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     50 cpu= 34.0 hweight_gen=8966]
+       act:   664  deact:   663 global:     0 local:  2298
+HWT  cache:   178 update:   220   skip:   948  race:     0
+ENQ   skip:     2   race:     0
+CNS   keep:     0 expire:    12  empty:     7  gone:     0
+PNC   next:    19  empty:    17 nocgrp:  2275  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     51 cpu= 26.4 hweight_gen=9393]
+       act:   576  deact:   577 global:     0 local:  1905
+HWT  cache:   193 update:   271   skip:   726  race:     0
+ENQ   skip:    14   race:     0
+CNS   keep:    11 expire:    19  empty:    18  gone:     0
+PNC   next:    37  empty:    34 nocgrp:  1930  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     52 cpu= 43.6 hweight_gen=9795]
+       act:   745  deact:   740 global:     0 local:  2287
+HWT  cache:   293 update:   260   skip:  1124  race:     0
+ENQ   skip:   132   race:     0
+CNS   keep:    77 expire:    70  empty:   118  gone:     0
+PNC   next:   192  empty:   137 nocgrp:  2232  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     53 cpu= 57.1 hweight_gen=10224]
+       act:   774  deact:   778 global:     0 local:  2061
+HWT  cache:   342 update:   317   skip:  1174  race:     0
+ENQ   skip:   157   race:     0
+CNS   keep:    76 expire:   122  empty:   163  gone:     0
+PNC   next:   281  empty:   200 nocgrp:  2130  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     54 cpu= 41.6 hweight_gen=10607]
+       act:   627  deact:   628 global:     0 local:  2069
+HWT  cache:   199 update:   253   skip:   879  race:     0
+ENQ   skip:    15   race:     1
+CNS   keep:    12 expire:    39  empty:    37  gone:     0
+PNC   next:    76  empty:    73 nocgrp:  2123  gone:     0 race:     1 fail:     0
+BAD remove:     0
+
+[SEQ     55 cpu= 33.8 hweight_gen=10990]
+       act:   604  deact:   602 global:     0 local:  1850
+HWT  cache:   215 update:   236   skip:   835  race:     0
+ENQ   skip:    56   race:     0
+CNS   keep:    22 expire:    52  empty:    28  gone:     0
+PNC   next:    80  empty:    46 nocgrp:  1843  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     56 cpu= 41.0 hweight_gen=11396]
+       act:   663  deact:   664 global:     0 local:  1759
+HWT  cache:   215 update:   260   skip:   930  race:     0
+ENQ   skip:    18   race:     0
+CNS   keep:     9 expire:    34  empty:    44  gone:     0
+PNC   next:    78  empty:    69 nocgrp:  1835  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     57 cpu= 22.4 hweight_gen=11776]
+       act:   694  deact:   696 global:     0 local:  2221
+HWT  cache:   164 update:   230   skip:  1010  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:    13  empty:     1  gone:     0
+PNC   next:    14  empty:    14 nocgrp:  2164  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     58 cpu= 29.6 hweight_gen=12125]
+       act:   586  deact:   584 global:     0 local:  1912
+HWT  cache:   228 update:   247   skip:   854  race:     0
+ENQ   skip:   163   race:     0
+CNS   keep:    98 expire:    59  empty:   100  gone:     0
+PNC   next:   159  empty:    94 nocgrp:  1849  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     59 cpu= 34.3 hweight_gen=12391]
+       act:   477  deact:   475 global:     0 local:  2030
+HWT  cache:   227 update:   180   skip:   720  race:     0
+ENQ   skip:   128   race:     0
+CNS   keep:    84 expire:    47  empty:   128  gone:     0
+PNC   next:   175  empty:   131 nocgrp:  1972  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     60 cpu= 77.3 hweight_gen=12833]
+       act:   682  deact:   683 global:     0 local:  1771
+HWT  cache:   528 update:   376   skip:  1043  race:     0
+ENQ   skip:   464   race:     0
+CNS   keep:   298 expire:   252  empty:   330  gone:     0
+PNC   next:   582  empty:   416 nocgrp:  1812  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     61 cpu= 50.3 hweight_gen=13265]
+       act:   765  deact:   767 global:     0 local:  2440
+HWT  cache:   335 update:   319   skip:  1138  race:     0
+ENQ   skip:   183   race:     0
+CNS   keep:    97 expire:   105  empty:   155  gone:     0
+PNC   next:   260  empty:   174 nocgrp:  2415  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     62 cpu= 21.4 hweight_gen=13684]
+       act:   667  deact:   668 global:     0 local:  2403
+HWT  cache:   198 update:   269   skip:   921  race:     0
+ENQ   skip:    35   race:     0
+CNS   keep:    27 expire:    17  empty:    35  gone:     0
+PNC   next:    53  empty:    45 nocgrp:  2334  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     63 cpu= 24.2 hweight_gen=14107]
+       act:   590  deact:   589 global:     0 local:  1849
+HWT  cache:   222 update:   274   skip:   772  race:     0
+ENQ   skip:    51   race:     0
+CNS   keep:    16 expire:    48  empty:    42  gone:     0
+PNC   next:    89  empty:    54 nocgrp:  1770  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     64 cpu= 58.0 hweight_gen=14474]
+       act:   709  deact:   704 global:     0 local:  2509
+HWT  cache:   359 update:   306   skip:  1124  race:     0
+ENQ   skip:   307   race:     0
+CNS   keep:   214 expire:   133  empty:   235  gone:     0
+PNC   next:   376  empty:   283 nocgrp:  2459  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     65 cpu= 58.4 hweight_gen=14867]
+       act:   652  deact:   656 global:     0 local:  1711
+HWT  cache:   344 update:   350   skip:  1010  race:     0
+ENQ   skip:   287   race:     0
+CNS   keep:   194 expire:   192  empty:   212  gone:     0
+PNC   next:   396  empty:   302 nocgrp:  1696  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     66 cpu= 28.4 hweight_gen=15193]
+       act:   712  deact:   713 global:     0 local:  2323
+HWT  cache:   183 update:   206   skip:  1101  race:     0
+ENQ   skip:    21   race:     0
+CNS   keep:    14 expire:    33  empty:    32  gone:     0
+PNC   next:    65  empty:    58 nocgrp:  2249  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     67 cpu= 23.8 hweight_gen=15515]
+       act:   588  deact:   588 global:     0 local:  1498
+HWT  cache:   142 update:   198   skip:   854  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:    14  empty:     3  gone:     0
+PNC   next:    18  empty:    17 nocgrp:  1534  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     68 cpu= 21.7 hweight_gen=15844]
+       act:   559  deact:   560 global:     0 local:  2011
+HWT  cache:   201 update:   206   skip:   803  race:     0
+ENQ   skip:   123   race:     0
+CNS   keep:    83 expire:    51  empty:    41  gone:     0
+PNC   next:    91  empty:    52 nocgrp:  1883  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     69 cpu=  3.9 hweight_gen=16142]
+       act:   400  deact:   400 global:     0 local:  1181
+HWT  cache:   131 update:   169   skip:   502  race:     0
+ENQ   skip:     0   race:     0
+CNS   keep:     0 expire:     0  empty:     2  gone:     0
+PNC   next:     2  empty:     2 nocgrp:  1112  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     70 cpu= 12.6 hweight_gen=16514]
+       act:   684  deact:   683 global:     0 local:  2064
+HWT  cache:   181 update:   209   skip:   995  race:     0
+ENQ   skip:     4   race:     0
+CNS   keep:     2 expire:    14  empty:     4  gone:     0
+PNC   next:    18  empty:    16 nocgrp:  1911  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     71 cpu= 44.6 hweight_gen=16750]
+       act:   546  deact:   545 global:     0 local:  1636
+HWT  cache:   225 update:   173   skip:   904  race:     0
+ENQ   skip:   142   race:     0
+CNS   keep:    57 expire:   111  empty:   100  gone:     0
+PNC   next:   211  empty:   126 nocgrp:  1677  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     72 cpu= 52.5 hweight_gen=17219]
+       act:   802  deact:   801 global:     0 local:  2714
+HWT  cache:   348 update:   340   skip:  1180  race:     0
+ENQ   skip:   198   race:     0
+CNS   keep:   106 expire:   115  empty:   149  gone:     0
+PNC   next:   265  empty:   173 nocgrp:  2661  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     73 cpu= 50.8 hweight_gen=17659]
+       act:   826  deact:   825 global:     0 local:  2414
+HWT  cache:   377 update:   352   skip:  1258  race:     0
+ENQ   skip:   270   race:     0
+CNS   keep:   199 expire:    79  empty:   256  gone:     0
+PNC   next:   336  empty:   266 nocgrp:  2430  gone:     0 race:     1 fail:     0
+BAD remove:     0
+
+[SEQ     74 cpu= 98.3 hweight_gen=17763]
+       act:   323  deact:   315 global:     0 local:   217
+HWT  cache:   510 update:   364   skip:   824  race:     0
+ENQ   skip:   867   race:     0
+CNS   keep:   325 expire:   699  empty:   355  gone:     0
+PNC   next:  1060  empty:   524 nocgrp:   116  gone:     1 race:     1 fail:     0
+BAD remove:     0
+
+[SEQ     75 cpu= 99.8 hweight_gen=17897]
+       act:   305  deact:   312 global:     0 local:   318
+HWT  cache:   573 update:   351   skip:   836  race:     0
+ENQ   skip:  1445   race:     0
+CNS   keep:  1009 expire:   705  empty:   446  gone:     0
+PNC   next:  1143  empty:   696 nocgrp:    66  gone:     7 race:     2 fail:     0
+BAD remove:     0
+
+[SEQ     76 cpu= 94.7 hweight_gen=18030]
+       act:   409  deact:   406 global:     0 local:   574
+HWT  cache:   567 update:   216   skip:   964  race:     0
+ENQ   skip:   899   race:     0
+CNS   keep:   477 expire:   544  empty:   380  gone:     0
+PNC   next:   932  empty:   511 nocgrp:   486  gone:     0 race:     2 fail:     0
+BAD remove:     0
+
+[SEQ     77 cpu=100.0 hweight_gen=18121]
+       act:   285  deact:   283 global:     0 local:   156
+HWT  cache:   457 update:   431   skip:   798  race:     0
+ENQ   skip:  1178   race:     1
+CNS   keep:   452 expire:   756  empty:   362  gone:     0
+PNC   next:  1118  empty:   391 nocgrp:     0  gone:     2 race:     1 fail:     0
+BAD remove:     0
+
+[SEQ     78 cpu=100.0 hweight_gen=18183]
+       act:   302  deact:   303 global:     0 local:   197
+HWT  cache:   541 update:   324   skip:   905  race:     0
+ENQ   skip:  1333   race:     1
+CNS   keep:   585 expire:   768  empty:   397  gone:     0
+PNC   next:  1165  empty:   419 nocgrp:     0  gone:     1 race:     2 fail:     0
+BAD remove:     0
+
+[SEQ     79 cpu=100.0 hweight_gen=18224]
+       act:   246  deact:   244 global:     0 local:   245
+HWT  cache:   579 update:   244   skip:   794  race:     0
+ENQ   skip:  1477   race:     0
+CNS   keep:   706 expire:   763  empty:   364  gone:     0
+PNC   next:  1127  empty:   357 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     80 cpu=100.0 hweight_gen=18269]
+       act:   272  deact:   273 global:     0 local:   148
+HWT  cache:   567 update:   254   skip:   801  race:     0
+ENQ   skip:  1184   race:     0
+CNS   keep:   420 expire:   756  empty:   321  gone:     0
+PNC   next:  1077  empty:   310 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     81 cpu=100.0 hweight_gen=18311]
+       act:   252  deact:   251 global:     0 local:   217
+HWT  cache:   566 update:   253   skip:   799  race:     0
+ENQ   skip:  1429   race:     0
+CNS   keep:   660 expire:   754  empty:   361  gone:     0
+PNC   next:  1115  empty:   351 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     82 cpu=100.0 hweight_gen=18356]
+       act:   278  deact:   277 global:     0 local:   174
+HWT  cache:   549 update:   287   skip:   843  race:     0
+ENQ   skip:  1218   race:     0
+CNS   keep:   437 expire:   770  empty:   354  gone:     0
+PNC   next:  1124  empty:   346 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     83 cpu=100.0 hweight_gen=18408]
+       act:   275  deact:   272 global:     0 local:   186
+HWT  cache:   502 update:   341   skip:   850  race:     0
+ENQ   skip:  1324   race:     0
+CNS   keep:   551 expire:   766  empty:   380  gone:     0
+PNC   next:  1146  empty:   368 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     84 cpu=100.0 hweight_gen=18436]
+       act:   254  deact:   252 global:     0 local:   188
+HWT  cache:   573 update:   238   skip:   825  race:     0
+ENQ   skip:  1328   race:     0
+CNS   keep:   549 expire:   769  empty:   361  gone:     0
+PNC   next:  1130  empty:   353 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     85 cpu=100.0 hweight_gen=18479]
+       act:   278  deact:   278 global:     0 local:   111
+HWT  cache:   514 update:   321   skip:   837  race:     0
+ENQ   skip:  1078   race:     0
+CNS   keep:   290 expire:   773  empty:   343  gone:     0
+PNC   next:  1116  empty:   333 nocgrp:     0  gone:     1 race:     1 fail:     0
+BAD remove:     0
+
+[SEQ     86 cpu=100.0 hweight_gen=18537]
+       act:   266  deact:   266 global:     0 local:   169
+HWT  cache:   422 update:   429   skip:   805  race:     0
+ENQ   skip:  1294   race:     0
+CNS   keep:   512 expire:   766  empty:   358  gone:     0
+PNC   next:  1124  empty:   343 nocgrp:     0  gone:     2 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     87 cpu=100.0 hweight_gen=18586]
+       act:   244  deact:   243 global:     0 local:   186
+HWT  cache:   399 update:   450   skip:   706  race:     0
+ENQ   skip:  1424   race:     0
+CNS   keep:   636 expire:   776  empty:   292  gone:     0
+PNC   next:  1068  empty:   278 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     88 cpu=100.0 hweight_gen=18644]
+       act:   294  deact:   296 global:     0 local:   130
+HWT  cache:   391 update:   454   skip:   871  race:     0
+ENQ   skip:  1141   race:     0
+CNS   keep:   375 expire:   757  empty:   369  gone:     0
+PNC   next:  1126  empty:   353 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     89 cpu=100.0 hweight_gen=18674]
+       act:   239  deact:   239 global:     0 local:   134
+HWT  cache:   552 update:   261   skip:   742  race:     0
+ENQ   skip:  1074   race:     0
+CNS   keep:   298 expire:   770  empty:   307  gone:     0
+PNC   next:  1077  empty:   302 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     90 cpu=100.0 hweight_gen=18730]
+       act:   287  deact:   286 global:     0 local:   181
+HWT  cache:   432 update:   420   skip:   854  race:     0
+ENQ   skip:  1282   race:     0
+CNS   keep:   502 expire:   769  empty:   364  gone:     0
+PNC   next:  1133  empty:   352 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     91 cpu=100.0 hweight_gen=18764]
+       act:   262  deact:   263 global:     0 local:   219
+HWT  cache:   544 update:   274   skip:   823  race:     0
+ENQ   skip:  1391   race:     0
+CNS   keep:   613 expire:   769  empty:   347  gone:     0
+PNC   next:  1116  empty:   338 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     92 cpu=100.0 hweight_gen=18827]
+       act:   308  deact:   309 global:     0 local:   160
+HWT  cache:   438 update:   479   skip:   919  race:     0
+ENQ   skip:  1280   race:     0
+CNS   keep:   428 expire:   825  empty:   394  gone:     0
+PNC   next:  1219  empty:   378 nocgrp:     0  gone:     2 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     93 cpu=100.0 hweight_gen=18869]
+       act:   288  deact:   283 global:     0 local:    77
+HWT  cache:   461 update:   377   skip:   831  race:     0
+ENQ   skip:   933   race:     0
+CNS   keep:   145 expire:   776  empty:   322  gone:     0
+PNC   next:  1098  empty:   314 nocgrp:     0  gone:     0 race:     1 fail:     0
+BAD remove:     0
+
+[SEQ     94 cpu=100.0 hweight_gen=18949]
+       act:   276  deact:   277 global:     0 local:    96
+HWT  cache:   355 update:   547   skip:   782  race:     0
+ENQ   skip:  1015   race:     0
+CNS   keep:   217 expire:   788  empty:   343  gone:     0
+PNC   next:  1131  empty:   328 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     95 cpu=100.0 hweight_gen=18986]
+       act:   271  deact:   272 global:     0 local:   184
+HWT  cache:   455 update:   377   skip:   819  race:     0
+ENQ   skip:  1314   race:     0
+CNS   keep:   529 expire:   777  empty:   331  gone:     0
+PNC   next:  1108  empty:   320 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     96 cpu=100.0 hweight_gen=19029]
+       act:   257  deact:   258 global:     0 local:   167
+HWT  cache:   478 update:   354   skip:   805  race:     0
+ENQ   skip:  1289   race:     0
+CNS   keep:   516 expire:   768  empty:   354  gone:     0
+PNC   next:  1122  empty:   343 nocgrp:     0  gone:     2 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     97 cpu=100.0 hweight_gen=19069]
+       act:   253  deact:   253 global:     0 local:   176
+HWT  cache:   502 update:   319   skip:   790  race:     0
+ENQ   skip:  1258   race:     0
+CNS   keep:   489 expire:   762  empty:   343  gone:     0
+PNC   next:  1105  empty:   331 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     98 cpu=100.0 hweight_gen=19116]
+       act:   256  deact:   254 global:     0 local:   157
+HWT  cache:   447 update:   381   skip:   797  race:     0
+ENQ   skip:  1228   race:     0
+CNS   keep:   456 expire:   760  empty:   355  gone:     0
+PNC   next:  1115  empty:   342 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ     99 cpu=100.0 hweight_gen=19157]
+       act:   249  deact:   250 global:     0 local:   125
+HWT  cache:   493 update:   337   skip:   746  race:     0
+ENQ   skip:  1060   race:     0
+CNS   keep:   281 expire:   770  empty:   307  gone:     0
+PNC   next:  1077  empty:   299 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    100 cpu=100.0 hweight_gen=19197]
+       act:   229  deact:   232 global:     0 local:   184
+HWT  cache:   517 update:   312   skip:   698  race:     0
+ENQ   skip:  1407   race:     0
+CNS   keep:   628 expire:   769  empty:   297  gone:     0
+PNC   next:  1066  empty:   284 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    101 cpu=100.0 hweight_gen=19227]
+       act:   238  deact:   237 global:     0 local:   198
+HWT  cache:   573 update:   235   skip:   772  race:     0
+ENQ   skip:  1353   race:     0
+CNS   keep:   580 expire:   763  empty:   342  gone:     0
+PNC   next:  1105  empty:   333 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    102 cpu=100.0 hweight_gen=19286]
+       act:   289  deact:   291 global:     0 local:   187
+HWT  cache:   456 update:   387   skip:   866  race:     0
+ENQ   skip:  1293   race:     0
+CNS   keep:   530 expire:   758  empty:   371  gone:     0
+PNC   next:  1129  empty:   359 nocgrp:     0  gone:     3 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    103 cpu=100.0 hweight_gen=19333]
+       act:   270  deact:   268 global:     0 local:   120
+HWT  cache:   522 update:   309   skip:   790  race:     0
+ENQ   skip:  1039   race:     0
+CNS   keep:   263 expire:   762  empty:   321  gone:     0
+PNC   next:  1083  empty:   307 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    104 cpu=100.0 hweight_gen=19361]
+       act:   251  deact:   252 global:     0 local:   200
+HWT  cache:   520 update:   284   skip:   814  race:     0
+ENQ   skip:  1338   race:     0
+CNS   keep:   567 expire:   762  empty:   353  gone:     0
+PNC   next:  1115  empty:   344 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    105 cpu=100.0 hweight_gen=19416]
+       act:   258  deact:   259 global:     0 local:   161
+HWT  cache:   477 update:   377   skip:   788  race:     0
+ENQ   skip:  1262   race:     0
+CNS   keep:   475 expire:   774  empty:   351  gone:     0
+PNC   next:  1125  empty:   335 nocgrp:     0  gone:     3 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    106 cpu=100.0 hweight_gen=19461]
+       act:   247  deact:   244 global:     0 local:   147
+HWT  cache:   507 update:   342   skip:   735  race:     0
+ENQ   skip:  1165   race:     0
+CNS   keep:   363 expire:   784  empty:   309  gone:     0
+PNC   next:  1093  empty:   294 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    107 cpu=100.0 hweight_gen=19535]
+       act:   193  deact:   195 global:     0 local:   119
+HWT  cache:   453 update:   415   skip:   527  race:     0
+ENQ   skip:  1080   race:     0
+CNS   keep:   309 expire:   761  empty:   246  gone:     0
+PNC   next:  1007  empty:   229 nocgrp:     0  gone:     3 race:     1 fail:     0
+BAD remove:     0
+
+[SEQ    108 cpu=100.0 hweight_gen=19578]
+       act:   241  deact:   240 global:     0 local:   157
+HWT  cache:   539 update:   285   skip:   757  race:     0
+ENQ   skip:  1254   race:     0
+CNS   keep:   481 expire:   762  empty:   338  gone:     0
+PNC   next:  1100  empty:   331 nocgrp:     0  gone:     2 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    109 cpu=100.0 hweight_gen=19631]
+       act:   282  deact:   282 global:     0 local:   177
+HWT  cache:   434 update:   402   skip:   848  race:     0
+ENQ   skip:  1276   race:     0
+CNS   keep:   515 expire:   757  empty:   363  gone:     0
+PNC   next:  1120  empty:   353 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    110 cpu=100.0 hweight_gen=19674]
+       act:   262  deact:   265 global:     0 local:   220
+HWT  cache:   529 update:   299   skip:   835  race:     0
+ENQ   skip:  1452   race:     0
+CNS   keep:   677 expire:   763  empty:   373  gone:     0
+PNC   next:  1136  empty:   359 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    111 cpu=100.0 hweight_gen=19712]
+       act:   144  deact:   144 global:     0 local:   146
+HWT  cache:   585 update:   235   skip:   431  race:     0
+ENQ   skip:  1155   race:     0
+CNS   keep:   381 expire:   765  empty:   198  gone:     0
+PNC   next:   963  empty:   190 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    112 cpu=100.0 hweight_gen=19760]
+       act:   266  deact:   266 global:     0 local:   213
+HWT  cache:   521 update:   309   skip:   841  race:     0
+ENQ   skip:  1425   race:     0
+CNS   keep:   656 expire:   759  empty:   380  gone:     0
+PNC   next:  1139  empty:   369 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    113 cpu=100.0 hweight_gen=19810]
+       act:   230  deact:   229 global:     0 local:   204
+HWT  cache:   522 update:   313   skip:   714  race:     0
+ENQ   skip:  1393   race:     0
+CNS   keep:   618 expire:   761  empty:   329  gone:     0
+PNC   next:  1090  empty:   312 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    114 cpu=100.0 hweight_gen=19872]
+       act:   229  deact:   229 global:     0 local:    92
+HWT  cache:   545 update:   350   skip:   653  race:     0
+ENQ   skip:  1016   race:     0
+CNS   keep:   185 expire:   808  empty:   282  gone:     0
+PNC   next:  1090  empty:   275 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    115 cpu=100.0 hweight_gen=19920]
+       act:   251  deact:   248 global:     0 local:   147
+HWT  cache:   414 update:   412   skip:   749  race:     0
+ENQ   skip:  1143   race:     0
+CNS   keep:   390 expire:   755  empty:   321  gone:     0
+PNC   next:  1076  empty:   308 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    116 cpu=100.0 hweight_gen=19971]
+       act:   290  deact:   289 global:     0 local:   191
+HWT  cache:   552 update:   301   skip:   869  race:     0
+ENQ   skip:  1293   race:     0
+CNS   keep:   494 expire:   779  empty:   364  gone:     0
+PNC   next:  1143  empty:   352 nocgrp:     0  gone:     2 race:     1 fail:     0
+BAD remove:     0
+
+[SEQ    117 cpu=100.0 hweight_gen=20047]
+       act:   254  deact:   256 global:     0 local:   182
+HWT  cache:   381 update:   488   skip:   770  race:     0
+ENQ   skip:  1355   race:     0
+CNS   keep:   588 expire:   762  empty:   367  gone:     0
+PNC   next:  1129  empty:   350 nocgrp:     0  gone:     4 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    118 cpu=100.0 hweight_gen=20088]
+       act:   245  deact:   247 global:     0 local:   203
+HWT  cache:   535 update:   294   skip:   765  race:     0
+ENQ   skip:  1404   race:     0
+CNS   keep:   627 expire:   767  empty:   335  gone:     0
+PNC   next:  1102  empty:   323 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    119 cpu=100.0 hweight_gen=20140]
+       act:   201  deact:   201 global:     0 local:   146
+HWT  cache:   512 update:   327   skip:   592  race:     0
+ENQ   skip:  1203   race:     0
+CNS   keep:   423 expire:   765  empty:   264  gone:     0
+PNC   next:  1029  empty:   249 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    120 cpu=100.0 hweight_gen=20182]
+       act:   261  deact:   260 global:     0 local:   217
+HWT  cache:   532 update:   293   skip:   819  race:     0
+ENQ   skip:  1446   race:     0
+CNS   keep:   675 expire:   762  empty:   361  gone:     0
+PNC   next:  1123  empty:   351 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    121 cpu=100.0 hweight_gen=20204]
+       act:   249  deact:   250 global:     0 local:   191
+HWT  cache:   621 update:   178   skip:   817  race:     0
+ENQ   skip:  1323   race:     0
+CNS   keep:   550 expire:   766  empty:   351  gone:     0
+PNC   next:  1117  empty:   344 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    122 cpu=100.0 hweight_gen=20270]
+       act:   252  deact:   251 global:     0 local:   167
+HWT  cache:   406 update:   453   skip:   730  race:     0
+ENQ   skip:  1284   race:     0
+CNS   keep:   507 expire:   761  empty:   325  gone:     0
+PNC   next:  1086  empty:   309 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    123 cpu=100.0 hweight_gen=20316]
+       act:   260  deact:   261 global:     0 local:   225
+HWT  cache:   505 update:   329   skip:   829  race:     0
+ENQ   skip:  1454   race:     0
+CNS   keep:   673 expire:   766  empty:   376  gone:     0
+PNC   next:  1142  empty:   364 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    124 cpu=100.0 hweight_gen=20364]
+       act:   270  deact:   272 global:     0 local:   114
+HWT  cache:   546 update:   346   skip:   807  race:     0
+ENQ   skip:  1150   race:     0
+CNS   keep:   312 expire:   819  empty:   338  gone:     0
+PNC   next:  1157  empty:   326 nocgrp:     0  gone:     1 race:     2 fail:     0
+BAD remove:     0
+
+[SEQ    125 cpu=100.0 hweight_gen=20451]
+       act:   293  deact:   290 global:     0 local:    92
+HWT  cache:   356 update:   568   skip:   807  race:     0
+ENQ   skip:  1012   race:     0
+CNS   keep:   193 expire:   799  empty:   349  gone:     0
+PNC   next:  1148  empty:   340 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    126 cpu=100.0 hweight_gen=20525]
+       act:   330  deact:   329 global:     0 local:    98
+HWT  cache:   439 update:   460   skip:   917  race:     0
+ENQ   skip:   946   race:     0
+CNS   keep:   158 expire:   790  empty:   367  gone:     0
+PNC   next:  1157  empty:   356 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    127 cpu=100.0 hweight_gen=20681]
+       act:   334  deact:   336 global:     0 local:   124
+HWT  cache:   270 update:   734   skip:   840  race:     0
+ENQ   skip:  1040   race:     0
+CNS   keep:   225 expire:   788  empty:   386  gone:     0
+PNC   next:  1174  empty:   367 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    128 cpu=100.0 hweight_gen=20739]
+       act:   338  deact:   338 global:     0 local:   100
+HWT  cache:   526 update:   443   skip:  1016  race:     0
+ENQ   skip:  1073   race:     0
+CNS   keep:   172 expire:   882  empty:   427  gone:     0
+PNC   next:  1309  empty:   412 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    129 cpu=100.0 hweight_gen=20794]
+       act:   330  deact:   330 global:     0 local:    87
+HWT  cache:   578 update:   374   skip:   970  race:     0
+ENQ   skip:  1000   race:     0
+CNS   keep:   123 expire:   873  empty:   389  gone:     0
+PNC   next:  1262  empty:   378 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    130 cpu=100.0 hweight_gen=20861]
+       act:   276  deact:   266 global:     0 local:   111
+HWT  cache:   312 update:   542   skip:   797  race:     0
+ENQ   skip:  1008   race:     0
+CNS   keep:   235 expire:   762  empty:   347  gone:     0
+PNC   next:  1109  empty:   340 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    131 cpu=100.0 hweight_gen=20980]
+       act:   291  deact:   300 global:     0 local:   146
+HWT  cache:   287 update:   649   skip:   791  race:     0
+ENQ   skip:  1142   race:     0
+CNS   keep:   371 expire:   761  empty:   375  gone:     0
+PNC   next:  1136  empty:   341 nocgrp:     0  gone:     5 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    132 cpu=100.0 hweight_gen=21039]
+       act:   255  deact:   253 global:     0 local:   153
+HWT  cache:   461 update:   378   skip:   755  race:     0
+ENQ   skip:  1184   race:     0
+CNS   keep:   419 expire:   755  empty:   331  gone:     0
+PNC   next:  1086  empty:   319 nocgrp:     0  gone:     4 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    133 cpu=100.0 hweight_gen=21070]
+       act:   268  deact:   268 global:     0 local:   192
+HWT  cache:   563 update:   247   skip:   851  race:     0
+ENQ   skip:  1303   race:     0
+CNS   keep:   530 expire:   763  empty:   362  gone:     0
+PNC   next:  1125  empty:   351 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    134 cpu=100.0 hweight_gen=21096]
+       act:   279  deact:   279 global:     0 local:   206
+HWT  cache:   578 update:   233   skip:   898  race:     0
+ENQ   skip:  1340   race:     0
+CNS   keep:   560 expire:   772  empty:   379  gone:     0
+PNC   next:  1151  empty:   372 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    135 cpu=100.0 hweight_gen=21130]
+       act:   236  deact:   236 global:     0 local:   159
+HWT  cache:   567 update:   263   skip:   737  race:     0
+ENQ   skip:  1230   race:     0
+CNS   keep:   442 expire:   780  empty:   315  gone:     0
+PNC   next:  1095  empty:   308 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    136 cpu=100.0 hweight_gen=21175]
+       act:   248  deact:   248 global:     0 local:   136
+HWT  cache:   438 update:   389   skip:   762  race:     0
+ENQ   skip:  1180   race:     0
+CNS   keep:   407 expire:   761  empty:   332  gone:     0
+PNC   next:  1093  empty:   318 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    137 cpu=100.0 hweight_gen=21235]
+       act:   274  deact:   273 global:     0 local:   144
+HWT  cache:   425 update:   430   skip:   804  race:     0
+ENQ   skip:  1200   race:     0
+CNS   keep:   419 expire:   764  empty:   348  gone:     0
+PNC   next:  1112  empty:   331 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    138 cpu=100.0 hweight_gen=21262]
+       act:   263  deact:   263 global:     0 local:   197
+HWT  cache:   521 update:   282   skip:   828  race:     0
+ENQ   skip:  1299   race:     0
+CNS   keep:   527 expire:   763  empty:   342  gone:     0
+PNC   next:  1105  empty:   333 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    139 cpu=100.0 hweight_gen=21298]
+       act:   255  deact:   257 global:     0 local:   172
+HWT  cache:   505 update:   313   skip:   798  race:     0
+ENQ   skip:  1316   race:     0
+CNS   keep:   545 expire:   764  empty:   340  gone:     0
+PNC   next:  1104  empty:   332 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    140 cpu=100.0 hweight_gen=21332]
+       act:   267  deact:   265 global:     0 local:    89
+HWT  cache:   580 update:   270   skip:   790  race:     0
+ENQ   skip:  1023   race:     0
+CNS   keep:   208 expire:   800  empty:   308  gone:     0
+PNC   next:  1108  empty:   296 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    141 cpu=100.0 hweight_gen=21393]
+       act:   295  deact:   296 global:     0 local:   148
+HWT  cache:   324 update:   535   skip:   885  race:     0
+ENQ   skip:  1249   race:     0
+CNS   keep:   472 expire:   767  empty:   386  gone:     0
+PNC   next:  1153  empty:   370 nocgrp:     0  gone:     2 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    142 cpu=100.0 hweight_gen=21424]
+       act:   242  deact:   242 global:     0 local:   183
+HWT  cache:   563 update:   260   skip:   790  race:     0
+ENQ   skip:  1341   race:     0
+CNS   keep:   556 expire:   776  empty:   353  gone:     0
+PNC   next:  1129  empty:   343 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    143 cpu=100.0 hweight_gen=21461]
+       act:   254  deact:   254 global:     0 local:   175
+HWT  cache:   562 update:   265   skip:   796  race:     0
+ENQ   skip:  1277   race:     0
+CNS   keep:   485 expire:   773  empty:   341  gone:     0
+PNC   next:  1114  empty:   329 nocgrp:     0  gone:     2 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    144 cpu=100.0 hweight_gen=21488]
+       act:   242  deact:   243 global:     0 local:   140
+HWT  cache:   615 update:   242   skip:   766  race:     0
+ENQ   skip:  1221   race:     0
+CNS   keep:   399 expire:   816  empty:   323  gone:     0
+PNC   next:  1139  empty:   314 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    145 cpu=100.0 hweight_gen=21544]
+       act:   221  deact:   219 global:     0 local:    88
+HWT  cache:   391 update:   491   skip:   614  race:     0
+ENQ   skip:   965   race:     0
+CNS   keep:   157 expire:   795  empty:   261  gone:     0
+PNC   next:  1056  empty:   248 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    146 cpu=100.0 hweight_gen=21589]
+       act:   262  deact:   261 global:     0 local:   126
+HWT  cache:   439 update:   394   skip:   795  race:     0
+ENQ   skip:  1096   race:     0
+CNS   keep:   321 expire:   767  empty:   338  gone:     0
+PNC   next:  1105  empty:   327 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    147 cpu=100.0 hweight_gen=21649]
+       act:   305  deact:   305 global:     0 local:   112
+HWT  cache:   361 update:   486   skip:   870  race:     0
+ENQ   skip:  1051   race:     0
+CNS   keep:   285 expire:   759  empty:   348  gone:     0
+PNC   next:  1107  empty:   336 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    148 cpu=100.0 hweight_gen=21684]
+       act:   274  deact:   272 global:     0 local:   164
+HWT  cache:   535 update:   286   skip:   839  race:     0
+ENQ   skip:  1210   race:     0
+CNS   keep:   429 expire:   772  empty:   342  gone:     0
+PNC   next:  1114  empty:   336 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    149 cpu=100.0 hweight_gen=21763]
+       act:   248  deact:   253 global:     0 local:   197
+HWT  cache:   446 update:   434   skip:   744  race:     0
+ENQ   skip:  1296   race:     0
+CNS   keep:   514 expire:   764  empty:   359  gone:     0
+PNC   next:  1123  empty:   334 nocgrp:     0  gone:     6 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    150 cpu=100.0 hweight_gen=21803]
+       act:   267  deact:   267 global:     0 local:   198
+HWT  cache:   541 update:   284   skip:   831  race:     0
+ENQ   skip:  1378   race:     0
+CNS   keep:   601 expire:   766  empty:   356  gone:     0
+PNC   next:  1122  empty:   344 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    151 cpu=100.0 hweight_gen=21848]
+       act:   229  deact:   230 global:     0 local:   117
+HWT  cache:   512 update:   318   skip:   693  race:     0
+ENQ   skip:  1100   race:     0
+CNS   keep:   325 expire:   764  empty:   300  gone:     0
+PNC   next:  1064  empty:   290 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    152 cpu=100.0 hweight_gen=21884]
+       act:   250  deact:   251 global:     0 local:   198
+HWT  cache:   590 update:   237   skip:   803  race:     0
+ENQ   skip:  1384   race:     0
+CNS   keep:   600 expire:   773  empty:   356  gone:     0
+PNC   next:  1129  empty:   344 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    153 cpu=100.0 hweight_gen=21928]
+       act:   262  deact:   261 global:     0 local:   239
+HWT  cache:   545 update:   286   skip:   839  race:     0
+ENQ   skip:  1516   race:     0
+CNS   keep:   736 expire:   767  empty:   380  gone:     0
+PNC   next:  1147  empty:   366 nocgrp:     0  gone:     2 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    154 cpu=100.0 hweight_gen=21978]
+       act:   199  deact:   199 global:     0 local:   128
+HWT  cache:   547 update:   293   skip:   564  race:     0
+ENQ   skip:  1128   race:     0
+CNS   keep:   352 expire:   766  empty:   240  gone:     0
+PNC   next:  1006  empty:   229 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    155 cpu=100.0 hweight_gen=22016]
+       act:   252  deact:   250 global:     0 local:   141
+HWT  cache:   519 update:   305   skip:   763  race:     0
+ENQ   skip:  1211   race:     0
+CNS   keep:   432 expire:   766  empty:   319  gone:     0
+PNC   next:  1085  empty:   308 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    156 cpu=100.0 hweight_gen=22045]
+       act:   256  deact:   256 global:     0 local:   188
+HWT  cache:   562 update:   249   skip:   850  race:     0
+ENQ   skip:  1241   race:     0
+CNS   keep:   467 expire:   767  empty:   382  gone:     0
+PNC   next:  1149  empty:   374 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    157 cpu=100.0 hweight_gen=22097]
+       act:   262  deact:   263 global:     0 local:   202
+HWT  cache:   478 update:   360   skip:   831  race:     0
+ENQ   skip:  1317   race:     0
+CNS   keep:   545 expire:   761  empty:   383  gone:     0
+PNC   next:  1144  empty:   369 nocgrp:     0  gone:     2 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    158 cpu=100.0 hweight_gen=22132]
+       act:   167  deact:   168 global:     0 local:   149
+HWT  cache:   561 update:   251   skip:   501  race:     0
+ENQ   skip:  1130   race:     0
+CNS   keep:   362 expire:   761  empty:   217  gone:     0
+PNC   next:   978  empty:   210 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    159 cpu=100.0 hweight_gen=22168]
+       act:   263  deact:   264 global:     0 local:   207
+HWT  cache:   566 update:   249   skip:   830  race:     0
+ENQ   skip:  1357   race:     0
+CNS   keep:   585 expire:   761  empty:   357  gone:     0
+PNC   next:  1118  empty:   345 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    160 cpu=100.0 hweight_gen=22239]
+       act:   262  deact:   263 global:     0 local:   216
+HWT  cache:   480 update:   380   skip:   789  race:     0
+ENQ   skip:  1396   race:     0
+CNS   keep:   620 expire:   758  empty:   366  gone:     0
+PNC   next:  1124  empty:   349 nocgrp:     0  gone:     2 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    161 cpu=100.0 hweight_gen=22284]
+       act:   275  deact:   273 global:     0 local:   143
+HWT  cache:   533 update:   304   skip:   829  race:     0
+ENQ   skip:  1130   race:     0
+CNS   keep:   351 expire:   770  empty:   348  gone:     0
+PNC   next:  1118  empty:   337 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    162 cpu=100.0 hweight_gen=22316]
+       act:   230  deact:   230 global:     0 local:   175
+HWT  cache:   505 update:   304   skip:   733  race:     0
+ENQ   skip:  1355   race:     0
+CNS   keep:   586 expire:   760  empty:   322  gone:     0
+PNC   next:  1082  empty:   313 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    163 cpu=100.0 hweight_gen=22339]
+       act:   226  deact:   227 global:     0 local:   188
+HWT  cache:   615 update:   184   skip:   731  race:     0
+ENQ   skip:  1404   race:     0
+CNS   keep:   634 expire:   764  empty:   313  gone:     0
+PNC   next:  1077  empty:   306 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    164 cpu=100.0 hweight_gen=22387]
+       act:   278  deact:   279 global:     0 local:   123
+HWT  cache:   538 update:   299   skip:   826  race:     0
+ENQ   skip:  1141   race:     0
+CNS   keep:   359 expire:   767  empty:   339  gone:     0
+PNC   next:  1106  empty:   326 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    165 cpu=100.0 hweight_gen=22420]
+       act:   250  deact:   248 global:     0 local:   222
+HWT  cache:   563 update:   258   skip:   802  race:     0
+ENQ   skip:  1455   race:     0
+CNS   keep:   675 expire:   772  empty:   353  gone:     0
+PNC   next:  1125  empty:   344 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    166 cpu=100.0 hweight_gen=22451]
+       act:   290  deact:   292 global:     0 local:   189
+HWT  cache:   577 update:   230   skip:   905  race:     0
+ENQ   skip:  1313   race:     0
+CNS   keep:   546 expire:   761  empty:   369  gone:     0
+PNC   next:  1130  empty:   362 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    167 cpu=100.0 hweight_gen=22511]
+       act:   254  deact:   253 global:     0 local:   160
+HWT  cache:   478 update:   373   skip:   752  race:     0
+ENQ   skip:  1289   race:     0
+CNS   keep:   510 expire:   764  empty:   332  gone:     0
+PNC   next:  1096  empty:   315 nocgrp:     0  gone:     2 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    168 cpu=100.0 hweight_gen=22539]
+       act:   171  deact:   172 global:     0 local:   201
+HWT  cache:   592 update:   213   skip:   547  race:     0
+ENQ   skip:  1424   race:     0
+CNS   keep:   654 expire:   763  empty:   246  gone:     0
+PNC   next:  1009  empty:   240 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    169 cpu=100.0 hweight_gen=22600]
+       act:   316  deact:   317 global:     0 local:   103
+HWT  cache:   629 update:   349   skip:   896  race:     0
+ENQ   skip:  1125   race:     0
+CNS   keep:   202 expire:   891  empty:   350  gone:     0
+PNC   next:  1241  empty:   340 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    170 cpu=100.0 hweight_gen=22648]
+       act:   335  deact:   333 global:     0 local:    72
+HWT  cache:   667 update:   327   skip:   982  race:     0
+ENQ   skip:  1062   race:     0
+CNS   keep:   128 expire:   923  empty:   385  gone:     0
+PNC   next:  1308  empty:   376 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    171 cpu=100.0 hweight_gen=22706]
+       act:   327  deact:   326 global:     0 local:    77
+HWT  cache:   546 update:   460   skip:   946  race:     0
+ENQ   skip:  1042   race:     0
+CNS   keep:   112 expire:   919  empty:   380  gone:     0
+PNC   next:  1299  empty:   366 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    172 cpu=100.0 hweight_gen=22749]
+       act:   346  deact:   346 global:     0 local:    75
+HWT  cache:   629 update:   386   skip:  1015  race:     0
+ENQ   skip:  1079   race:     0
+CNS   keep:   116 expire:   951  empty:   387  gone:     0
+PNC   next:  1338  empty:   379 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    173 cpu=100.0 hweight_gen=22794]
+       act:   371  deact:   370 global:     0 local:    77
+HWT  cache:   632 update:   339   skip:  1096  race:     0
+ENQ   skip:   992   race:     0
+CNS   keep:    87 expire:   907  empty:   419  gone:     0
+PNC   next:  1326  empty:   410 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    174 cpu=100.0 hweight_gen=22891]
+       act:   304  deact:   298 global:     0 local:   114
+HWT  cache:   270 update:   644   skip:   832  race:     0
+ENQ   skip:  1107   race:     0
+CNS   keep:   311 expire:   774  empty:   370  gone:     0
+PNC   next:  1144  empty:   355 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    175 cpu=100.0 hweight_gen=23017]
+       act:   285  deact:   279 global:     0 local:   172
+HWT  cache:    87 update:   847   skip:   793  race:     0
+ENQ   skip:  1410   race:     0
+CNS   keep:   650 expire:   753  empty:   410  gone:     0
+PNC   next:  1163  empty:   379 nocgrp:     0  gone:     4 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    176 cpu=100.0 hweight_gen=23093]
+       act:   282  deact:   288 global:     0 local:   157
+HWT  cache:   285 update:   598   skip:   826  race:     0
+ENQ   skip:  1194   race:     0
+CNS   keep:   407 expire:   770  empty:   369  gone:     0
+PNC   next:  1139  empty:   346 nocgrp:     0  gone:     4 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    177 cpu=100.0 hweight_gen=23130]
+       act:   260  deact:   261 global:     0 local:   140
+HWT  cache:   529 update:   326   skip:   810  race:     0
+ENQ   skip:  1217   race:     0
+CNS   keep:   399 expire:   800  empty:   344  gone:     0
+PNC   next:  1144  empty:   330 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    178 cpu=100.0 hweight_gen=23168]
+       act:   244  deact:   244 global:     0 local:   139
+HWT  cache:   446 update:   382   skip:   749  race:     0
+ENQ   skip:  1192   race:     0
+CNS   keep:   417 expire:   772  empty:   317  gone:     0
+PNC   next:  1089  empty:   310 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    179 cpu=100.0 hweight_gen=23227]
+       act:   263  deact:   263 global:     0 local:   136
+HWT  cache:   395 update:   452   skip:   777  race:     0
+ENQ   skip:  1142   race:     0
+CNS   keep:   366 expire:   764  empty:   334  gone:     0
+PNC   next:  1098  empty:   320 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    180 cpu=100.0 hweight_gen=23258]
+       act:   268  deact:   269 global:     0 local:   176
+HWT  cache:   495 update:   324   skip:   868  race:     0
+ENQ   skip:  1226   race:     0
+CNS   keep:   445 expire:   772  empty:   378  gone:     0
+PNC   next:  1150  empty:   369 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    181 cpu=100.0 hweight_gen=23288]
+       act:   283  deact:   283 global:     0 local:   175
+HWT  cache:   477 update:   329   skip:   886  race:     0
+ENQ   skip:  1215   race:     0
+CNS   keep:   445 expire:   761  empty:   365  gone:     0
+PNC   next:  1126  empty:   357 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    182 cpu=100.0 hweight_gen=23315]
+       act:   255  deact:   254 global:     0 local:   134
+HWT  cache:   522 update:   283   skip:   800  race:     0
+ENQ   skip:  1149   race:     0
+CNS   keep:   378 expire:   765  empty:   331  gone:     0
+PNC   next:  1096  empty:   324 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    183 cpu=100.0 hweight_gen=23354]
+       act:   283  deact:   283 global:     0 local:   126
+HWT  cache:   411 update:   410   skip:   842  race:     0
+ENQ   skip:  1065   race:     0
+CNS   keep:   291 expire:   764  empty:   333  gone:     0
+PNC   next:  1097  empty:   323 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    184 cpu=100.0 hweight_gen=23380]
+       act:   294  deact:   294 global:     0 local:   184
+HWT  cache:   496 update:   313   skip:   936  race:     0
+ENQ   skip:  1214   race:     0
+CNS   keep:   435 expire:   770  empty:   387  gone:     0
+PNC   next:  1157  empty:   378 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    185 cpu=100.0 hweight_gen=23406]
+       act:   279  deact:   279 global:     0 local:   182
+HWT  cache:   514 update:   290   skip:   886  race:     0
+ENQ   skip:  1201   race:     0
+CNS   keep:   429 expire:   765  empty:   367  gone:     0
+PNC   next:  1132  empty:   361 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    186 cpu=100.0 hweight_gen=23445]
+       act:   297  deact:   299 global:     0 local:   180
+HWT  cache:   445 update:   383   skip:   927  race:     0
+ENQ   skip:  1256   race:     0
+CNS   keep:   472 expire:   771  empty:   388  gone:     0
+PNC   next:  1159  empty:   376 nocgrp:     0  gone:     1 race:     1 fail:     0
+BAD remove:     0
+
+[SEQ    187 cpu=100.0 hweight_gen=23471]
+       act:   274  deact:   274 global:     0 local:   171
+HWT  cache:   554 update:   262   skip:   871  race:     0
+ENQ   skip:  1239   race:     0
+CNS   keep:   456 expire:   777  empty:   362  gone:     0
+PNC   next:  1139  empty:   355 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    188 cpu=100.0 hweight_gen=23505]
+       act:   299  deact:   299 global:     0 local:   116
+HWT  cache:   500 update:   327   skip:   904  race:     0
+ENQ   skip:  1033   race:     0
+CNS   keep:   246 expire:   778  empty:   355  gone:     0
+PNC   next:  1133  empty:   345 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    189 cpu=100.0 hweight_gen=23533]
+       act:   257  deact:   257 global:     0 local:   172
+HWT  cache:   487 update:   325   skip:   809  race:     0
+ENQ   skip:  1222   race:     0
+CNS   keep:   444 expire:   770  empty:   337  gone:     0
+PNC   next:  1107  empty:   330 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    190 cpu=100.0 hweight_gen=23563]
+       act:   242  deact:   242 global:     0 local:   167
+HWT  cache:   480 update:   339   skip:   752  race:     0
+ENQ   skip:  1242   race:     0
+CNS   keep:   459 expire:   774  empty:   313  gone:     0
+PNC   next:  1087  empty:   304 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    191 cpu=100.0 hweight_gen=23596]
+       act:   201  deact:   200 global:     0 local:   151
+HWT  cache:   485 update:   332   skip:   629  race:     0
+ENQ   skip:  1245   race:     0
+CNS   keep:   468 expire:   768  empty:   277  gone:     0
+PNC   next:  1045  empty:   268 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    192 cpu=100.0 hweight_gen=23621]
+       act:   240  deact:   241 global:     0 local:   160
+HWT  cache:   508 update:   291   skip:   777  race:     0
+ENQ   skip:  1179   race:     0
+CNS   keep:   411 expire:   762  empty:   333  gone:     0
+PNC   next:  1095  empty:   326 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    193 cpu=100.0 hweight_gen=23661]
+       act:   235  deact:   235 global:     0 local:   115
+HWT  cache:   452 update:   377   skip:   717  race:     0
+ENQ   skip:  1071   race:     0
+CNS   keep:   289 expire:   770  empty:   306  gone:     0
+PNC   next:  1076  empty:   294 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    194 cpu=100.0 hweight_gen=23681]
+       act:   245  deact:   245 global:     0 local:   169
+HWT  cache:   567 update:   229   skip:   792  race:     0
+ENQ   skip:  1237   race:     0
+CNS   keep:   464 expire:   766  empty:   332  gone:     0
+PNC   next:  1098  empty:   326 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    195 cpu=100.0 hweight_gen=23714]
+       act:   288  deact:   286 global:     0 local:   202
+HWT  cache:   482 update:   346   skip:   886  race:     0
+ENQ   skip:  1258   race:     0
+CNS   keep:   470 expire:   779  empty:   361  gone:     0
+PNC   next:  1140  empty:   353 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    196 cpu=100.0 hweight_gen=23739]
+       act:   276  deact:   277 global:     0 local:   173
+HWT  cache:   553 update:   259   skip:   882  race:     0
+ENQ   skip:  1203   race:     0
+CNS   keep:   421 expire:   774  empty:   367  gone:     0
+PNC   next:  1141  empty:   358 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    197 cpu=100.0 hweight_gen=23777]
+       act:   326  deact:   326 global:     0 local:   159
+HWT  cache:   467 update:   353   skip:   983  race:     0
+ENQ   skip:  1098   race:     0
+CNS   keep:   326 expire:   764  empty:   387  gone:     0
+PNC   next:  1151  empty:   378 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    198 cpu=100.0 hweight_gen=23812]
+       act:   289  deact:   289 global:     0 local:   156
+HWT  cache:   491 update:   331   skip:   883  race:     0
+ENQ   skip:  1147   race:     0
+CNS   keep:   365 expire:   771  empty:   356  gone:     0
+PNC   next:  1127  empty:   346 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    199 cpu=100.0 hweight_gen=23842]
+       act:   246  deact:   245 global:     0 local:   150
+HWT  cache:   470 update:   340   skip:   766  race:     0
+ENQ   skip:  1232   race:     0
+CNS   keep:   458 expire:   765  empty:   320  gone:     0
+PNC   next:  1085  empty:   311 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    200 cpu=100.0 hweight_gen=23892]
+       act:   238  deact:   238 global:     0 local:   170
+HWT  cache:   481 update:   357   skip:   685  race:     0
+ENQ   skip:  1256   race:     0
+CNS   keep:   479 expire:   763  empty:   284  gone:     0
+PNC   next:  1047  empty:   270 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    201 cpu=100.0 hweight_gen=23916]
+       act:   256  deact:   256 global:     0 local:   188
+HWT  cache:   531 update:   272   skip:   821  race:     0
+ENQ   skip:  1183   race:     0
+CNS   keep:   408 expire:   767  empty:   345  gone:     0
+PNC   next:  1112  empty:   338 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    202 cpu=100.0 hweight_gen=23950]
+       act:   270  deact:   271 global:     0 local:   131
+HWT  cache:   460 update:   356   skip:   823  race:     0
+ENQ   skip:  1023   race:     0
+CNS   keep:   248 expire:   767  empty:   331  gone:     0
+PNC   next:  1098  empty:   322 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    203 cpu=100.0 hweight_gen=23982]
+       act:   273  deact:   273 global:     0 local:   163
+HWT  cache:   479 update:   333   skip:   844  race:     0
+ENQ   skip:  1134   race:     0
+CNS   keep:   359 expire:   765  empty:   345  gone:     0
+PNC   next:  1110  empty:   335 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    204 cpu=100.0 hweight_gen=24006]
+       act:   254  deact:   254 global:     0 local:   158
+HWT  cache:   533 update:   279   skip:   804  race:     0
+ENQ   skip:  1215   race:     0
+CNS   keep:   430 expire:   776  empty:   332  gone:     0
+PNC   next:  1108  empty:   323 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    205 cpu=100.0 hweight_gen=24034]
+       act:   293  deact:   293 global:     0 local:   184
+HWT  cache:   530 update:   278   skip:   910  race:     0
+ENQ   skip:  1213   race:     0
+CNS   keep:   438 expire:   766  empty:   366  gone:     0
+PNC   next:  1132  empty:   358 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    206 cpu=100.0 hweight_gen=24062]
+       act:   260  deact:   259 global:     0 local:   169
+HWT  cache:   495 update:   316   skip:   798  race:     0
+ENQ   skip:  1204   race:     0
+CNS   keep:   427 expire:   769  empty:   321  gone:     0
+PNC   next:  1090  empty:   312 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    207 cpu=100.0 hweight_gen=24094]
+       act:   271  deact:   272 global:     0 local:   136
+HWT  cache:   548 update:   262   skip:   829  race:     0
+ENQ   skip:  1072   race:     0
+CNS   keep:   305 expire:   762  empty:   334  gone:     0
+PNC   next:  1096  empty:   328 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    208 cpu=100.0 hweight_gen=24132]
+       act:   276  deact:   276 global:     0 local:   148
+HWT  cache:   507 update:   318   skip:   842  race:     0
+ENQ   skip:  1178   race:     0
+CNS   keep:   397 expire:   770  empty:   345  gone:     0
+PNC   next:  1115  empty:   334 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    209 cpu=100.0 hweight_gen=24162]
+       act:   276  deact:   275 global:     0 local:   186
+HWT  cache:   483 update:   329   skip:   865  race:     0
+ENQ   skip:  1239   race:     0
+CNS   keep:   464 expire:   767  empty:   359  gone:     0
+PNC   next:  1126  empty:   351 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    210 cpu=100.0 hweight_gen=24200]
+       act:   290  deact:   291 global:     0 local:   180
+HWT  cache:   432 update:   390   skip:   907  race:     0
+ENQ   skip:  1201   race:     0
+CNS   keep:   424 expire:   765  empty:   383  gone:     0
+PNC   next:  1148  empty:   372 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    211 cpu=100.0 hweight_gen=24228]
+       act:   255  deact:   255 global:     0 local:   175
+HWT  cache:   521 update:   292   skip:   800  race:     0
+ENQ   skip:  1214   race:     0
+CNS   keep:   432 expire:   771  empty:   332  gone:     0
+PNC   next:  1103  empty:   322 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    212 cpu=100.0 hweight_gen=24267]
+       act:   276  deact:   277 global:     0 local:   115
+HWT  cache:   432 update:   389   skip:   813  race:     0
+ENQ   skip:  1041   race:     0
+CNS   keep:   271 expire:   763  empty:   318  gone:     0
+PNC   next:  1081  empty:   308 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    213 cpu=100.0 hweight_gen=24300]
+       act:   268  deact:   267 global:     0 local:   163
+HWT  cache:   541 update:   278   skip:   808  race:     0
+ENQ   skip:  1223   race:     0
+CNS   keep:   441 expire:   771  empty:   321  gone:     0
+PNC   next:  1092  empty:   312 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    214 cpu=100.0 hweight_gen=24338]
+       act:   250  deact:   252 global:     0 local:   164
+HWT  cache:   471 update:   346   skip:   768  race:     0
+ENQ   skip:  1269   race:     0
+CNS   keep:   499 expire:   760  empty:   323  gone:     0
+PNC   next:  1083  empty:   310 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    215 cpu=100.0 hweight_gen=24370]
+       act:   237  deact:   237 global:     0 local:   174
+HWT  cache:   537 update:   290   skip:   725  race:     0
+ENQ   skip:  1287   race:     0
+CNS   keep:   495 expire:   779  empty:   299  gone:     0
+PNC   next:  1078  empty:   288 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    216 cpu=100.0 hweight_gen=24398]
+       act:   249  deact:   249 global:     0 local:   182
+HWT  cache:   525 update:   294   skip:   768  race:     0
+ENQ   skip:  1250   race:     0
+CNS   keep:   466 expire:   777  empty:   312  gone:     0
+PNC   next:  1089  empty:   304 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    217 cpu=100.0 hweight_gen=24434]
+       act:   263  deact:   263 global:     0 local:   118
+HWT  cache:   485 update:   336   skip:   786  race:     0
+ENQ   skip:  1042   race:     0
+CNS   keep:   267 expire:   769  empty:   312  gone:     0
+PNC   next:  1081  empty:   307 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    218 cpu=100.0 hweight_gen=24456]
+       act:   250  deact:   250 global:     0 local:   171
+HWT  cache:   597 update:   201   skip:   809  race:     0
+ENQ   skip:  1203   race:     0
+CNS   keep:   431 expire:   765  empty:   342  gone:     0
+PNC   next:  1107  empty:   335 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    219 cpu=100.0 hweight_gen=24492]
+       act:   251  deact:   250 global:     0 local:   158
+HWT  cache:   492 update:   330   skip:   770  race:     0
+ENQ   skip:  1196   race:     0
+CNS   keep:   416 expire:   768  empty:   323  gone:     0
+PNC   next:  1091  empty:   311 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    220 cpu=100.0 hweight_gen=24514]
+       act:   205  deact:   205 global:     0 local:   163
+HWT  cache:   577 update:   220   skip:   644  race:     0
+ENQ   skip:  1237   race:     0
+CNS   keep:   467 expire:   764  empty:   267  gone:     0
+PNC   next:  1031  empty:   261 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    221 cpu=100.0 hweight_gen=24550]
+       act:   299  deact:   300 global:     0 local:   184
+HWT  cache:   461 update:   358   skip:   930  race:     0
+ENQ   skip:  1204   race:     0
+CNS   keep:   430 expire:   765  empty:   385  gone:     0
+PNC   next:  1150  empty:   375 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    222 cpu=100.0 hweight_gen=24581]
+       act:   256  deact:   255 global:     0 local:   124
+HWT  cache:   520 update:   306   skip:   764  race:     0
+ENQ   skip:  1061   race:     0
+CNS   keep:   268 expire:   780  empty:   299  gone:     0
+PNC   next:  1079  empty:   290 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    223 cpu=100.0 hweight_gen=24608]
+       act:   255  deact:   255 global:     0 local:   170
+HWT  cache:   561 update:   259   skip:   813  race:     0
+ENQ   skip:  1247   race:     0
+CNS   keep:   462 expire:   779  empty:   344  gone:     0
+PNC   next:  1123  empty:   335 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    224 cpu=100.0 hweight_gen=24634]
+       act:   260  deact:   260 global:     0 local:   184
+HWT  cache:   524 update:   279   skip:   831  race:     0
+ENQ   skip:  1263   race:     0
+CNS   keep:   492 expire:   764  empty:   350  gone:     0
+PNC   next:  1114  empty:   343 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    225 cpu=100.0 hweight_gen=24662]
+       act:   259  deact:   259 global:     0 local:   178
+HWT  cache:   534 update:   276   skip:   827  race:     0
+ENQ   skip:  1235   race:     0
+CNS   keep:   460 expire:   768  empty:   351  gone:     0
+PNC   next:  1119  empty:   344 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    226 cpu=100.0 hweight_gen=24700]
+       act:   281  deact:   282 global:     0 local:   112
+HWT  cache:   495 update:   323   skip:   843  race:     0
+ENQ   skip:  1034   race:     0
+CNS   keep:   264 expire:   762  empty:   336  gone:     0
+PNC   next:  1098  empty:   327 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    227 cpu=100.0 hweight_gen=24732]
+       act:   282  deact:   282 global:     0 local:   171
+HWT  cache:   499 update:   312   skip:   888  race:     0
+ENQ   skip:  1239   race:     0
+CNS   keep:   467 expire:   764  empty:   371  gone:     0
+PNC   next:  1135  empty:   364 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    228 cpu=100.0 hweight_gen=24760]
+       act:   227  deact:   226 global:     0 local:   164
+HWT  cache:   508 update:   307   skip:   724  race:     0
+ENQ   skip:  1276   race:     0
+CNS   keep:   494 expire:   773  empty:   313  gone:     0
+PNC   next:  1086  empty:   303 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    229 cpu=100.0 hweight_gen=24795]
+       act:   282  deact:   283 global:     0 local:   193
+HWT  cache:   490 update:   327   skip:   891  race:     0
+ENQ   skip:  1300   race:     0
+CNS   keep:   524 expire:   765  empty:   378  gone:     0
+PNC   next:  1143  empty:   369 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    230 cpu=100.0 hweight_gen=24835]
+       act:   282  deact:   283 global:     0 local:   177
+HWT  cache:   481 update:   347   skip:   885  race:     0
+ENQ   skip:  1236   race:     0
+CNS   keep:   459 expire:   769  empty:   379  gone:     0
+PNC   next:  1148  empty:   368 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    231 cpu=100.0 hweight_gen=24866]
+       act:   266  deact:   264 global:     0 local:   136
+HWT  cache:   530 update:   278   skip:   816  race:     0
+ENQ   skip:  1113   race:     0
+CNS   keep:   340 expire:   763  empty:   331  gone:     0
+PNC   next:  1094  empty:   323 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    232 cpu=100.0 hweight_gen=24893]
+       act:   307  deact:   308 global:     0 local:   225
+HWT  cache:   534 update:   279   skip:   978  race:     0
+ENQ   skip:  1278   race:     0
+CNS   keep:   500 expire:   772  empty:   404  gone:     0
+PNC   next:  1176  empty:   397 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    233 cpu=100.0 hweight_gen=24921]
+       act:   237  deact:   237 global:     0 local:   167
+HWT  cache:   550 update:   256   skip:   757  race:     0
+ENQ   skip:  1264   race:     0
+CNS   keep:   491 expire:   764  empty:   325  gone:     0
+PNC   next:  1089  empty:   316 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    234 cpu=100.0 hweight_gen=24949]
+       act:   246  deact:   246 global:     0 local:   179
+HWT  cache:   538 update:   266   skip:   778  race:     0
+ENQ   skip:  1283   race:     0
+CNS   keep:   514 expire:   762  empty:   328  gone:     0
+PNC   next:  1090  empty:   321 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    235 cpu=100.0 hweight_gen=25008]
+       act:   245  deact:   246 global:     0 local:   131
+HWT  cache:   459 update:   395   skip:   691  race:     0
+ENQ   skip:  1118   race:     0
+CNS   keep:   334 expire:   769  empty:   285  gone:     0
+PNC   next:  1054  empty:   270 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    236 cpu=100.0 hweight_gen=25032]
+       act:   240  deact:   241 global:     0 local:   185
+HWT  cache:   569 update:   233   skip:   790  race:     0
+ENQ   skip:  1301   race:     0
+CNS   keep:   529 expire:   766  empty:   345  gone:     0
+PNC   next:  1111  empty:   338 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    237 cpu=100.0 hweight_gen=25066]
+       act:   250  deact:   249 global:     0 local:   188
+HWT  cache:   535 update:   278   skip:   780  race:     0
+ENQ   skip:  1321   race:     0
+CNS   keep:   550 expire:   762  empty:   332  gone:     0
+PNC   next:  1094  empty:   323 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    238 cpu=100.0 hweight_gen=25096]
+       act:   230  deact:   230 global:     0 local:   143
+HWT  cache:   543 update:   265   skip:   727  race:     0
+ENQ   skip:  1260   race:     0
+CNS   keep:   489 expire:   764  empty:   311  gone:     0
+PNC   next:  1075  empty:   302 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    239 cpu=100.0 hweight_gen=25146]
+       act:   275  deact:   275 global:     0 local:   140
+HWT  cache:   480 update:   356   skip:   835  race:     0
+ENQ   skip:  1121   race:     0
+CNS   keep:   342 expire:   763  empty:   358  gone:     0
+PNC   next:  1121  empty:   344 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    240 cpu=100.0 hweight_gen=25175]
+       act:   264  deact:   266 global:     0 local:   202
+HWT  cache:   579 update:   239   skip:   839  race:     0
+ENQ   skip:  1359   race:     0
+CNS   keep:   576 expire:   774  empty:   353  gone:     0
+PNC   next:  1127  empty:   344 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    241 cpu=100.0 hweight_gen=25232]
+       act:   292  deact:   292 global:     0 local:   114
+HWT  cache:   591 update:   363   skip:   861  race:     0
+ENQ   skip:  1190   race:     0
+CNS   keep:   290 expire:   874  empty:   357  gone:     0
+PNC   next:  1231  empty:   342 nocgrp:     0  gone:     5 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    242 cpu=100.0 hweight_gen=25294]
+       act:   348  deact:   347 global:     0 local:    78
+HWT  cache:   452 update:   552   skip:  1006  race:     0
+ENQ   skip:  1030   race:     0
+CNS   keep:   102 expire:   912  empty:   403  gone:     0
+PNC   next:  1315  empty:   390 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    243 cpu=100.0 hweight_gen=25364]
+       act:   368  deact:   365 global:     0 local:    80
+HWT  cache:   502 update:   595   skip:  1038  race:     0
+ENQ   skip:  1102   race:     0
+CNS   keep:    92 expire:   994  empty:   408  gone:     0
+PNC   next:  1402  empty:   398 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    244 cpu=100.0 hweight_gen=25435]
+       act:   399  deact:   399 global:     0 local:    78
+HWT  cache:   510 update:   681   skip:  1129  race:     0
+ENQ   skip:  1192   race:     0
+CNS   keep:    91 expire:  1085  empty:   437  gone:     0
+PNC   next:  1522  empty:   422 nocgrp:     0  gone:     0 race:     1 fail:     0
+BAD remove:     0
+
+[SEQ    245 cpu=100.0 hweight_gen=25479]
+       act:   316  deact:   318 global:     0 local:    72
+HWT  cache:   607 update:   416   skip:   924  race:     0
+ENQ   skip:  1030   race:     0
+CNS   keep:    73 expire:   959  empty:   354  gone:     0
+PNC   next:  1313  empty:   346 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    246 cpu=100.0 hweight_gen=25524]
+       act:   335  deact:   334 global:     0 local:    63
+HWT  cache:   488 update:   420   skip:   988  race:     0
+ENQ   skip:   925   race:     0
+CNS   keep:    78 expire:   842  empty:   385  gone:     0
+PNC   next:  1227  empty:   376 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    247 cpu=100.0 hweight_gen=25680]
+       act:   321  deact:   314 global:     0 local:   141
+HWT  cache:   194 update:   771   skip:   814  race:     0
+ENQ   skip:  1157   race:     0
+CNS   keep:   396 expire:   749  empty:   395  gone:     0
+PNC   next:  1144  empty:   375 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    248 cpu=100.0 hweight_gen=25779]
+       act:   257  deact:   263 global:     0 local:   229
+HWT  cache:   372 update:   538   skip:   782  race:     0
+ENQ   skip:  1426   race:     0
+CNS   keep:   639 expire:   771  empty:   401  gone:     0
+PNC   next:  1172  empty:   368 nocgrp:     0  gone:    14 race:     1 fail:     0
+BAD remove:     0
+
+[SEQ    249 cpu=100.0 hweight_gen=25851]
+       act:   254  deact:   254 global:     0 local:   126
+HWT  cache:   404 update:   462   skip:   719  race:     0
+ENQ   skip:  1068   race:     0
+CNS   keep:   285 expire:   763  empty:   314  gone:     0
+PNC   next:  1077  empty:   294 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    250 cpu=100.0 hweight_gen=25874]
+       act:   281  deact:   282 global:     0 local:   182
+HWT  cache:   553 update:   250   skip:   895  race:     0
+ENQ   skip:  1233   race:     0
+CNS   keep:   458 expire:   768  empty:   367  gone:     0
+PNC   next:  1135  empty:   361 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    251 cpu=100.0 hweight_gen=25894]
+       act:   267  deact:   266 global:     0 local:   195
+HWT  cache:   599 update:   199   skip:   860  race:     0
+ENQ   skip:  1265   race:     0
+CNS   keep:   493 expire:   768  empty:   357  gone:     0
+PNC   next:  1125  empty:   351 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    252 cpu=100.0 hweight_gen=25916]
+       act:   269  deact:   270 global:     0 local:   180
+HWT  cache:   563 update:   238   skip:   867  race:     0
+ENQ   skip:  1260   race:     0
+CNS   keep:   484 expire:   768  empty:   361  gone:     0
+PNC   next:  1129  empty:   355 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    253 cpu=100.0 hweight_gen=25962]
+       act:   284  deact:   283 global:     0 local:   126
+HWT  cache:   416 update:   426   skip:   826  race:     0
+ENQ   skip:  1067   race:     0
+CNS   keep:   280 expire:   775  empty:   326  gone:     0
+PNC   next:  1101  empty:   314 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    254 cpu=100.0 hweight_gen=25996]
+       act:   237  deact:   238 global:     0 local:   164
+HWT  cache:   482 update:   344   skip:   721  race:     0
+ENQ   skip:  1239   race:     0
+CNS   keep:   455 expire:   775  empty:   297  gone:     0
+PNC   next:  1072  empty:   287 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    255 cpu=100.0 hweight_gen=26035]
+       act:   255  deact:   255 global:     0 local:   173
+HWT  cache:   506 update:   312   skip:   766  race:     0
+ENQ   skip:  1247   race:     0
+CNS   keep:   475 expire:   760  empty:   314  gone:     0
+PNC   next:  1074  empty:   304 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    256 cpu=100.0 hweight_gen=26057]
+       act:   250  deact:   250 global:     0 local:   180
+HWT  cache:   595 update:   210   skip:   809  race:     0
+ENQ   skip:  1235   race:     0
+CNS   keep:   460 expire:   772  empty:   342  gone:     0
+PNC   next:  1114  empty:   335 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    257 cpu=100.0 hweight_gen=26085]
+       act:   276  deact:   277 global:     0 local:   167
+HWT  cache:   530 update:   276   skip:   866  race:     0
+ENQ   skip:  1191   race:     0
+CNS   keep:   420 expire:   764  empty:   355  gone:     0
+PNC   next:  1119  empty:   348 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    258 cpu=100.0 hweight_gen=26129]
+       act:   257  deact:   257 global:     0 local:   146
+HWT  cache:   487 update:   340   skip:   768  race:     0
+ENQ   skip:  1115   race:     0
+CNS   keep:   341 expire:   763  empty:   318  gone:     0
+PNC   next:  1081  empty:   307 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    259 cpu=100.0 hweight_gen=26161]
+       act:   270  deact:   270 global:     0 local:   183
+HWT  cache:   505 update:   307   skip:   850  race:     0
+ENQ   skip:  1258   race:     0
+CNS   keep:   485 expire:   764  empty:   358  gone:     0
+PNC   next:  1122  empty:   350 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    260 cpu=100.0 hweight_gen=26187]
+       act:   293  deact:   292 global:     0 local:   192
+HWT  cache:   542 update:   261   skip:   910  race:     0
+ENQ   skip:  1268   race:     0
+CNS   keep:   496 expire:   764  empty:   364  gone:     0
+PNC   next:  1128  empty:   356 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    261 cpu=100.0 hweight_gen=26209]
+       act:   271  deact:   272 global:     0 local:   180
+HWT  cache:   568 update:   227   skip:   865  race:     0
+ENQ   skip:  1212   race:     0
+CNS   keep:   444 expire:   762  empty:   355  gone:     0
+PNC   next:  1117  empty:   349 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    262 cpu=100.0 hweight_gen=26247]
+       act:   253  deact:   253 global:     0 local:   126
+HWT  cache:   503 update:   315   skip:   760  race:     0
+ENQ   skip:  1031   race:     0
+CNS   keep:   258 expire:   763  empty:   309  gone:     0
+PNC   next:  1072  empty:   299 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    263 cpu=100.0 hweight_gen=26277]
+       act:   255  deact:   254 global:     0 local:   172
+HWT  cache:   510 update:   300   skip:   823  race:     0
+ENQ   skip:  1257   race:     0
+CNS   keep:   483 expire:   765  empty:   359  gone:     0
+PNC   next:  1124  empty:   350 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    264 cpu=100.0 hweight_gen=26335]
+       act:   292  deact:   293 global:     0 local:   199
+HWT  cache:   412 update:   438   skip:   873  race:     0
+ENQ   skip:  1304   race:     0
+CNS   keep:   525 expire:   765  empty:   373  gone:     0
+PNC   next:  1138  empty:   358 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    265 cpu=100.0 hweight_gen=26359]
+       act:   290  deact:   290 global:     0 local:   209
+HWT  cache:   561 update:   240   skip:   928  race:     0
+ENQ   skip:  1266   race:     0
+CNS   keep:   494 expire:   765  empty:   384  gone:     0
+PNC   next:  1149  empty:   379 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    266 cpu=100.0 hweight_gen=26399]
+       act:   271  deact:   271 global:     0 local:   127
+HWT  cache:   535 update:   292   skip:   811  race:     0
+ENQ   skip:  1067   race:     0
+CNS   keep:   288 expire:   769  empty:   327  gone:     0
+PNC   next:  1096  empty:   316 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    267 cpu=100.0 hweight_gen=26437]
+       act:   247  deact:   247 global:     0 local:   183
+HWT  cache:   517 update:   305   skip:   796  race:     0
+ENQ   skip:  1323   race:     0
+CNS   keep:   549 expire:   766  empty:   358  gone:     0
+PNC   next:  1124  empty:   347 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    268 cpu=100.0 hweight_gen=26464]
+       act:   210  deact:   210 global:     0 local:   190
+HWT  cache:   536 update:   275   skip:   657  race:     0
+ENQ   skip:  1317   race:     0
+CNS   keep:   539 expire:   770  empty:   278  gone:     0
+PNC   next:  1048  empty:   270 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    269 cpu=100.0 hweight_gen=26513]
+       act:   224  deact:   225 global:     0 local:   177
+HWT  cache:   462 update:   374   skip:   717  race:     0
+ENQ   skip:  1343   race:     0
+CNS   keep:   569 expire:   763  empty:   341  gone:     0
+PNC   next:  1104  empty:   327 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    270 cpu=100.0 hweight_gen=26543]
+       act:   259  deact:   259 global:     0 local:   124
+HWT  cache:   558 update:   251   skip:   797  race:     0
+ENQ   skip:  1083   race:     0
+CNS   keep:   311 expire:   767  empty:   321  gone:     0
+PNC   next:  1088  empty:   316 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    271 cpu=100.0 hweight_gen=26571]
+       act:   241  deact:   241 global:     0 local:   189
+HWT  cache:   594 update:   217   skip:   783  race:     0
+ENQ   skip:  1351   race:     0
+CNS   keep:   574 expire:   769  empty:   343  gone:     0
+PNC   next:  1112  empty:   335 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    272 cpu=100.0 hweight_gen=26595]
+       act:   256  deact:   256 global:     0 local:   191
+HWT  cache:   596 update:   209   skip:   832  race:     0
+ENQ   skip:  1341   race:     0
+CNS   keep:   563 expire:   769  empty:   356  gone:     0
+PNC   next:  1125  empty:   348 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    273 cpu=100.0 hweight_gen=26639]
+       act:   313  deact:   313 global:     0 local:   138
+HWT  cache:   508 update:   327   skip:   936  race:     0
+ENQ   skip:  1097   race:     0
+CNS   keep:   317 expire:   771  empty:   374  gone:     0
+PNC   next:  1145  empty:   364 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    274 cpu=100.0 hweight_gen=26669]
+       act:   216  deact:   217 global:     0 local:   163
+HWT  cache:   560 update:   247   skip:   697  race:     0
+ENQ   skip:  1343   race:     0
+CNS   keep:   572 expire:   762  empty:   309  gone:     0
+PNC   next:  1071  empty:   300 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    275 cpu=100.0 hweight_gen=26697]
+       act:   237  deact:   236 global:     0 local:   192
+HWT  cache:   585 update:   229   skip:   738  race:     0
+ENQ   skip:  1357   race:     0
+CNS   keep:   576 expire:   772  empty:   307  gone:     0
+PNC   next:  1079  empty:   298 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    276 cpu=100.0 hweight_gen=26725]
+       act:   231  deact:   231 global:     0 local:   110
+HWT  cache:   585 update:   224   skip:   703  race:     0
+ENQ   skip:  1074   race:     0
+CNS   keep:   299 expire:   769  empty:   281  gone:     0
+PNC   next:  1050  empty:   277 nocgrp:     0  gone:     0 race:     1 fail:     0
+BAD remove:     0
+
+[SEQ    277 cpu=100.0 hweight_gen=26753]
+       act:   238  deact:   239 global:     0 local:   191
+HWT  cache:   579 update:   236   skip:   771  race:     0
+ENQ   skip:  1353   race:     0
+CNS   keep:   570 expire:   773  empty:   336  gone:     0
+PNC   next:  1109  empty:   326 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    278 cpu=100.0 hweight_gen=26790]
+       act:   258  deact:   256 global:     0 local:   190
+HWT  cache:   527 update:   296   skip:   797  race:     0
+ENQ   skip:  1327   race:     0
+CNS   keep:   548 expire:   768  empty:   338  gone:     0
+PNC   next:  1106  empty:   326 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    279 cpu=100.0 hweight_gen=26828]
+       act:   258  deact:   259 global:     0 local:   126
+HWT  cache:   510 update:   308   skip:   783  race:     0
+ENQ   skip:  1094   race:     0
+CNS   keep:   325 expire:   762  empty:   322  gone:     0
+PNC   next:  1084  empty:   314 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    280 cpu=100.0 hweight_gen=26860]
+       act:   256  deact:   255 global:     0 local:   186
+HWT  cache:   528 update:   292   skip:   807  race:     0
+ENQ   skip:  1345   race:     0
+CNS   keep:   561 expire:   773  empty:   343  gone:     0
+PNC   next:  1116  empty:   334 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    281 cpu=100.0 hweight_gen=26886]
+       act:   250  deact:   252 global:     0 local:   217
+HWT  cache:   620 update:   186   skip:   823  race:     0
+ENQ   skip:  1412   race:     0
+CNS   keep:   642 expire:   767  empty:   360  gone:     0
+PNC   next:  1127  empty:   352 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    282 cpu=100.0 hweight_gen=26934]
+       act:   298  deact:   299 global:     0 local:   142
+HWT  cache:   519 update:   315   skip:   890  race:     0
+ENQ   skip:  1137   race:     0
+CNS   keep:   361 expire:   764  empty:   363  gone:     0
+PNC   next:  1127  empty:   350 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    283 cpu=100.0 hweight_gen=26980]
+       act:   279  deact:   278 global:     0 local:   237
+HWT  cache:   527 update:   306   skip:   886  race:     0
+ENQ   skip:  1401   race:     0
+CNS   keep:   621 expire:   766  empty:   396  gone:     0
+PNC   next:  1162  empty:   383 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    284 cpu=100.0 hweight_gen=27014]
+       act:   286  deact:   286 global:     0 local:   254
+HWT  cache:   527 update:   289   skip:   920  race:     0
+ENQ   skip:  1388   race:     0
+CNS   keep:   613 expire:   765  empty:   399  gone:     0
+PNC   next:  1164  empty:   389 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    285 cpu=100.0 hweight_gen=27071]
+       act:   300  deact:   301 global:     0 local:   144
+HWT  cache:   511 update:   336   skip:   880  race:     0
+ENQ   skip:  1160   race:     0
+CNS   keep:   382 expire:   764  empty:   362  gone:     0
+PNC   next:  1126  empty:   348 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    286 cpu=100.0 hweight_gen=27093]
+       act:   236  deact:   237 global:     0 local:   225
+HWT  cache:   617 update:   179   skip:   774  race:     0
+ENQ   skip:  1433   race:     0
+CNS   keep:   664 expire:   763  empty:   334  gone:     0
+PNC   next:  1097  empty:   327 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    287 cpu=100.0 hweight_gen=27132]
+       act:   288  deact:   288 global:     0 local:   141
+HWT  cache:   593 update:   234   skip:   868  race:     0
+ENQ   skip:  1158   race:     0
+CNS   keep:   380 expire:   770  empty:   349  gone:     0
+PNC   next:  1119  empty:   339 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    288 cpu=100.0 hweight_gen=27160]
+       act:   228  deact:   228 global:     0 local:   225
+HWT  cache:   588 update:   217   skip:   762  race:     0
+ENQ   skip:  1468   race:     0
+CNS   keep:   696 expire:   763  empty:   348  gone:     0
+PNC   next:  1111  empty:   340 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    289 cpu=100.0 hweight_gen=27201]
+       act:   255  deact:   255 global:     0 local:   159
+HWT  cache:   522 update:   302   skip:   788  race:     0
+ENQ   skip:  1174   race:     0
+CNS   keep:   401 expire:   764  empty:   338  gone:     0
+PNC   next:  1102  empty:   329 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    290 cpu=100.0 hweight_gen=27226]
+       act:   199  deact:   199 global:     0 local:   215
+HWT  cache:   619 update:   182   skip:   645  race:     0
+ENQ   skip:  1431   race:     0
+CNS   keep:   660 expire:   764  empty:   284  gone:     0
+PNC   next:  1048  empty:   277 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    291 cpu=100.0 hweight_gen=27260]
+       act:   238  deact:   239 global:     0 local:   181
+HWT  cache:   591 update:   222   skip:   757  race:     0
+ENQ   skip:  1314   race:     0
+CNS   keep:   543 expire:   763  empty:   330  gone:     0
+PNC   next:  1093  empty:   321 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    292 cpu=100.0 hweight_gen=27296]
+       act:   236  deact:   235 global:     0 local:   150
+HWT  cache:   588 update:   233   skip:   728  race:     0
+ENQ   skip:  1242   race:     0
+CNS   keep:   461 expire:   767  empty:   311  gone:     0
+PNC   next:  1078  empty:   298 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    293 cpu=100.0 hweight_gen=27383]
+       act:   252  deact:   253 global:     0 local:   265
+HWT  cache:   532 update:   354   skip:   771  race:     0
+ENQ   skip:  1569   race:     0
+CNS   keep:   790 expire:   759  empty:   393  gone:     0
+PNC   next:  1152  empty:   369 nocgrp:     0  gone:     2 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    294 cpu=100.0 hweight_gen=27419]
+       act:   278  deact:   278 global:     0 local:   144
+HWT  cache:   604 update:   214   skip:   868  race:     0
+ENQ   skip:  1159   race:     0
+CNS   keep:   380 expire:   766  empty:   364  gone:     0
+PNC   next:  1130  empty:   351 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    295 cpu=100.0 hweight_gen=27453]
+       act:   248  deact:   248 global:     0 local:   258
+HWT  cache:   604 update:   208   skip:   806  race:     0
+ENQ   skip:  1546   race:     0
+CNS   keep:   774 expire:   761  empty:   361  gone:     0
+PNC   next:  1122  empty:   352 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    296 cpu=100.0 hweight_gen=27486]
+       act:   270  deact:   271 global:     0 local:   153
+HWT  cache:   620 update:   193   skip:   839  race:     0
+ENQ   skip:  1200   race:     0
+CNS   keep:   431 expire:   766  empty:   345  gone:     0
+PNC   next:  1111  empty:   338 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    297 cpu=100.0 hweight_gen=27527]
+       act:   219  deact:   219 global:     0 local:   217
+HWT  cache:   578 update:   249   skip:   705  race:     0
+ENQ   skip:  1505   race:     0
+CNS   keep:   739 expire:   766  empty:   328  gone:     0
+PNC   next:  1094  empty:   327 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    298 cpu=100.0 hweight_gen=27569]
+       act:   242  deact:   241 global:     0 local:   171
+HWT  cache:   577 update:   250   skip:   742  race:     0
+ENQ   skip:  1241   race:     0
+CNS   keep:   464 expire:   766  empty:   320  gone:     0
+PNC   next:  1086  empty:   310 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    299 cpu=100.0 hweight_gen=27606]
+       act:   269  deact:   271 global:     0 local:   196
+HWT  cache:   591 update:   229   skip:   848  race:     0
+ENQ   skip:  1294   race:     0
+CNS   keep:   522 expire:   763  empty:   365  gone:     0
+PNC   next:  1128  empty:   355 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    300 cpu=100.0 hweight_gen=27636]
+       act:   254  deact:   253 global:     0 local:   232
+HWT  cache:   606 update:   201   skip:   851  race:     0
+ENQ   skip:  1401   race:     0
+CNS   keep:   628 expire:   762  empty:   389  gone:     0
+PNC   next:  1151  empty:   379 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    301 cpu=100.0 hweight_gen=27675]
+       act:   275  deact:   276 global:     0 local:   166
+HWT  cache:   652 update:   170   skip:   836  race:     0
+ENQ   skip:  1164   race:     0
+CNS   keep:   442 expire:   765  empty:   342  gone:     0
+PNC   next:  1107  empty:   385 nocgrp:     0  gone:     1 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    302 cpu=100.0 hweight_gen=27722]
+       act:   214  deact:   216 global:     0 local:   271
+HWT  cache:   598 update:   233   skip:   715  race:     0
+ENQ   skip:  1551   race:     1
+CNS   keep:   867 expire:   760  empty:   356  gone:     0
+PNC   next:  1116  empty:   430 nocgrp:     0  gone:     2 race:     1 fail:     0
+BAD remove:     0
+
+[SEQ    303 cpu=100.0 hweight_gen=27758]
+       act:   254  deact:   253 global:     0 local:   167
+HWT  cache:   668 update:   160   skip:   760  race:     0
+ENQ   skip:   942   race:     0
+CNS   keep:   558 expire:   764  empty:   317  gone:     0
+PNC   next:  1081  empty:   699 nocgrp:     0  gone:     0 race:     2 fail:     0
+BAD remove:     0
+
+[SEQ    304 cpu=100.0 hweight_gen=27804]
+       act:   296  deact:   297 global:     0 local:   193
+HWT  cache:   680 update:   164   skip:   911  race:     0
+ENQ   skip:   957   race:     0
+CNS   keep:   512 expire:   761  empty:   401  gone:     0
+PNC   next:  1162  empty:   724 nocgrp:     0  gone:     0 race:     1 fail:     0
+BAD remove:     0
+
+[SEQ    305 cpu=100.0 hweight_gen=27840]
+       act:   289  deact:   289 global:     0 local:   276
+HWT  cache:   694 update:   144   skip:   914  race:     0
+ENQ   skip:  1188   race:     0
+CNS   keep:   772 expire:   756  empty:   418  gone:     0
+PNC   next:  1174  empty:   754 nocgrp:     0  gone:     0 race:     2 fail:     0
+BAD remove:     0
+
+[SEQ    306 cpu=100.0 hweight_gen=27875]
+       act:   279  deact:   277 global:     0 local:   255
+HWT  cache:   700 update:   140   skip:   885  race:     0
+ENQ   skip:  1166   race:     0
+CNS   keep:   720 expire:   755  empty:   414  gone:     0
+PNC   next:  1169  empty:   726 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    307 cpu=100.0 hweight_gen=27946]
+       act:   338  deact:   339 global:     0 local:   217
+HWT  cache:   635 update:   253   skip:   981  race:     0
+ENQ   skip:   958   race:     0
+CNS   keep:   528 expire:   764  empty:   428  gone:     0
+PNC   next:  1192  empty:   760 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    308 cpu=100.0 hweight_gen=27986]
+       act:   283  deact:   284 global:     0 local:   227
+HWT  cache:   693 update:   146   skip:   886  race:     0
+ENQ   skip:  1060   race:     0
+CNS   keep:   633 expire:   758  empty:   400  gone:     0
+PNC   next:  1158  empty:   733 nocgrp:     0  gone:     0 race:     1 fail:     0
+BAD remove:     0
+
+[SEQ    309 cpu=100.0 hweight_gen=28026]
+       act:   291  deact:   291 global:     0 local:   316
+HWT  cache:   686 update:   163   skip:   897  race:     0
+ENQ   skip:  1310   race:     0
+CNS   keep:   899 expire:   756  empty:   408  gone:     0
+PNC   next:  1164  empty:   753 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    310 cpu=100.0 hweight_gen=28064]
+       act:   283  deact:   282 global:     0 local:   200
+HWT  cache:   697 update:   137   skip:   867  race:     0
+ENQ   skip:   995   race:     0
+CNS   keep:   571 expire:   757  empty:   379  gone:     0
+PNC   next:  1136  empty:   713 nocgrp:     0  gone:     0 race:     1 fail:     0
+BAD remove:     0
+
+[SEQ    311 cpu=100.0 hweight_gen=28102]
+       act:   294  deact:   294 global:     0 local:   194
+HWT  cache:   688 update:   147   skip:   922  race:     0
+ENQ   skip:   945   race:     0
+CNS   keep:   529 expire:   758  empty:   411  gone:     0
+PNC   next:  1169  empty:   757 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    312 cpu=100.0 hweight_gen=28142]
+       act:   266  deact:   267 global:     0 local:   243
+HWT  cache:   685 update:   159   skip:   851  race:     0
+ENQ   skip:  1167   race:     0
+CNS   keep:   749 expire:   753  empty:   409  gone:     0
+PNC   next:  1162  empty:   740 nocgrp:     0  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    313 cpu=100.0 hweight_gen=28192]
+       act:   258  deact:   258 global:     0 local:   287
+HWT  cache:   676 update:   185   skip:   808  race:     0
+ENQ   skip:  1259   race:     0
+CNS   keep:   820 expire:   758  empty:   395  gone:     0
+PNC   next:  1153  empty:   718 nocgrp:     0  gone:     0 race:     2 fail:     0
+BAD remove:     0
+
+[SEQ    314 cpu=100.0 hweight_gen=28246]
+       act:   287  deact:   286 global:     0 local:   166
+HWT  cache:   663 update:   189   skip:   835  race:     0
+ENQ   skip:   908   race:     0
+CNS   keep:   483 expire:   750  empty:   364  gone:     0
+PNC   next:  1114  empty:   690 nocgrp:     6  gone:     0 race:     1 fail:     0
+BAD remove:     0
+
+[SEQ    315 cpu=100.0 hweight_gen=28294]
+       act:   240  deact:   241 global:     0 local:   189
+HWT  cache:   670 update:   178   skip:   738  race:     0
+ENQ   skip:   966   race:     0
+CNS   keep:   542 expire:   757  empty:   348  gone:     0
+PNC   next:  1105  empty:   679 nocgrp:     1  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    316 cpu=100.0 hweight_gen=28336]
+       act:   222  deact:   222 global:     0 local:   268
+HWT  cache:   694 update:   154   skip:   718  race:     0
+ENQ   skip:  1339   race:     0
+CNS   keep:   888 expire:   756  empty:   366  gone:     0
+PNC   next:  1122  empty:   671 nocgrp:     1  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    317 cpu=100.0 hweight_gen=28447]
+       act:   359  deact:   359 global:     0 local:   279
+HWT  cache:   677 update:   271   skip:   970  race:     0
+ENQ   skip:  1258   race:     0
+CNS   keep:   780 expire:   755  empty:   445  gone:     0
+PNC   next:  1200  empty:   722 nocgrp:     0  gone:     2 race:     1 fail:     0
+BAD remove:     0
+
+[SEQ    318 cpu=100.0 hweight_gen=28497]
+       act:   308  deact:   308 global:     0 local:   225
+HWT  cache:   699 update:   156   skip:   957  race:     0
+ENQ   skip:  1084   race:     0
+CNS   keep:   593 expire:   751  empty:   445  gone:     0
+PNC   next:  1196  empty:   703 nocgrp:     4  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    319 cpu=100.0 hweight_gen=28539]
+       act:   313  deact:   313 global:     0 local:   204
+HWT  cache:   698 update:   141   skip:   924  race:     0
+ENQ   skip:  1042   race:     0
+CNS   keep:   576 expire:   744  empty:   393  gone:     0
+PNC   next:  1137  empty:   673 nocgrp:    13  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    320 cpu=100.0 hweight_gen=28585]
+       act:   309  deact:   310 global:     0 local:   195
+HWT  cache:   696 update:   138   skip:   917  race:     0
+ENQ   skip:  1028   race:     0
+CNS   keep:   573 expire:   739  empty:   393  gone:     0
+PNC   next:  1132  empty:   676 nocgrp:    17  gone:     0 race:     1 fail:     0
+BAD remove:     0
+
+[SEQ    321 cpu=100.0 hweight_gen=28621]
+       act:   339  deact:   339 global:     0 local:   282
+HWT  cache:   730 update:   112   skip:   980  race:     0
+ENQ   skip:  1231   race:     0
+CNS   keep:   741 expire:   749  empty:   395  gone:     0
+PNC   next:  1144  empty:   653 nocgrp:     7  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    322 cpu=100.0 hweight_gen=28661]
+       act:   299  deact:   299 global:     0 local:   291
+HWT  cache:   723 update:   128   skip:   902  race:     0
+ENQ   skip:  1303   race:     0
+CNS   keep:   800 expire:   750  empty:   406  gone:     0
+PNC   next:  1155  empty:   652 nocgrp:     4  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    323 cpu=100.0 hweight_gen=28707]
+       act:   320  deact:   320 global:     0 local:   242
+HWT  cache:   673 update:   145   skip:   922  race:     0
+ENQ   skip:  1154   race:     0
+CNS   keep:   706 expire:   719  empty:   380  gone:     0
+PNC   next:  1100  empty:   657 nocgrp:    33  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    324 cpu= 99.9 hweight_gen=28753]
+       act:   319  deact:   318 global:     0 local:   226
+HWT  cache:   713 update:   139   skip:   939  race:     0
+ENQ   skip:  1034   race:     0
+CNS   keep:   536 expire:   758  empty:   396  gone:     0
+PNC   next:  1154  empty:   654 nocgrp:     3  gone:     0 race:     0 fail:     0
+BAD remove:     0
+
+[SEQ    325 cpu=100.0 hweight_gen=28797]
+       act:   274  deact:   274 global:     0 local:   209
+HWT  cache:   651 update:   120   skip:   809  race:     0
+ENQ   skip:   933   race:     0
+CNS   keep:   555 expire:   677  empty:   355  gone:     0
+PNC   next:  1032  empty:   656 nocgrp:    79  gone:     0 race:     1 fail:     0
+BAD remove:     0
+
+DEBUG DUMP
+================================================================================
+
+kworker/u32:4[1334883] triggered exit kind 1026:
+  runnable task stall (python3[2046022] failed to run for 45.335s)
+
+Backtrace:
+  scx_watchdog_workfn+0x182/0x240
+  process_one_work+0x167/0x2f0
+  worker_thread+0x32a/0x460
+  kthread+0xe5/0x210
+  ret_from_fork+0x44/0x70
+  ret_from_fork_asm+0x1a/0x30
+
+CPU states
+----------
+
+CPU 0   : nr_run=1 flags=0x1 cpu_rel=0 ops_qseq=2692003 pnt_seq=267752
+          curr=python3[2031729] class=ext_sched_class
+
+ *R python3[2031729] -3ms
+      scx_state/flags=3/0x5 dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=0 slice=17035972 weight=100
+      cpus=ff
+
+CPU 1   : nr_run=4 flags=0x1 cpu_rel=0 ops_qseq=463731 pnt_seq=442042
+          curr=python3[2021172] class=ext_sched_class
+
+ *R python3[2021172] -16ms
+      scx_state/flags=3/0x5 dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=0 slice=12567876 weight=100
+      cpus=ff
+
+    rcu_core_si+0xe/0x20
+    handle_softirqs+0xe4/0x310
+
+  R track-ctx-per-c[2090503] -11ms
+      scx_state/flags=3/0x9 dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=0x41098
+      dsq_vtime=0 slice=20000000 weight=100
+      cpus=ff
+
+    kernel_wait4+0xbc/0x170
+    __do_sys_wait4+0xa8/0xc0
+    __x64_sys_wait4+0x1c/0x30
+    x64_sys_call+0x1f15/0x2310
+    do_syscall_64+0x7e/0x170
+    entry_SYSCALL_64_after_hwframe+0x76/0x7e
+
+  R ksoftirqd/1[26] -5ms
+      scx_state/flags=3/0x9 dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=0x8000000000000002
+      dsq_vtime=0 slice=20000000 weight=100
+      cpus=02
+
+    kthread+0xe5/0x210
+    ret_from_fork+0x44/0x70
+    ret_from_fork_asm+0x1a/0x30
+
+  R kworker/1:2[480261] -4ms
+      scx_state/flags=3/0x9 dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=0x8000000000000002
+      dsq_vtime=0 slice=20000000 weight=100
+      cpus=02
+
+    kthread+0xe5/0x210
+    ret_from_fork+0x44/0x70
+    ret_from_fork_asm+0x1a/0x30
+
+CPU 2   : nr_run=1 flags=0x1 cpu_rel=0 ops_qseq=448660 pnt_seq=371574
+          curr=python3[2021183] class=ext_sched_class
+
+ *R python3[2021183] -28ms
+      scx_state/flags=3/0x5 dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=0 slice=4106423 weight=100
+      cpus=ff
+
+CPU 3   : nr_run=2 flags=0x1 cpu_rel=0 ops_qseq=448292 pnt_seq=338676
+          curr=awk[2090506] class=ext_sched_class
+
+ *R awk[2090506] -13ms
+      scx_state/flags=3/0x5 dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=0 slice=17026466 weight=100
+      cpus=ff
+
+  R python3[2021066] -3ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=0x4279c
+      dsq_vtime=0 slice=20000000 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+CPU 4   : nr_run=3 flags=0x1 cpu_rel=0 ops_qseq=552198 pnt_seq=407915
+          curr=python3[2021064] class=ext_sched_class
+
+ *R python3[2021064] -8ms
+      scx_state/flags=3/0x5 dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=0 slice=14066785 weight=100
+      cpus=ff
+
+  R python3[2046022] -45335ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=0x44d5e
+      dsq_vtime=0 slice=20000000 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+  R python3[2021182] -6ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=0x429b8
+      dsq_vtime=0 slice=20000000 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+CPU 5   : nr_run=2 flags=0x1 cpu_rel=0 ops_qseq=447259 pnt_seq=294166
+          curr=python3[2021067] class=ext_sched_class
+
+ *R python3[2021067] -21ms
+      scx_state/flags=3/0x5 dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=0 slice=12022953 weight=100
+      cpus=ff
+
+    rcu_core_si+0xe/0x20
+    handle_softirqs+0xe4/0x310
+
+  R python3[2063440] -43504ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=0x44fb0
+      dsq_vtime=0 slice=20000000 weight=100
+      cpus=ff
+
+    irqentry_exit+0x21/0x40
+    sysvec_apic_timer_interrupt+0x57/0xc0
+    asm_sysvec_apic_timer_interrupt+0x1b/0x20
+
+CPU 6   : nr_run=2 flags=0x1 cpu_rel=0 ops_qseq=439258 pnt_seq=294689
+          curr=python3[2045692] class=ext_sched_class
+
+ *R python3[2045692] -8ms
+      scx_state/flags=3/0x5 dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=0 slice=12040620 weight=100
+      cpus=ff
+
+    rcu_core_si+0xe/0x20
+    handle_softirqs+0xe4/0x310
+
+  R kworker/u32:1[2004728] +0ms
+      scx_state/flags=3/0x9 dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=0x1
+      dsq_vtime=0 slice=20000000 weight=100
+      cpus=ff
+
+    kthread+0xe5/0x210
+    ret_from_fork+0x44/0x70
+    ret_from_fork_asm+0x1a/0x30
+
+CPU 7   : nr_run=2 flags=0x1 cpu_rel=0 ops_qseq=434587 pnt_seq=285657
+          curr=kworker/u32:4[1334883] class=ext_sched_class
+
+ *R kworker/u32:4[1334883] -2ms
+      scx_state/flags=3/0xd dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=(n/a)
+      dsq_vtime=0 slice=20000000 weight=100
+      cpus=ff
+
+    scx_dump_state+0x7a6/0x900
+    scx_ops_error_irq_workfn+0x47/0x50
+    irq_work_single+0x27/0x70
+    irq_work_run_list+0x33/0x60
+    irq_work_run+0x18/0x40
+    __sysvec_irq_work+0x1c/0x90
+    sysvec_irq_work+0x9b/0xc0
+    asm_sysvec_irq_work+0x1b/0x20
+    scx_watchdog_workfn+0x19c/0x240
+    process_one_work+0x167/0x2f0
+    worker_thread+0x32a/0x460
+    kthread+0xe5/0x210
+    ret_from_fork+0x44/0x70
+    ret_from_fork_asm+0x1a/0x30
+
+  R python3[2045660] +0ms
+      scx_state/flags=3/0x1 dsq_flags=0x0 ops_state/qseq=0/0
+      sticky/holding_cpu=-1/-1 dsq_id=0x44740
+      dsq_vtime=0 slice=20000000 weight=100
+      cpus=ff
+
+    do_open+0x274/0x410
+    path_openat+0x132/0x2d0
+    do_filp_open+0xd4/0x1a0
+    do_sys_openat2+0xb7/0xf0
+    __x64_sys_openat+0x53/0xa0
+    x64_sys_call+0x1c36/0x2310
+    do_syscall_64+0x7e/0x170
+    entry_SYSCALL_64_after_hwframe+0x76/0x7e
+
+================================================================================
+
+EXIT: runnable task stall (python3[2046022] failed to run for 45.335s)

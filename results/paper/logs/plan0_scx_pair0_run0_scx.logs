@@ -1,0 +1,1643 @@
+libbpf: struct_ops pair_ops: member priv not found in kernel, skipping it as it's set to zero
+Pairs: [0, 4] [1, 5] [2, 6] [3, 7] 
+Initializing..........................................................................................................................................................................................................................................................................................................................................................................................................................
+[SEQ 0]
+ total:         4 dispatch:         4   missing:         0
+ kicks:         4 preemptions:      0
+   exp:        14 exp_wait:         6 exp_empty:         4
+cgnext:         4   cgcoll:         0   cgempty:         4
+[SEQ 1]
+ total:        51 dispatch:        51   missing:         0
+ kicks:        45 preemptions:      0
+   exp:       382 exp_wait:        22 exp_empty:       315
+cgnext:        45   cgcoll:         0   cgempty:        45
+[SEQ 2]
+ total:        70 dispatch:        70   missing:         0
+ kicks:        62 preemptions:      0
+   exp:       527 exp_wait:        25 exp_empty:       440
+cgnext:        62   cgcoll:         0   cgempty:        62
+[SEQ 3]
+ total:        99 dispatch:        99   missing:         0
+ kicks:        84 preemptions:      0
+   exp:       701 exp_wait:        33 exp_empty:       584
+cgnext:        84   cgcoll:         0   cgempty:        85
+[SEQ 4]
+ total:       122 dispatch:       122   missing:         0
+ kicks:       101 preemptions:      0
+   exp:       887 exp_wait:        37 exp_empty:       748
+cgnext:       101   cgcoll:         1   cgempty:       102
+[SEQ 5]
+ total:       146 dispatch:       146   missing:         0
+ kicks:       119 preemptions:      0
+   exp:      1070 exp_wait:        42 exp_empty:       908
+cgnext:       119   cgcoll:         1   cgempty:       122
+[SEQ 6]
+ total:       168 dispatch:       168   missing:         0
+ kicks:       138 preemptions:      0
+   exp:      1225 exp_wait:        47 exp_empty:      1039
+cgnext:       138   cgcoll:         1   cgempty:       141
+[SEQ 7]
+ total:       193 dispatch:       193   missing:         0
+ kicks:       158 preemptions:      0
+   exp:      1374 exp_wait:        52 exp_empty:      1163
+cgnext:       158   cgcoll:         1   cgempty:       161
+[SEQ 8]
+ total:       216 dispatch:       216   missing:         0
+ kicks:       178 preemptions:      0
+   exp:      1555 exp_wait:        53 exp_empty:      1323
+cgnext:       178   cgcoll:         1   cgempty:       181
+[SEQ 9]
+ total:       238 dispatch:       238   missing:         0
+ kicks:       196 preemptions:      0
+   exp:      1698 exp_wait:        57 exp_empty:      1444
+cgnext:       196   cgcoll:         1   cgempty:       199
+[SEQ 10]
+ total:       259 dispatch:       259   missing:         0
+ kicks:       213 preemptions:      0
+   exp:      1861 exp_wait:        59 exp_empty:      1588
+cgnext:       213   cgcoll:         1   cgempty:       216
+[SEQ 11]
+ total:       282 dispatch:       282   missing:         0
+ kicks:       234 preemptions:      0
+   exp:      2025 exp_wait:        65 exp_empty:      1725
+cgnext:       234   cgcoll:         1   cgempty:       237
+[SEQ 12]
+ total:       297 dispatch:       297   missing:         0
+ kicks:       246 preemptions:      0
+   exp:      2150 exp_wait:        69 exp_empty:      1834
+cgnext:       246   cgcoll:         1   cgempty:       249
+[SEQ 13]
+ total:       322 dispatch:       322   missing:         0
+ kicks:       266 preemptions:      0
+   exp:      2278 exp_wait:        79 exp_empty:      1931
+cgnext:       266   cgcoll:         2   cgempty:       269
+[SEQ 14]
+ total:       338 dispatch:       338   missing:         0
+ kicks:       280 preemptions:      0
+   exp:      2424 exp_wait:        82 exp_empty:      2060
+cgnext:       280   cgcoll:         2   cgempty:       283
+[SEQ 15]
+ total:       362 dispatch:       362   missing:         0
+ kicks:       301 preemptions:      0
+   exp:      2582 exp_wait:        86 exp_empty:      2193
+cgnext:       301   cgcoll:         2   cgempty:       304
+[SEQ 16]
+ total:       386 dispatch:       386   missing:         0
+ kicks:       320 preemptions:      0
+   exp:      2753 exp_wait:        89 exp_empty:      2342
+cgnext:       320   cgcoll:         2   cgempty:       323
+[SEQ 17]
+ total:       407 dispatch:       407   missing:         0
+ kicks:       337 preemptions:      0
+   exp:      2885 exp_wait:        90 exp_empty:      2456
+cgnext:       337   cgcoll:         2   cgempty:       340
+[SEQ 18]
+ total:       429 dispatch:       429   missing:         0
+ kicks:       353 preemptions:      0
+   exp:      3032 exp_wait:        92 exp_empty:      2585
+cgnext:       353   cgcoll:         2   cgempty:       356
+[SEQ 19]
+ total:       450 dispatch:       450   missing:         0
+ kicks:       371 preemptions:      0
+   exp:      3181 exp_wait:        96 exp_empty:      2712
+cgnext:       371   cgcoll:         2   cgempty:       374
+[SEQ 20]
+ total:       468 dispatch:       468   missing:         0
+ kicks:       386 preemptions:      0
+   exp:      3343 exp_wait:        98 exp_empty:      2857
+cgnext:       386   cgcoll:         2   cgempty:       389
+[SEQ 21]
+ total:       488 dispatch:       488   missing:         0
+ kicks:       402 preemptions:      0
+   exp:      3492 exp_wait:       102 exp_empty:      2986
+cgnext:       402   cgcoll:         2   cgempty:       405
+[SEQ 22]
+ total:       508 dispatch:       508   missing:         0
+ kicks:       420 preemptions:      0
+   exp:      3632 exp_wait:       108 exp_empty:      3102
+cgnext:       420   cgcoll:         2   cgempty:       425
+[SEQ 23]
+ total:       526 dispatch:       526   missing:         0
+ kicks:       435 preemptions:      0
+   exp:      3767 exp_wait:       113 exp_empty:      3217
+cgnext:       435   cgcoll:         2   cgempty:       440
+[SEQ 24]
+ total:       547 dispatch:       547   missing:         0
+ kicks:       454 preemptions:      0
+   exp:      3941 exp_wait:       121 exp_empty:      3363
+cgnext:       454   cgcoll:         3   cgempty:       459
+[SEQ 25]
+ total:       573 dispatch:       573   missing:         0
+ kicks:       477 preemptions:      0
+   exp:      4210 exp_wait:       129 exp_empty:      3601
+cgnext:       477   cgcoll:         3   cgempty:       483
+[SEQ 26]
+ total:       594 dispatch:       594   missing:         0
+ kicks:       493 preemptions:      0
+   exp:      4360 exp_wait:       133 exp_empty:      3731
+cgnext:       493   cgcoll:         3   cgempty:       499
+[SEQ 27]
+ total:       622 dispatch:       622   missing:         0
+ kicks:       517 preemptions:      0
+   exp:      4529 exp_wait:       139 exp_empty:      3870
+cgnext:       517   cgcoll:         3   cgempty:       527
+[SEQ 28]
+ total:       642 dispatch:       642   missing:         0
+ kicks:       535 preemptions:      0
+   exp:      4697 exp_wait:       147 exp_empty:      4012
+cgnext:       535   cgcoll:         3   cgempty:       545
+[SEQ 29]
+ total:       663 dispatch:       663   missing:         0
+ kicks:       550 preemptions:      0
+   exp:      4834 exp_wait:       152 exp_empty:      4129
+cgnext:       550   cgcoll:         3   cgempty:       560
+[SEQ 30]
+ total:       691 dispatch:       691   missing:         0
+ kicks:       574 preemptions:      0
+   exp:      5288 exp_wait:       164 exp_empty:      4547
+cgnext:       574   cgcoll:         3   cgempty:       584
+[SEQ 31]
+ total:       772 dispatch:       772   missing:         0
+ kicks:       642 preemptions:      0
+   exp:      6203 exp_wait:       205 exp_empty:      5353
+cgnext:       642   cgcoll:         3   cgempty:       652
+[SEQ 32]
+ total:       850 dispatch:       850   missing:         0
+ kicks:       710 preemptions:      1
+   exp:      7005 exp_wait:       242 exp_empty:      6051
+cgnext:       709   cgcoll:         3   cgempty:       722
+[SEQ 33]
+ total:       944 dispatch:       944   missing:         0
+ kicks:       789 preemptions:      1
+   exp:      7922 exp_wait:       285 exp_empty:      6846
+cgnext:       788   cgcoll:         3   cgempty:       802
+[SEQ 34]
+ total:      1012 dispatch:      1012   missing:         0
+ kicks:       837 preemptions:      1
+   exp:      8334 exp_wait:       307 exp_empty:      7187
+cgnext:       836   cgcoll:         4   cgempty:       850
+[SEQ 35]
+ total:      1087 dispatch:      1087   missing:         0
+ kicks:       897 preemptions:      1
+   exp:      9022 exp_wait:       340 exp_empty:      7782
+cgnext:       896   cgcoll:         4   cgempty:       911
+[SEQ 36]
+ total:      1155 dispatch:      1155   missing:         0
+ kicks:       951 preemptions:      1
+   exp:      9547 exp_wait:       368 exp_empty:      8224
+cgnext:       951   cgcoll:         4   cgempty:       968
+[SEQ 37]
+ total:      1189 dispatch:      1189   missing:         0
+ kicks:       978 preemptions:      1
+   exp:      9812 exp_wait:       378 exp_empty:      8452
+cgnext:       978   cgcoll:         4   cgempty:       997
+[SEQ 38]
+ total:      1269 dispatch:      1269   missing:         0
+ kicks:      1044 preemptions:      2
+   exp:     10490 exp_wait:       418 exp_empty:      9025
+cgnext:      1043   cgcoll:         4   cgempty:      1067
+[SEQ 39]
+ total:      1371 dispatch:      1371   missing:         0
+ kicks:      1130 preemptions:      2
+   exp:     11347 exp_wait:       462 exp_empty:      9752
+cgnext:      1129   cgcoll:         4   cgempty:      1156
+[SEQ 40]
+ total:      1452 dispatch:      1452   missing:         0
+ kicks:      1196 preemptions:      5
+   exp:     12133 exp_wait:       505 exp_empty:     10431
+cgnext:      1193   cgcoll:         4   cgempty:      1220
+[SEQ 41]
+ total:      1541 dispatch:      1541   missing:         0
+ kicks:      1266 preemptions:      5
+   exp:     12909 exp_wait:       544 exp_empty:     11098
+cgnext:      1263   cgcoll:         4   cgempty:      1292
+[SEQ 42]
+ total:      1719 dispatch:      1708   missing:         0
+ kicks:      1392 preemptions:      5
+   exp:     13803 exp_wait:       616 exp_empty:     11809
+cgnext:      1374   cgcoll:         4   cgempty:      1384
+[SEQ 43]
+ total:      1878 dispatch:      1878   missing:         0
+ kicks:      1523 preemptions:      5
+   exp:     14736 exp_wait:       700 exp_empty:     12537
+cgnext:      1495   cgcoll:         4   cgempty:      1502
+[SEQ 44]
+ total:      1960 dispatch:      1960   missing:         0
+ kicks:      1594 preemptions:      5
+   exp:     15529 exp_wait:       731 exp_empty:     13228
+cgnext:      1566   cgcoll:         4   cgempty:      1576
+[SEQ 45]
+ total:      2140 dispatch:      2140   missing:         0
+ kicks:      1740 preemptions:      6
+   exp:     16932 exp_wait:       826 exp_empty:     14391
+cgnext:      1711   cgcoll:         4   cgempty:      1724
+[SEQ 46]
+ total:      2347 dispatch:      2347   missing:         0
+ kicks:      1905 preemptions:      7
+   exp:     18418 exp_wait:       943 exp_empty:     15596
+cgnext:      1875   cgcoll:         4   cgempty:      1897
+[SEQ 47]
+ total:      2436 dispatch:      2436   missing:         0
+ kicks:      1975 preemptions:      8
+   exp:     19247 exp_wait:       985 exp_empty:     16314
+cgnext:      1944   cgcoll:         4   cgempty:      1969
+[SEQ 48]
+ total:      2557 dispatch:      2557   missing:         0
+ kicks:      2077 preemptions:      9
+   exp:     20178 exp_wait:      1034 exp_empty:     17094
+cgnext:      2046   cgcoll:         4   cgempty:      2072
+[SEQ 49]
+ total:      2724 dispatch:      2724   missing:         0
+ kicks:      2203 preemptions:      9
+   exp:     21403 exp_wait:      1103 exp_empty:     18124
+cgnext:      2172   cgcoll:         4   cgempty:      2201
+[SEQ 50]
+ total:      2931 dispatch:      2931   missing:         0
+ kicks:      2361 preemptions:      9
+   exp:     22776 exp_wait:      1190 exp_empty:     19252
+cgnext:      2330   cgcoll:         4   cgempty:      2363
+[SEQ 51]
+ total:      2979 dispatch:      2979   missing:         0
+ kicks:      2399 preemptions:      9
+   exp:     23226 exp_wait:      1203 exp_empty:     19651
+cgnext:      2368   cgcoll:         4   cgempty:      2402
+[SEQ 52]
+ total:      3145 dispatch:      3145   missing:         0
+ kicks:      2525 preemptions:      9
+   exp:     24455 exp_wait:      1263 exp_empty:     20694
+cgnext:      2494   cgcoll:         4   cgempty:      2532
+[SEQ 53]
+ total:      3327 dispatch:      3327   missing:         0
+ kicks:      2673 preemptions:      9
+   exp:     25920 exp_wait:      1351 exp_empty:     21924
+cgnext:      2641   cgcoll:         4   cgempty:      2686
+[SEQ 54]
+ total:      3485 dispatch:      3485   missing:         0
+ kicks:      2798 preemptions:      9
+   exp:     26993 exp_wait:      1422 exp_empty:     22801
+cgnext:      2766   cgcoll:         4   cgempty:      2814
+[SEQ 55]
+ total:      3548 dispatch:      3548   missing:         0
+ kicks:      2853 preemptions:     10
+   exp:     27775 exp_wait:      1458 exp_empty:     23492
+cgnext:      2820   cgcoll:         5   cgempty:      2869
+[SEQ 56]
+ total:      3782 dispatch:      3782   missing:         0
+ kicks:      3040 preemptions:     16
+   exp:     29307 exp_wait:      1598 exp_empty:     24703
+cgnext:      3001   cgcoll:         5   cgempty:      3053
+[SEQ 57]
+ total:      3972 dispatch:      3972   missing:         0
+ kicks:      3184 preemptions:     16
+   exp:     30620 exp_wait:      1681 exp_empty:     25789
+cgnext:      3145   cgcoll:         5   cgempty:      3207
+[SEQ 58]
+ total:      4049 dispatch:      4049   missing:         0
+ kicks:      3247 preemptions:     16
+   exp:     31094 exp_wait:      1723 exp_empty:     26158
+cgnext:      3208   cgcoll:         5   cgempty:      3272
+[SEQ 59]
+ total:      4278 dispatch:      4278   missing:         0
+ kicks:      3420 preemptions:     17
+   exp:     32276 exp_wait:      1884 exp_empty:     27020
+cgnext:      3363   cgcoll:         9   cgempty:      3418
+[SEQ 60]
+ total:      4458 dispatch:      4458   missing:         0
+ kicks:      3560 preemptions:     19
+   exp:     33709 exp_wait:      1976 exp_empty:     28223
+cgnext:      3501   cgcoll:         9   cgempty:      3560
+[SEQ 61]
+ total:      4705 dispatch:      4705   missing:         0
+ kicks:      3737 preemptions:     19
+   exp:     34668 exp_wait:      2283 exp_empty:     28716
+cgnext:      3657   cgcoll:        12   cgempty:      3701
+[SEQ 62]
+ total:      4826 dispatch:      4826   missing:         0
+ kicks:      3844 preemptions:     21
+   exp:     35516 exp_wait:      2344 exp_empty:     29399
+cgnext:      3761   cgcoll:        12   cgempty:      3807
+[SEQ 63]
+ total:      5037 dispatch:      5037   missing:         0
+ kicks:      4001 preemptions:     22
+   exp:     37109 exp_wait:      2452 exp_empty:     30728
+cgnext:      3917   cgcoll:        12   cgempty:      3969
+[SEQ 64]
+ total:      5215 dispatch:      5215   missing:         0
+ kicks:      4137 preemptions:     24
+   exp:     38364 exp_wait:      2564 exp_empty:     31737
+cgnext:      4051   cgcoll:        12   cgempty:      4105
+[SEQ 65]
+ total:      5279 dispatch:      5279   missing:         0
+ kicks:      4191 preemptions:     24
+   exp:     38965 exp_wait:      2602 exp_empty:     32246
+cgnext:      4105   cgcoll:        12   cgempty:      4159
+[SEQ 66]
+ total:      5536 dispatch:      5536   missing:         0
+ kicks:      4384 preemptions:     25
+   exp:     40850 exp_wait:      2812 exp_empty:     33734
+cgnext:      4292   cgcoll:        12   cgempty:      4346
+[SEQ 67]
+ total:      5708 dispatch:      5708   missing:         0
+ kicks:      4519 preemptions:     25
+   exp:     42145 exp_wait:      2888 exp_empty:     34817
+cgnext:      4428   cgcoll:        12   cgempty:      4491
+[SEQ 68]
+ total:      5874 dispatch:      5874   missing:         0
+ kicks:      4651 preemptions:     27
+   exp:     43196 exp_wait:      3027 exp_empty:     35601
+cgnext:      4556   cgcoll:        12   cgempty:      4619
+[SEQ 69]
+ total:      6107 dispatch:      6107   missing:         0
+ kicks:      4838 preemptions:     28
+   exp:     44309 exp_wait:      3514 exp_empty:     36066
+cgnext:      4716   cgcoll:        13   cgempty:      4771
+[SEQ 70]
+ total:      6510 dispatch:      6510   missing:         0
+ kicks:      5145 preemptions:     30
+   exp:     45962 exp_wait:      3920 exp_empty:     37045
+cgnext:      4981   cgcoll:        16   cgempty:      5013
+[SEQ 71]
+ total:      6690 dispatch:      6690   missing:         0
+ kicks:      5289 preemptions:     31
+   exp:     47361 exp_wait:      4008 exp_empty:     38213
+cgnext:      5123   cgcoll:        17   cgempty:      5158
+[SEQ 72]
+ total:      6797 dispatch:      6797   missing:         0
+ kicks:      5378 preemptions:     33
+   exp:     48336 exp_wait:      4116 exp_empty:     38993
+cgnext:      5209   cgcoll:        18   cgempty:      5246
+[SEQ 73]
+ total:      7019 dispatch:      7019   missing:         0
+ kicks:      5543 preemptions:     34
+   exp:     49762 exp_wait:      4233 exp_empty:     40139
+cgnext:      5371   cgcoll:        19   cgempty:      5409
+[SEQ 74]
+ total:      7283 dispatch:      7283   missing:         0
+ kicks:      5757 preemptions:     35
+   exp:     51178 exp_wait:      4388 exp_empty:     41198
+cgnext:      5568   cgcoll:        24   cgempty:      5599
+[SEQ 75]
+ total:      7412 dispatch:      7412   missing:         0
+ kicks:      5855 preemptions:     35
+   exp:     52159 exp_wait:      4501 exp_empty:     41969
+cgnext:      5665   cgcoll:        24   cgempty:      5696
+[SEQ 76]
+ total:      7502 dispatch:      7502   missing:         0
+ kicks:      5934 preemptions:     41
+   exp:     52908 exp_wait:      4561 exp_empty:     42586
+cgnext:      5737   cgcoll:        24   cgempty:      5768
+[SEQ 77]
+ total:      7701 dispatch:      7701   missing:         0
+ kicks:      6089 preemptions:     42
+   exp:     54348 exp_wait:      4698 exp_empty:     43736
+cgnext:      5890   cgcoll:        24   cgempty:      5924
+[SEQ 78]
+ total:      7868 dispatch:      7868   missing:         0
+ kicks:      6224 preemptions:     43
+   exp:     55651 exp_wait:      4783 exp_empty:     44820
+cgnext:      6024   cgcoll:        24   cgempty:      6064
+[SEQ 79]
+ total:      7988 dispatch:      7988   missing:         0
+ kicks:      6320 preemptions:     43
+   exp:     56733 exp_wait:      4840 exp_empty:     45749
+cgnext:      6120   cgcoll:        24   cgempty:      6163
+[SEQ 80]
+ total:      8191 dispatch:      8191   missing:         0
+ kicks:      6486 preemptions:     49
+   exp:     57823 exp_wait:      4981 exp_empty:     46552
+cgnext:      6261   cgcoll:        29   cgempty:      6292
+[SEQ 81]
+ total:      8385 dispatch:      8385   missing:         0
+ kicks:      6640 preemptions:     49
+   exp:     59315 exp_wait:      5100 exp_empty:     47771
+cgnext:      6415   cgcoll:        29   cgempty:      6448
+[SEQ 82]
+ total:      8549 dispatch:      8548   missing:         0
+ kicks:      6769 preemptions:     49
+   exp:     60450 exp_wait:      5178 exp_empty:     48699
+cgnext:      6544   cgcoll:        29   cgempty:      6588
+[SEQ 83]
+ total:      8906 dispatch:      8900   missing:         0
+ kicks:      7005 preemptions:     51
+   exp:     61814 exp_wait:      5738 exp_empty:     49300
+cgnext:      6743   cgcoll:        33   cgempty:      6764
+[SEQ 84]
+ total:      9347 dispatch:      9343   missing:         0
+ kicks:      7283 preemptions:     58
+   exp:     63285 exp_wait:      6659 exp_empty:     49605
+cgnext:      6981   cgcoll:        40   cgempty:      6988
+[SEQ 85]
+ total:      9743 dispatch:      9732   missing:         0
+ kicks:      7587 preemptions:     59
+   exp:     65275 exp_wait:      7462 exp_empty:     50512
+cgnext:      7257   cgcoll:        44   cgempty:      7254
+[SEQ 86]
+ total:      9973 dispatch:      9973   missing:         0
+ kicks:      7746 preemptions:     59
+   exp:     66439 exp_wait:      7813 exp_empty:     51172
+cgnext:      7409   cgcoll:        45   cgempty:      7406
+[SEQ 87]
+ total:     10316 dispatch:     10316   missing:         0
+ kicks:      7994 preemptions:     60
+   exp:     68299 exp_wait:      8096 exp_empty:     52517
+cgnext:      7639   cgcoll:        47   cgempty:      7624
+[SEQ 88]
+ total:     10585 dispatch:     10585   missing:         0
+ kicks:      8199 preemptions:     63
+   exp:     69783 exp_wait:      8371 exp_empty:     53526
+cgnext:      7839   cgcoll:        47   cgempty:      7826
+[SEQ 89]
+ total:     10746 dispatch:     10745   missing:         0
+ kicks:      8320 preemptions:     63
+   exp:     70594 exp_wait:      8481 exp_empty:     54119
+cgnext:      7944   cgcoll:        50   cgempty:      7916
+[SEQ 90]
+ total:     10914 dispatch:     10914   missing:         0
+ kicks:      8450 preemptions:     63
+   exp:     71799 exp_wait:      8555 exp_empty:     55119
+cgnext:      8075   cgcoll:        50   cgempty:      8050
+[SEQ 91]
+ total:     11110 dispatch:     11110   missing:         0
+ kicks:      8600 preemptions:     63
+   exp:     73348 exp_wait:      8681 exp_empty:     56392
+cgnext:      8225   cgcoll:        50   cgempty:      8201
+[SEQ 92]
+ total:     11398 dispatch:     11398   missing:         0
+ kicks:      8825 preemptions:     67
+   exp:     75189 exp_wait:      9264 exp_empty:     57442
+cgnext:      8432   cgcoll:        51   cgempty:      8410
+[SEQ 93]
+ total:     11806 dispatch:     11795   missing:         0
+ kicks:      9114 preemptions:     69
+   exp:     76601 exp_wait:     10104 exp_empty:     57759
+cgnext:      8674   cgcoll:        64   cgempty:      8635
+[SEQ 94]
+ total:     12255 dispatch:     12255   missing:         0
+ kicks:      9439 preemptions:     70
+   exp:     78600 exp_wait:     10925 exp_empty:     58642
+cgnext:      8964   cgcoll:        69   cgempty:      8917
+[SEQ 95]
+ total:     12383 dispatch:     12383   missing:         0
+ kicks:      9533 preemptions:     70
+   exp:     79412 exp_wait:     11008 exp_empty:     59275
+cgnext:      9058   cgcoll:        71   cgempty:      9012
+[SEQ 96]
+ total:     12474 dispatch:     12474   missing:         0
+ kicks:      9612 preemptions:     71
+   exp:     80235 exp_wait:     11060 exp_empty:     59968
+cgnext:      9135   cgcoll:        72   cgempty:      9091
+[SEQ 97]
+ total:     12736 dispatch:     12736   missing:         0
+ kicks:      9809 preemptions:     72
+   exp:     81925 exp_wait:     11329 exp_empty:     61198
+cgnext:      9326   cgcoll:        72   cgempty:      9283
+[SEQ 98]
+ total:     12917 dispatch:     12917   missing:         0
+ kicks:      9952 preemptions:     74
+   exp:     83336 exp_wait:     11409 exp_empty:     62388
+cgnext:      9467   cgcoll:        72   cgempty:      9432
+[SEQ 99]
+ total:     13061 dispatch:     13061   missing:         0
+ kicks:     10061 preemptions:     74
+   exp:     84289 exp_wait:     11514 exp_empty:     63126
+cgnext:      9576   cgcoll:        73   cgempty:      9544
+[SEQ 100]
+ total:     13259 dispatch:     13259   missing:         0
+ kicks:     10205 preemptions:     75
+   exp:     85046 exp_wait:     11662 exp_empty:     63609
+cgnext:      9701   cgcoll:        74   cgempty:      9657
+[SEQ 101]
+ total:     13440 dispatch:     13440   missing:         0
+ kicks:     10340 preemptions:     76
+   exp:     86241 exp_wait:     11732 exp_empty:     64600
+cgnext:      9835   cgcoll:        74   cgempty:      9798
+[SEQ 102]
+ total:     13608 dispatch:     13608   missing:         0
+ kicks:     10475 preemptions:     76
+   exp:     87480 exp_wait:     11806 exp_empty:     65626
+cgnext:      9971   cgcoll:        77   cgempty:      9941
+[SEQ 103]
+ total:     13665 dispatch:     13665   missing:         0
+ kicks:     10521 preemptions:     76
+   exp:     87874 exp_wait:     11828 exp_empty:     65952
+cgnext:     10017   cgcoll:        77   cgempty:      9987
+[SEQ 104]
+ total:     13789 dispatch:     13789   missing:         0
+ kicks:     10618 preemptions:     76
+   exp:     88833 exp_wait:     11888 exp_empty:     66754
+cgnext:     10114   cgcoll:        77   cgempty:     10089
+[SEQ 105]
+ total:     14035 dispatch:     14035   missing:         0
+ kicks:     10810 preemptions:     77
+   exp:     90234 exp_wait:     12034 exp_empty:     67821
+cgnext:     10293   cgcoll:        86   cgempty:     10264
+[SEQ 106]
+ total:     14304 dispatch:     14304   missing:         0
+ kicks:     11027 preemptions:     79
+   exp:     91833 exp_wait:     12254 exp_empty:     68997
+cgnext:     10491   cgcoll:        91   cgempty:     10452
+[SEQ 107]
+ total:     14513 dispatch:     14513   missing:         0
+ kicks:     11186 preemptions:     81
+   exp:     93043 exp_wait:     12475 exp_empty:     69845
+cgnext:     10630   cgcoll:        93   cgempty:     10576
+[SEQ 108]
+ total:     14815 dispatch:     14815   missing:         0
+ kicks:     11422 preemptions:     87
+   exp:     94717 exp_wait:     12838 exp_empty:     70950
+cgnext:     10834   cgcoll:        95   cgempty:     10769
+[SEQ 109]
+ total:     15433 dispatch:     15433   missing:         0
+ kicks:     11828 preemptions:     89
+   exp:     97068 exp_wait:     14020 exp_empty:     71759
+cgnext:     11192   cgcoll:        97   cgempty:     11110
+[SEQ 110]
+ total:     15639 dispatch:     15639   missing:         0
+ kicks:     11977 preemptions:     90
+   exp:     98118 exp_wait:     14395 exp_empty:     72293
+cgnext:     11330   cgcoll:       100   cgempty:     11246
+[SEQ 111]
+ total:     16090 dispatch:     16087   missing:         0
+ kicks:     12294 preemptions:     90
+   exp:     99854 exp_wait:     14838 exp_empty:     73306
+cgnext:     11604   cgcoll:       106   cgempty:     11494
+[SEQ 112]
+ total:     16630 dispatch:     16622   missing:         0
+ kicks:     12635 preemptions:     96
+   exp:    101261 exp_wait:     15965 exp_empty:     73306
+cgnext:     11871   cgcoll:       119   cgempty:     11726
+[SEQ 113]
+ total:     17024 dispatch:     17022   missing:         0
+ kicks:     12977 preemptions:     97
+   exp:    103204 exp_wait:     17619 exp_empty:     73306
+cgnext:     12149   cgcoll:       130   cgempty:     11993
+[SEQ 114]
+ total:     17485 dispatch:     17484   missing:         0
+ kicks:     13339 preemptions:     98
+   exp:    104888 exp_wait:     18970 exp_empty:     73327
+cgnext:     12441   cgcoll:       150   cgempty:     12263
+[SEQ 115]
+ total:     17825 dispatch:     17825   missing:         0
+ kicks:     13646 preemptions:    101
+   exp:    105980 exp_wait:     19744 exp_empty:     73397
+cgnext:     12676   cgcoll:       163   cgempty:     12478
+[SEQ 116]
+ total:     18328 dispatch:     18316   missing:         0
+ kicks:     13964 preemptions:    109
+   exp:    107154 exp_wait:     20563 exp_empty:     73493
+cgnext:     12926   cgcoll:       172   cgempty:     12692
+[SEQ 117]
+ total:     18847 dispatch:     18813   missing:         0
+ kicks:     14299 preemptions:    111
+   exp:    108453 exp_wait:     21583 exp_empty:     73493
+cgnext:     13186   cgcoll:       191   cgempty:     12905
+[SEQ 118]
+ total:     19285 dispatch:     19261   missing:         0
+ kicks:     14660 preemptions:    113
+   exp:    109833 exp_wait:     22686 exp_empty:     73493
+cgnext:     13439   cgcoll:       215   cgempty:     13107
+[SEQ 119]
+ total:     19766 dispatch:     19746   missing:         0
+ kicks:     15021 preemptions:    115
+   exp:    110919 exp_wait:     23485 exp_empty:     73493
+cgnext:     13702   cgcoll:       239   cgempty:     13324
+[SEQ 120]
+ total:     20355 dispatch:     20332   missing:         0
+ kicks:     15422 preemptions:    123
+   exp:    112346 exp_wait:     24580 exp_empty:     73493
+cgnext:     14010   cgcoll:       263   cgempty:     13578
+[SEQ 121]
+ total:     20842 dispatch:     20820   missing:         0
+ kicks:     15807 preemptions:    125
+   exp:    113497 exp_wait:     25428 exp_empty:     73493
+cgnext:     14296   cgcoll:       280   cgempty:     13818
+[SEQ 122]
+ total:     21397 dispatch:     21377   missing:         0
+ kicks:     16376 preemptions:    127
+   exp:    114854 exp_wait:     26333 exp_empty:     73493
+cgnext:     14685   cgcoll:       343   cgempty:     14140
+[SEQ 123]
+ total:     21668 dispatch:     21659   missing:         0
+ kicks:     16667 preemptions:    135
+   exp:    115563 exp_wait:     26822 exp_empty:     73493
+cgnext:     14873   cgcoll:       375   cgempty:     14301
+[SEQ 124]
+ total:     21942 dispatch:     21914   missing:         0
+ kicks:     16949 preemptions:    137
+   exp:    116295 exp_wait:     27347 exp_empty:     73493
+cgnext:     15056   cgcoll:       399   cgempty:     14437
+[SEQ 125]
+ total:     22240 dispatch:     22216   missing:         0
+ kicks:     17234 preemptions:    139
+   exp:    116922 exp_wait:     27755 exp_empty:     73493
+cgnext:     15240   cgcoll:       434   cgempty:     14572
+[SEQ 126]
+ total:     22560 dispatch:     22524   missing:         0
+ kicks:     17591 preemptions:    141
+   exp:    117710 exp_wait:     28318 exp_empty:     73493
+cgnext:     15431   cgcoll:       468   cgempty:     14721
+[SEQ 127]
+ total:     22808 dispatch:     22775   missing:         0
+ kicks:     17898 preemptions:    147
+   exp:    118304 exp_wait:     28765 exp_empty:     73493
+cgnext:     15558   cgcoll:       488   cgempty:     14813
+[SEQ 128]
+ total:     23189 dispatch:     23143   missing:         0
+ kicks:     18214 preemptions:    149
+   exp:    119081 exp_wait:     29299 exp_empty:     73493
+cgnext:     15770   cgcoll:       519   cgempty:     14978
+[SEQ 129]
+ total:     23624 dispatch:     23577   missing:         0
+ kicks:     18562 preemptions:    151
+   exp:    119891 exp_wait:     29846 exp_empty:     73493
+cgnext:     16004   cgcoll:       548   cgempty:     15155
+[SEQ 130]
+ total:     24074 dispatch:     24040   missing:         0
+ kicks:     18913 preemptions:    152
+   exp:    120929 exp_wait:     30620 exp_empty:     73493
+cgnext:     16246   cgcoll:       570   cgempty:     15349
+[SEQ 131]
+ total:     24501 dispatch:     24472   missing:         0
+ kicks:     19270 preemptions:    162
+   exp:    122179 exp_wait:     31582 exp_empty:     73493
+cgnext:     16505   cgcoll:       599   cgempty:     15568
+[SEQ 132]
+ total:     24949 dispatch:     24911   missing:         0
+ kicks:     19623 preemptions:    164
+   exp:    123356 exp_wait:     32474 exp_empty:     73493
+cgnext:     16768   cgcoll:       621   cgempty:     15788
+[SEQ 133]
+ total:     25401 dispatch:     25376   missing:         0
+ kicks:     19989 preemptions:    165
+   exp:    124458 exp_wait:     33282 exp_empty:     73493
+cgnext:     17040   cgcoll:       643   cgempty:     16019
+[SEQ 134]
+ total:     25878 dispatch:     25854   missing:         0
+ kicks:     20368 preemptions:    166
+   exp:    125560 exp_wait:     34082 exp_empty:     73493
+cgnext:     17315   cgcoll:       670   cgempty:     16244
+[SEQ 135]
+ total:     26292 dispatch:     26256   missing:         0
+ kicks:     20699 preemptions:    176
+   exp:    126546 exp_wait:     34790 exp_empty:     73493
+cgnext:     17560   cgcoll:       703   cgempty:     16447
+[SEQ 136]
+ total:     26671 dispatch:     26635   missing:         0
+ kicks:     21030 preemptions:    177
+   exp:    127534 exp_wait:     35517 exp_empty:     73493
+cgnext:     17801   cgcoll:       723   cgempty:     16642
+[SEQ 137]
+ total:     27155 dispatch:     27117   missing:         0
+ kicks:     21375 preemptions:    178
+   exp:    128587 exp_wait:     36303 exp_empty:     73493
+cgnext:     18046   cgcoll:       745   cgempty:     16829
+[SEQ 138]
+ total:     27629 dispatch:     27584   missing:         0
+ kicks:     21696 preemptions:    179
+   exp:    129509 exp_wait:     36965 exp_empty:     73493
+cgnext:     18277   cgcoll:       774   cgempty:     17015
+[SEQ 139]
+ total:     28047 dispatch:     27999   missing:         0
+ kicks:     21992 preemptions:    188
+   exp:    130277 exp_wait:     37512 exp_empty:     73493
+cgnext:     18481   cgcoll:       791   cgempty:     17174
+[SEQ 140]
+ total:     28492 dispatch:     28445   missing:         0
+ kicks:     22332 preemptions:    190
+   exp:    131527 exp_wait:     38475 exp_empty:     73493
+cgnext:     18738   cgcoll:       821   cgempty:     17389
+[SEQ 141]
+ total:     28912 dispatch:     28873   missing:         0
+ kicks:     22681 preemptions:    192
+   exp:    132508 exp_wait:     39187 exp_empty:     73493
+cgnext:     18997   cgcoll:       831   cgempty:     17601
+[SEQ 142]
+ total:     29242 dispatch:     29196   missing:         0
+ kicks:     22977 preemptions:    194
+   exp:    133554 exp_wait:     39993 exp_empty:     73493
+cgnext:     19218   cgcoll:       850   cgempty:     17775
+[SEQ 143]
+ total:     29784 dispatch:     29743   missing:         0
+ kicks:     23347 preemptions:    203
+   exp:    134827 exp_wait:     40990 exp_empty:     73493
+cgnext:     19478   cgcoll:       866   cgempty:     17985
+[SEQ 144]
+ total:     30071 dispatch:     30032   missing:         0
+ kicks:     23624 preemptions:    204
+   exp:    135612 exp_wait:     41541 exp_empty:     73493
+cgnext:     19692   cgcoll:       886   cgempty:     18183
+[SEQ 145]
+ total:     30411 dispatch:     30382   missing:         0
+ kicks:     23956 preemptions:    205
+   exp:    136512 exp_wait:     42165 exp_empty:     73493
+cgnext:     19933   cgcoll:       921   cgempty:     18388
+[SEQ 146]
+ total:     30795 dispatch:     30763   missing:         0
+ kicks:     24287 preemptions:    206
+   exp:    137542 exp_wait:     42929 exp_empty:     73493
+cgnext:     20184   cgcoll:       936   cgempty:     18606
+[SEQ 147]
+ total:     31160 dispatch:     31146   missing:         0
+ kicks:     24633 preemptions:    215
+   exp:    138636 exp_wait:     43731 exp_empty:     73493
+cgnext:     20458   cgcoll:       954   cgempty:     18867
+[SEQ 148]
+ total:     31500 dispatch:     31491   missing:         0
+ kicks:     24932 preemptions:    217
+   exp:    139561 exp_wait:     44389 exp_empty:     73493
+cgnext:     20700   cgcoll:       979   cgempty:     19091
+[SEQ 149]
+ total:     31876 dispatch:     31866   missing:         0
+ kicks:     25264 preemptions:    218
+   exp:    140684 exp_wait:     45221 exp_empty:     73493
+cgnext:     20971   cgcoll:       999   cgempty:     19344
+[SEQ 150]
+ total:     32196 dispatch:     32188   missing:         0
+ kicks:     25548 preemptions:    219
+   exp:    141772 exp_wait:     46062 exp_empty:     73493
+cgnext:     21206   cgcoll:      1011   cgempty:     19566
+[SEQ 151]
+ total:     32467 dispatch:     32459   missing:         0
+ kicks:     25849 preemptions:    230
+   exp:    142598 exp_wait:     46636 exp_empty:     73493
+cgnext:     21427   cgcoll:      1042   cgempty:     19762
+[SEQ 152]
+ total:     32822 dispatch:     32815   missing:         0
+ kicks:     26176 preemptions:    232
+   exp:    143711 exp_wait:     47476 exp_empty:     73493
+cgnext:     21681   cgcoll:      1061   cgempty:     19994
+[SEQ 153]
+ total:     33178 dispatch:     33170   missing:         0
+ kicks:     26481 preemptions:    233
+   exp:    144830 exp_wait:     48336 exp_empty:     73493
+cgnext:     21927   cgcoll:      1074   cgempty:     20225
+[SEQ 154]
+ total:     33565 dispatch:     33560   missing:         0
+ kicks:     26817 preemptions:    234
+   exp:    146043 exp_wait:     49269 exp_empty:     73493
+cgnext:     22193   cgcoll:      1088   cgempty:     20471
+[SEQ 155]
+ total:     33828 dispatch:     33823   missing:         0
+ kicks:     27127 preemptions:    243
+   exp:    146871 exp_wait:     49840 exp_empty:     73493
+cgnext:     22419   cgcoll:      1119   cgempty:     20681
+[SEQ 156]
+ total:     34260 dispatch:     34255   missing:         0
+ kicks:     27474 preemptions:    244
+   exp:    148240 exp_wait:     50903 exp_empty:     73493
+cgnext:     22703   cgcoll:      1141   cgempty:     20949
+[SEQ 157]
+ total:     34485 dispatch:     34482   missing:         0
+ kicks:     27685 preemptions:    245
+   exp:    149270 exp_wait:     51745 exp_empty:     73493
+cgnext:     22891   cgcoll:      1141   cgempty:     21137
+[SEQ 158]
+ total:     34709 dispatch:     34707   missing:         0
+ kicks:     27904 preemptions:    245
+   exp:    150116 exp_wait:     52386 exp_empty:     73493
+cgnext:     23096   cgcoll:      1141   cgempty:     21342
+[SEQ 159]
+ total:     35023 dispatch:     35018   missing:         0
+ kicks:     28193 preemptions:    252
+   exp:    151165 exp_wait:     53181 exp_empty:     73497
+cgnext:     23343   cgcoll:      1144   cgempty:     21580
+[SEQ 160]
+ total:     35352 dispatch:     35352   missing:         0
+ kicks:     28495 preemptions:    253
+   exp:    152782 exp_wait:     54534 exp_empty:     73498
+cgnext:     23605   cgcoll:      1145   cgempty:     21842
+[SEQ 161]
+ total:     35508 dispatch:     35508   missing:         0
+ kicks:     28643 preemptions:    254
+   exp:    154043 exp_wait:     54731 exp_empty:     74427
+cgnext:     23740   cgcoll:      1145   cgempty:     21978
+[SEQ 162]
+ total:     35747 dispatch:     35747   missing:         0
+ kicks:     28862 preemptions:    256
+   exp:    155479 exp_wait:     54932 exp_empty:     75467
+cgnext:     23934   cgcoll:      1146   cgempty:     22173
+[SEQ 163]
+ total:     36004 dispatch:     36004   missing:         0
+ kicks:     29072 preemptions:    261
+   exp:    157394 exp_wait:     55072 exp_empty:     77036
+cgnext:     24140   cgcoll:      1146   cgempty:     22382
+[SEQ 164]
+ total:     36039 dispatch:     36039   missing:         0
+ kicks:     29103 preemptions:    263
+   exp:    157730 exp_wait:     55093 exp_empty:     77321
+cgnext:     24170   cgcoll:      1146   cgempty:     22412
+[SEQ 165]
+ total:     36321 dispatch:     36321   missing:         0
+ kicks:     29332 preemptions:    264
+   exp:    159781 exp_wait:     55260 exp_empty:     78979
+cgnext:     24396   cgcoll:      1146   cgempty:     22645
+[SEQ 166]
+ total:     36441 dispatch:     36441   missing:         0
+ kicks:     29432 preemptions:    266
+   exp:    160776 exp_wait:     55339 exp_empty:     79798
+cgnext:     24493   cgcoll:      1146   cgempty:     22743
+[SEQ 167]
+ total:     36552 dispatch:     36552   missing:         0
+ kicks:     29526 preemptions:    271
+   exp:    161930 exp_wait:     55426 exp_empty:     80781
+cgnext:     24577   cgcoll:      1146   cgempty:     22828
+[SEQ 168]
+ total:     36828 dispatch:     36828   missing:         0
+ kicks:     29739 preemptions:    273
+   exp:    163845 exp_wait:     55574 exp_empty:     82339
+cgnext:     24786   cgcoll:      1146   cgempty:     23039
+[SEQ 169]
+ total:     36863 dispatch:     36863   missing:         0
+ kicks:     29771 preemptions:    274
+   exp:    164123 exp_wait:     55594 exp_empty:     82568
+cgnext:     24815   cgcoll:      1146   cgempty:     23069
+[SEQ 170]
+ total:     37154 dispatch:     37154   missing:         0
+ kicks:     30001 preemptions:    277
+   exp:    166125 exp_wait:     55771 exp_empty:     84166
+cgnext:     25042   cgcoll:      1146   cgempty:     23298
+[SEQ 171]
+ total:     37290 dispatch:     37290   missing:         0
+ kicks:     30113 preemptions:    281
+   exp:    167035 exp_wait:     55840 exp_empty:     84899
+cgnext:     25150   cgcoll:      1146   cgempty:     23408
+[SEQ 172]
+ total:     37478 dispatch:     37478   missing:         0
+ kicks:     30254 preemptions:    283
+   exp:    168293 exp_wait:     55947 exp_empty:     85910
+cgnext:     25290   cgcoll:      1146   cgempty:     23549
+[SEQ 173]
+ total:     37744 dispatch:     37744   missing:         0
+ kicks:     30462 preemptions:    285
+   exp:    170076 exp_wait:     56101 exp_empty:     87333
+cgnext:     25496   cgcoll:      1146   cgempty:     23758
+[SEQ 174]
+ total:     37807 dispatch:     37807   missing:         0
+ kicks:     30516 preemptions:    286
+   exp:    170518 exp_wait:     56148 exp_empty:     87675
+cgnext:     25549   cgcoll:      1146   cgempty:     23811
+[SEQ 175]
+ total:     38089 dispatch:     38089   missing:         0
+ kicks:     30743 preemptions:    289
+   exp:    172543 exp_wait:     56323 exp_empty:     89302
+cgnext:     25772   cgcoll:      1146   cgempty:     24037
+[SEQ 176]
+ total:     38192 dispatch:     38192   missing:         0
+ kicks:     30828 preemptions:    290
+   exp:    173336 exp_wait:     56373 exp_empty:     89961
+cgnext:     25856   cgcoll:      1146   cgempty:     24123
+[SEQ 177]
+ total:     38412 dispatch:     38412   missing:         0
+ kicks:     30994 preemptions:    291
+   exp:    174744 exp_wait:     56491 exp_empty:     91086
+cgnext:     26021   cgcoll:      1146   cgempty:     24290
+[SEQ 178]
+ total:     38642 dispatch:     38642   missing:         0
+ kicks:     31182 preemptions:    293
+   exp:    176408 exp_wait:     56621 exp_empty:     92434
+cgnext:     26207   cgcoll:      1146   cgempty:     24478
+[SEQ 179]
+ total:     38719 dispatch:     38719   missing:         0
+ kicks:     31247 preemptions:    297
+   exp:    176958 exp_wait:     56666 exp_empty:     92877
+cgnext:     26269   cgcoll:      1146   cgempty:     24540
+[SEQ 180]
+ total:     39021 dispatch:     39021   missing:         0
+ kicks:     31489 preemptions:    298
+   exp:    179025 exp_wait:     56852 exp_empty:     94517
+cgnext:     26509   cgcoll:      1147   cgempty:     24787
+[SEQ 181]
+ total:     39112 dispatch:     39112   missing:         0
+ kicks:     31562 preemptions:    298
+   exp:    179715 exp_wait:     56888 exp_empty:     95098
+cgnext:     26582   cgcoll:      1147   cgempty:     24861
+[SEQ 182]
+ total:     39308 dispatch:     39308   missing:         0
+ kicks:     31720 preemptions:    298
+   exp:    181183 exp_wait:     56984 exp_empty:     96313
+cgnext:     26739   cgcoll:      1147   cgempty:     25025
+[SEQ 183]
+ total:     39545 dispatch:     39545   missing:         0
+ kicks:     31902 preemptions:    299
+   exp:    182837 exp_wait:     57101 exp_empty:     97669
+cgnext:     26920   cgcoll:      1147   cgempty:     25212
+[SEQ 184]
+ total:     39610 dispatch:     39610   missing:         0
+ kicks:     31957 preemptions:    299
+   exp:    183293 exp_wait:     57137 exp_empty:     98034
+cgnext:     26975   cgcoll:      1147   cgempty:     25267
+[SEQ 185]
+ total:     39893 dispatch:     39893   missing:         0
+ kicks:     32167 preemptions:    300
+   exp:    185258 exp_wait:     57282 exp_empty:     99645
+cgnext:     27184   cgcoll:      1147   cgempty:     25485
+[SEQ 186]
+ total:     39995 dispatch:     39995   missing:         0
+ kicks:     32250 preemptions:    301
+   exp:    186018 exp_wait:     57330 exp_empty:    100275
+cgnext:     27266   cgcoll:      1147   cgempty:     25569
+[SEQ 187]
+ total:     40202 dispatch:     40202   missing:         0
+ kicks:     32410 preemptions:    304
+   exp:    187405 exp_wait:     57436 exp_empty:    101399
+cgnext:     27423   cgcoll:      1147   cgempty:     25732
+[SEQ 188]
+ total:     40431 dispatch:     40431   missing:         0
+ kicks:     32590 preemptions:    305
+   exp:    189038 exp_wait:     57545 exp_empty:    102744
+cgnext:     27602   cgcoll:      1147   cgempty:     25917
+[SEQ 189]
+ total:     40500 dispatch:     40500   missing:         0
+ kicks:     32648 preemptions:    306
+   exp:    189487 exp_wait:     57581 exp_empty:    103100
+cgnext:     27659   cgcoll:      1147   cgempty:     25977
+[SEQ 190]
+ total:     40771 dispatch:     40771   missing:         0
+ kicks:     32860 preemptions:    306
+   exp:    191441 exp_wait:     57720 exp_empty:    104703
+cgnext:     27871   cgcoll:      1147   cgempty:     26193
+[SEQ 191]
+ total:     40854 dispatch:     40854   missing:         0
+ kicks:     32934 preemptions:    307
+   exp:    192084 exp_wait:     57779 exp_empty:    105214
+cgnext:     27944   cgcoll:      1147   cgempty:     26267
+[SEQ 192]
+ total:     41067 dispatch:     41067   missing:         0
+ kicks:     33090 preemptions:    307
+   exp:    193536 exp_wait:     57867 exp_empty:    106422
+cgnext:     28100   cgcoll:      1147   cgempty:     26428
+[SEQ 193]
+ total:     41327 dispatch:     41327   missing:         0
+ kicks:     33293 preemptions:    307
+   exp:    195268 exp_wait:     57979 exp_empty:    107839
+cgnext:     28303   cgcoll:      1147   cgempty:     26633
+[SEQ 194]
+ total:     41387 dispatch:     41387   missing:         0
+ kicks:     33345 preemptions:    307
+   exp:    195655 exp_wait:     57999 exp_empty:    108154
+cgnext:     28355   cgcoll:      1147   cgempty:     26685
+[SEQ 195]
+ total:     41679 dispatch:     41679   missing:         0
+ kicks:     33567 preemptions:    310
+   exp:    197608 exp_wait:     58125 exp_empty:    109760
+cgnext:     28576   cgcoll:      1147   cgempty:     26915
+[SEQ 196]
+ total:     41836 dispatch:     41836   missing:         0
+ kicks:     33680 preemptions:    311
+   exp:    198601 exp_wait:     58181 exp_empty:    110584
+cgnext:     28688   cgcoll:      1148   cgempty:     27030
+[SEQ 197]
+ total:     42024 dispatch:     42024   missing:         0
+ kicks:     33819 preemptions:    311
+   exp:    199702 exp_wait:     58247 exp_empty:    111480
+cgnext:     28827   cgcoll:      1148   cgempty:     27171
+[SEQ 198]
+ total:     42312 dispatch:     42312   missing:         0
+ kicks:     34038 preemptions:    311
+   exp:    201631 exp_wait:     58369 exp_empty:    113068
+cgnext:     29046   cgcoll:      1148   cgempty:     27395
+[SEQ 199]
+ total:     42363 dispatch:     42363   missing:         0
+ kicks:     34081 preemptions:    312
+   exp:    201963 exp_wait:     58385 exp_empty:    113342
+cgnext:     29088   cgcoll:      1148   cgempty:     27438
+[SEQ 200]
+ total:     42622 dispatch:     42622   missing:         0
+ kicks:     34271 preemptions:    312
+   exp:    203651 exp_wait:     58487 exp_empty:    114738
+cgnext:     29278   cgcoll:      1148   cgempty:     27633
+[SEQ 201]
+ total:     42865 dispatch:     42865   missing:         0
+ kicks:     34456 preemptions:    312
+   exp:    205220 exp_wait:     58578 exp_empty:    116031
+cgnext:     29463   cgcoll:      1148   cgempty:     27826
+[SEQ 202]
+ total:     42940 dispatch:     42940   missing:         0
+ kicks:     34515 preemptions:    312
+   exp:    205715 exp_wait:     58608 exp_empty:    116437
+cgnext:     29522   cgcoll:      1148   cgempty:     27885
+[SEQ 203]
+ total:     43249 dispatch:     43249   missing:         0
+ kicks:     34748 preemptions:    316
+   exp:    207674 exp_wait:     58721 exp_empty:    118053
+cgnext:     29751   cgcoll:      1149   cgempty:     28115
+[SEQ 204]
+ total:     43389 dispatch:     43388   missing:         0
+ kicks:     34856 preemptions:    317
+   exp:    208585 exp_wait:     58762 exp_empty:    118816
+cgnext:     29858   cgcoll:      1149   cgempty:     28223
+[SEQ 205]
+ total:     43563 dispatch:     43563   missing:         0
+ kicks:     34984 preemptions:    317
+   exp:    209731 exp_wait:     58814 exp_empty:    119782
+cgnext:     29986   cgcoll:      1149   cgempty:     28356
+[SEQ 206]
+ total:     43863 dispatch:     43863   missing:         0
+ kicks:     35208 preemptions:    317
+   exp:    211684 exp_wait:     58916 exp_empty:    121408
+cgnext:     30210   cgcoll:      1150   cgempty:     28583
+[SEQ 207]
+ total:     43882 dispatch:     43882   missing:         0
+ kicks:     35225 preemptions:    318
+   exp:    211817 exp_wait:     58920 exp_empty:    121521
+cgnext:     30226   cgcoll:      1150   cgempty:     28600
+[SEQ 208]
+ total:     44163 dispatch:     44163   missing:         0
+ kicks:     35437 preemptions:    318
+   exp:    213721 exp_wait:     59009 exp_empty:    123124
+cgnext:     30438   cgcoll:      1150   cgempty:     28814
+[SEQ 209]
+ total:     44330 dispatch:     44330   missing:         0
+ kicks:     35565 preemptions:    318
+   exp:    214894 exp_wait:     59066 exp_empty:    124112
+cgnext:     30566   cgcoll:      1150   cgempty:     28947
+[SEQ 210]
+ total:     44472 dispatch:     44472   missing:         0
+ kicks:     35681 preemptions:    318
+   exp:    215786 exp_wait:     59113 exp_empty:    124841
+cgnext:     30682   cgcoll:      1150   cgempty:     29065
+[SEQ 211]
+ total:     44760 dispatch:     44760   missing:         0
+ kicks:     35904 preemptions:    318
+   exp:    217746 exp_wait:     59215 exp_empty:    126476
+cgnext:     30905   cgcoll:      1150   cgempty:     29293
+[SEQ 212]
+ total:     44840 dispatch:     44840   missing:         0
+ kicks:     35966 preemptions:    319
+   exp:    218315 exp_wait:     59239 exp_empty:    126960
+cgnext:     30966   cgcoll:      1150   cgempty:     29356
+[SEQ 213]
+ total:     45058 dispatch:     45058   missing:         0
+ kicks:     36131 preemptions:    319
+   exp:    219772 exp_wait:     59325 exp_empty:    128166
+cgnext:     31131   cgcoll:      1150   cgempty:     29524
+[SEQ 214]
+ total:     45328 dispatch:     45328   missing:         0
+ kicks:     36337 preemptions:    319
+   exp:    221573 exp_wait:     59432 exp_empty:    129654
+cgnext:     31337   cgcoll:      1150   cgempty:     29736
+[SEQ 215]
+ total:     45364 dispatch:     45364   missing:         0
+ kicks:     36362 preemptions:    319
+   exp:    221813 exp_wait:     59444 exp_empty:    129857
+cgnext:     31362   cgcoll:      1150   cgempty:     29761
+[SEQ 216]
+ total:     45653 dispatch:     45653   missing:         0
+ kicks:     36579 preemptions:    319
+   exp:    223731 exp_wait:     59547 exp_empty:    131455
+cgnext:     31579   cgcoll:      1150   cgempty:     29983
+[SEQ 217]
+ total:     45822 dispatch:     45822   missing:         0
+ kicks:     36705 preemptions:    320
+   exp:    224906 exp_wait:     59598 exp_empty:    132454
+cgnext:     31704   cgcoll:      1150   cgempty:     30113
+[SEQ 218]
+ total:     45945 dispatch:     45945   missing:         0
+ kicks:     36809 preemptions:    320
+   exp:    225772 exp_wait:     59641 exp_empty:    133173
+cgnext:     31808   cgcoll:      1150   cgempty:     30219
+[SEQ 219]
+ total:     46220 dispatch:     46220   missing:         0
+ kicks:     37019 preemptions:    320
+   exp:    227681 exp_wait:     59742 exp_empty:    134771
+cgnext:     32018   cgcoll:      1150   cgempty:     30433
+[SEQ 220]
+ total:     46288 dispatch:     46288   missing:         0
+ kicks:     37072 preemptions:    320
+   exp:    228177 exp_wait:     59767 exp_empty:    135189
+cgnext:     32071   cgcoll:      1150   cgempty:     30488
+[SEQ 221]
+ total:     46537 dispatch:     46537   missing:         0
+ kicks:     37263 preemptions:    320
+   exp:    229765 exp_wait:     59852 exp_empty:    136501
+cgnext:     32262   cgcoll:      1150   cgempty:     30685
+[SEQ 222]
+ total:     46778 dispatch:     46778   missing:         0
+ kicks:     37450 preemptions:    322
+   exp:    231408 exp_wait:     59926 exp_empty:    137885
+cgnext:     32447   cgcoll:      1150   cgempty:     30874
+[SEQ 223]
+ total:     46834 dispatch:     46834   missing:         0
+ kicks:     37499 preemptions:    322
+   exp:    231796 exp_wait:     59943 exp_empty:    138207
+cgnext:     32496   cgcoll:      1150   cgempty:     30923
+[SEQ 224]
+ total:     47138 dispatch:     47138   missing:         0
+ kicks:     37730 preemptions:    322
+   exp:    233753 exp_wait:     60071 exp_empty:    139805
+cgnext:     32727   cgcoll:      1150   cgempty:     31159
+[SEQ 225]
+ total:     47271 dispatch:     47271   missing:         0
+ kicks:     37829 preemptions:    323
+   exp:    234675 exp_wait:     60114 exp_empty:    140586
+cgnext:     32825   cgcoll:      1150   cgempty:     31257
+[SEQ 226]
+ total:     47445 dispatch:     47445   missing:         0
+ kicks:     37968 preemptions:    323
+   exp:    235803 exp_wait:     60174 exp_empty:    141515
+cgnext:     32964   cgcoll:      1150   cgempty:     31399
+[SEQ 227]
+ total:     47738 dispatch:     47738   missing:         0
+ kicks:     38192 preemptions:    323
+   exp:    237779 exp_wait:     60273 exp_empty:    143168
+cgnext:     33188   cgcoll:      1150   cgempty:     31630
+[SEQ 228]
+ total:     47765 dispatch:     47765   missing:         0
+ kicks:     38210 preemptions:    323
+   exp:    237973 exp_wait:     60284 exp_empty:    143333
+cgnext:     33206   cgcoll:      1150   cgempty:     31648
+[SEQ 229]
+ total:     48060 dispatch:     48060   missing:         0
+ kicks:     38430 preemptions:    323
+   exp:    239792 exp_wait:     60389 exp_empty:    144827
+cgnext:     33426   cgcoll:      1150   cgempty:     31873
+[SEQ 230]
+ total:     48274 dispatch:     48274   missing:         0
+ kicks:     38605 preemptions:    323
+   exp:    241244 exp_wait:     60468 exp_empty:    146025
+cgnext:     33601   cgcoll:      1150   cgempty:     32049
+[SEQ 231]
+ total:     48367 dispatch:     48367   missing:         0
+ kicks:     38684 preemptions:    323
+   exp:    241890 exp_wait:     60506 exp_empty:    146554
+cgnext:     33680   cgcoll:      1150   cgempty:     32129
+[SEQ 232]
+ total:     48664 dispatch:     48664   missing:         0
+ kicks:     38910 preemptions:    323
+   exp:    243865 exp_wait:     60616 exp_empty:    148193
+cgnext:     33906   cgcoll:      1150   cgempty:     32358
+[SEQ 233]
+ total:     48781 dispatch:     48781   missing:         0
+ kicks:     38997 preemptions:    323
+   exp:    244660 exp_wait:     60645 exp_empty:    148872
+cgnext:     33993   cgcoll:      1150   cgempty:     32446
+[SEQ 234]
+ total:     48973 dispatch:     48973   missing:         0
+ kicks:     39147 preemptions:    323
+   exp:    245934 exp_wait:     60717 exp_empty:    149923
+cgnext:     34144   cgcoll:      1150   cgempty:     32600
+[SEQ 235]
+ total:     49279 dispatch:     49279   missing:         0
+ kicks:     39378 preemptions:    324
+   exp:    247904 exp_wait:     60821 exp_empty:    151558
+cgnext:     34374   cgcoll:      1151   cgempty:     32834
+[SEQ 236]
+ total:     49303 dispatch:     49303   missing:         0
+ kicks:     39395 preemptions:    324
+   exp:    248028 exp_wait:     60823 exp_empty:    151663
+cgnext:     34391   cgcoll:      1151   cgempty:     32851
+[SEQ 237]
+ total:     49603 dispatch:     49603   missing:         0
+ kicks:     39620 preemptions:    324
+   exp:    249976 exp_wait:     60933 exp_empty:    153276
+cgnext:     34616   cgcoll:      1151   cgempty:     33078
+[SEQ 238]
+ total:     49793 dispatch:     49793   missing:         0
+ kicks:     39770 preemptions:    324
+   exp:    251294 exp_wait:     60992 exp_empty:    154384
+cgnext:     34767   cgcoll:      1151   cgempty:     33233
+[SEQ 239]
+ total:     49898 dispatch:     49898   missing:         0
+ kicks:     39853 preemptions:    325
+   exp:    252026 exp_wait:     61037 exp_empty:    154989
+cgnext:     34849   cgcoll:      1151   cgempty:     33317
+[SEQ 240]
+ total:     50209 dispatch:     50209   missing:         0
+ kicks:     40091 preemptions:    325
+   exp:    254007 exp_wait:     61140 exp_empty:    156627
+cgnext:     35089   cgcoll:      1151   cgempty:     33562
+[SEQ 241]
+ total:     50303 dispatch:     50303   missing:         0
+ kicks:     40163 preemptions:    326
+   exp:    254670 exp_wait:     61177 exp_empty:    157182
+cgnext:     35160   cgcoll:      1151   cgempty:     33634
+[SEQ 242]
+ total:     50516 dispatch:     50516   missing:         0
+ kicks:     40329 preemptions:    326
+   exp:    256111 exp_wait:     61252 exp_empty:    158382
+cgnext:     35326   cgcoll:      1151   cgempty:     33804
+[SEQ 243]
+ total:     50813 dispatch:     50813   missing:         0
+ kicks:     40561 preemptions:    326
+   exp:    258068 exp_wait:     61352 exp_empty:    160007
+cgnext:     35558   cgcoll:      1151   cgempty:     34039
+[SEQ 244]
+ total:     50835 dispatch:     50835   missing:         0
+ kicks:     40579 preemptions:    326
+   exp:    258202 exp_wait:     61357 exp_empty:    160118
+cgnext:     35576   cgcoll:      1151   cgempty:     34057
+[SEQ 245]
+ total:     51117 dispatch:     51117   missing:         0
+ kicks:     40800 preemptions:    326
+   exp:    260189 exp_wait:     61455 exp_empty:    161786
+cgnext:     35797   cgcoll:      1151   cgempty:     34282
+[SEQ 246]
+ total:     51302 dispatch:     51302   missing:         0
+ kicks:     40940 preemptions:    326
+   exp:    261429 exp_wait:     61522 exp_empty:    162819
+cgnext:     35937   cgcoll:      1151   cgempty:     34425
+[SEQ 247]
+ total:     51436 dispatch:     51436   missing:         0
+ kicks:     41049 preemptions:    326
+   exp:    262295 exp_wait:     61569 exp_empty:    163529
+cgnext:     36046   cgcoll:      1151   cgempty:     34536
+[SEQ 248]
+ total:     51727 dispatch:     51727   missing:         0
+ kicks:     41274 preemptions:    326
+   exp:    264259 exp_wait:     61681 exp_empty:    165155
+cgnext:     36272   cgcoll:      1151   cgempty:     34764
+[SEQ 249]
+ total:     51808 dispatch:     51808   missing:         0
+ kicks:     41336 preemptions:    326
+   exp:    264810 exp_wait:     61710 exp_empty:    165615
+cgnext:     36334   cgcoll:      1151   cgempty:     34828
+[SEQ 250]
+ total:     52038 dispatch:     52038   missing:         0
+ kicks:     41521 preemptions:    326
+   exp:    266349 exp_wait:     61782 exp_empty:    166897
+cgnext:     36519   cgcoll:      1151   cgempty:     35016
+[SEQ 251]
+ total:     52313 dispatch:     52313   missing:         0
+ kicks:     41735 preemptions:    326
+   exp:    268156 exp_wait:     61863 exp_empty:    168409
+cgnext:     36733   cgcoll:      1151   cgempty:     35236
+[SEQ 252]
+ total:     52359 dispatch:     52359   missing:         0
+ kicks:     41774 preemptions:    326
+   exp:    268448 exp_wait:     61872 exp_empty:    168653
+cgnext:     36772   cgcoll:      1151   cgempty:     35276
+[SEQ 253]
+ total:     52663 dispatch:     52663   missing:         0
+ kicks:     42014 preemptions:    326
+   exp:    270424 exp_wait:     61971 exp_empty:    170290
+cgnext:     37012   cgcoll:      1151   cgempty:     35518
+[SEQ 254]
+ total:     52825 dispatch:     52825   missing:         0
+ kicks:     42144 preemptions:    328
+   exp:    271577 exp_wait:     62029 exp_empty:    171257
+cgnext:     37140   cgcoll:      1151   cgempty:     35648
+[SEQ 255]
+ total:     52959 dispatch:     52959   missing:         0
+ kicks:     42254 preemptions:    328
+   exp:    272496 exp_wait:     62070 exp_empty:    172025
+cgnext:     37250   cgcoll:      1151   cgempty:     35760
+[SEQ 256]
+ total:     53246 dispatch:     53246   missing:         0
+ kicks:     42479 preemptions:    328
+   exp:    274457 exp_wait:     62160 exp_empty:    173671
+cgnext:     37475   cgcoll:      1151   cgempty:     35995
+[SEQ 257]
+ total:     53302 dispatch:     53302   missing:         0
+ kicks:     42525 preemptions:    330
+   exp:    274850 exp_wait:     62177 exp_empty:    174003
+cgnext:     37519   cgcoll:      1151   cgempty:     36040
+[SEQ 258]
+ total:     53566 dispatch:     53566   missing:         0
+ kicks:     42732 preemptions:    330
+   exp:    276552 exp_wait:     62258 exp_empty:    175417
+cgnext:     37726   cgcoll:      1151   cgempty:     36249
+[SEQ 259]
+ total:     53787 dispatch:     53787   missing:         0
+ kicks:     42901 preemptions:    331
+   exp:    278075 exp_wait:     62319 exp_empty:    176711
+cgnext:     37894   cgcoll:      1151   cgempty:     36418
+[SEQ 260]
+ total:     53880 dispatch:     53880   missing:         0
+ kicks:     42964 preemptions:    331
+   exp:    278609 exp_wait:     62349 exp_empty:    177151
+cgnext:     37958   cgcoll:      1151   cgempty:     36482
+[SEQ 261]
+ total:     54180 dispatch:     54180   missing:         0
+ kicks:     43198 preemptions:    331
+   exp:    280580 exp_wait:     62447 exp_empty:    178790
+cgnext:     38192   cgcoll:      1151   cgempty:     36716
+[SEQ 262]
+ total:     54317 dispatch:     54317   missing:         0
+ kicks:     43304 preemptions:    331
+   exp:    281450 exp_wait:     62483 exp_empty:    179518
+cgnext:     38298   cgcoll:      1151   cgempty:     36822
+[SEQ 263]
+ total:     54507 dispatch:     54507   missing:         0
+ kicks:     43454 preemptions:    333
+   exp:    282680 exp_wait:     62538 exp_empty:    180545
+cgnext:     38446   cgcoll:      1151   cgempty:     36970
+[SEQ 264]
+ total:     54821 dispatch:     54821   missing:         0
+ kicks:     43690 preemptions:    333
+   exp:    284590 exp_wait:     62635 exp_empty:    182121
+cgnext:     38683   cgcoll:      1151   cgempty:     37207
+[SEQ 265]
+ total:     54852 dispatch:     54852   missing:         0
+ kicks:     43718 preemptions:    333
+   exp:    284792 exp_wait:     62641 exp_empty:    182289
+cgnext:     38711   cgcoll:      1151   cgempty:     37235
+[SEQ 266]
+ total:     55165 dispatch:     55165   missing:         0
+ kicks:     43966 preemptions:    333
+   exp:    286813 exp_wait:     62741 exp_empty:    183962
+cgnext:     38959   cgcoll:      1151   cgempty:     37485
+[SEQ 267]
+ total:     55324 dispatch:     55324   missing:         0
+ kicks:     44089 preemptions:    333
+   exp:    287899 exp_wait:     62793 exp_empty:    184873
+cgnext:     39082   cgcoll:      1151   cgempty:     37611
+[SEQ 268]
+ total:     55472 dispatch:     55472   missing:         0
+ kicks:     44212 preemptions:    333
+   exp:    288917 exp_wait:     62837 exp_empty:    185723
+cgnext:     39206   cgcoll:      1151   cgempty:     37735
+[SEQ 269]
+ total:     55768 dispatch:     55768   missing:         0
+ kicks:     44439 preemptions:    333
+   exp:    290888 exp_wait:     62932 exp_empty:    187371
+cgnext:     39434   cgcoll:      1151   cgempty:     37964
+[SEQ 270]
+ total:     55798 dispatch:     55798   missing:         0
+ kicks:     44466 preemptions:    333
+   exp:    291106 exp_wait:     62938 exp_empty:    187556
+cgnext:     39461   cgcoll:      1151   cgempty:     37991
+[SEQ 271]
+ total:     56076 dispatch:     56076   missing:         0
+ kicks:     44685 preemptions:    335
+   exp:    292976 exp_wait:     63022 exp_empty:    189125
+cgnext:     39678   cgcoll:      1151   cgempty:     38209
+[SEQ 272]
+ total:     56292 dispatch:     56292   missing:         0
+ kicks:     44848 preemptions:    335
+   exp:    294352 exp_wait:     63095 exp_empty:    190265
+cgnext:     39841   cgcoll:      1151   cgempty:     38372
+[SEQ 273]
+ total:     56398 dispatch:     56398   missing:         0
+ kicks:     44933 preemptions:    335
+   exp:    295059 exp_wait:     63122 exp_empty:    190860
+cgnext:     39926   cgcoll:      1151   cgempty:     38457
+[SEQ 274]
+ total:     56697 dispatch:     56697   missing:         0
+ kicks:     45161 preemptions:    335
+   exp:    297030 exp_wait:     63213 exp_empty:    192512
+cgnext:     40154   cgcoll:      1151   cgempty:     38688
+[SEQ 275]
+ total:     56787 dispatch:     56787   missing:         0
+ kicks:     45237 preemptions:    336
+   exp:    297697 exp_wait:     63242 exp_empty:    193075
+cgnext:     40229   cgcoll:      1151   cgempty:     38764
+[SEQ 276]
+ total:     57272 dispatch:     57272   missing:         0
+ kicks:     45670 preemptions:    336
+   exp:    299954 exp_wait:     63574 exp_empty:    194567
+cgnext:     40662   cgcoll:      1151   cgempty:     39200
+[SEQ 277]
+ total:     57611 dispatch:     57611   missing:         0
+ kicks:     45986 preemptions:    337
+   exp:    301282 exp_wait:     63858 exp_empty:    195296
+cgnext:     40977   cgcoll:      1151   cgempty:     39517
+[SEQ 278]
+ total:     58067 dispatch:     58067   missing:         0
+ kicks:     46374 preemptions:    337
+   exp:    303413 exp_wait:     64181 exp_empty:    196716
+cgnext:     41365   cgcoll:      1151   cgempty:     39911
+[SEQ 279]
+ total:     58444 dispatch:     58444   missing:         0
+ kicks:     46715 preemptions:    337
+   exp:    304842 exp_wait:     64510 exp_empty:    197475
+cgnext:     41706   cgcoll:      1151   cgempty:     40252
+[SEQ 280]
+ total:     58873 dispatch:     58873   missing:         0
+ kicks:     47098 preemptions:    337
+   exp:    307009 exp_wait:     64818 exp_empty:    198951
+cgnext:     42089   cgcoll:      1151   cgempty:     40637
+[SEQ 281]
+ total:     59235 dispatch:     59235   missing:         0
+ kicks:     47435 preemptions:    337
+   exp:    308384 exp_wait:     65132 exp_empty:    199675
+cgnext:     42426   cgcoll:      1151   cgempty:     40974
+[SEQ 282]
+ total:     59708 dispatch:     59708   missing:         0
+ kicks:     47833 preemptions:    337
+   exp:    310600 exp_wait:     65469 exp_empty:    201155
+cgnext:     42825   cgcoll:      1151   cgempty:     41378
+[SEQ 283]
+ total:     60102 dispatch:     60102   missing:         0
+ kicks:     48208 preemptions:    339
+   exp:    312097 exp_wait:     65813 exp_empty:    201935
+cgnext:     43198   cgcoll:      1151   cgempty:     41752
+[SEQ 284]
+ total:     60538 dispatch:     60538   missing:         0
+ kicks:     48572 preemptions:    339
+   exp:    314178 exp_wait:     66106 exp_empty:    203359
+cgnext:     43562   cgcoll:      1151   cgempty:     42120
+[SEQ 285]
+ total:     60892 dispatch:     60892   missing:         0
+ kicks:     48903 preemptions:    339
+   exp:    315600 exp_wait:     66391 exp_empty:    204165
+cgnext:     43893   cgcoll:      1151   cgempty:     42454
+[SEQ 286]
+ total:     61317 dispatch:     61317   missing:         0
+ kicks:     49266 preemptions:    339
+   exp:    317628 exp_wait:     66703 exp_empty:    205518
+cgnext:     44256   cgcoll:      1151   cgempty:     42818
+[SEQ 287]
+ total:     61686 dispatch:     61686   missing:         0
+ kicks:     49607 preemptions:    340
+   exp:    319110 exp_wait:     67016 exp_empty:    206347
+cgnext:     44596   cgcoll:      1151   cgempty:     43159
+[SEQ 288]
+ total:     62151 dispatch:     62151   missing:         0
+ kicks:     50017 preemptions:    340
+   exp:    321256 exp_wait:     67367 exp_empty:    207732
+cgnext:     45006   cgcoll:      1151   cgempty:     43573
+[SEQ 289]
+ total:     62542 dispatch:     62542   missing:         0
+ kicks:     50389 preemptions:    341
+   exp:    322802 exp_wait:     67700 exp_empty:    208574
+cgnext:     45377   cgcoll:      1151   cgempty:     43949
+[SEQ 290]
+ total:     63015 dispatch:     63015   missing:         0
+ kicks:     50794 preemptions:    341
+   exp:    324974 exp_wait:     68044 exp_empty:    209997
+cgnext:     45782   cgcoll:      1151   cgempty:     44356
+[SEQ 291]
+ total:     63409 dispatch:     63409   missing:         0
+ kicks:     51167 preemptions:    341
+   exp:    326530 exp_wait:     68394 exp_empty:    210830
+cgnext:     46155   cgcoll:      1151   cgempty:     44733
+[SEQ 292]
+ total:     63862 dispatch:     63862   missing:         0
+ kicks:     51558 preemptions:    341
+   exp:    328670 exp_wait:     68716 exp_empty:    212256
+cgnext:     46547   cgcoll:      1151   cgempty:     45128
+[SEQ 293]
+ total:     64242 dispatch:     64242   missing:         0
+ kicks:     51913 preemptions:    342
+   exp:    330180 exp_wait:     69051 exp_empty:    213077
+cgnext:     46901   cgcoll:      1151   cgempty:     45484
+[SEQ 294]
+ total:     64698 dispatch:     64698   missing:         0
+ kicks:     52311 preemptions:    342
+   exp:    332313 exp_wait:     69388 exp_empty:    214475
+cgnext:     47299   cgcoll:      1151   cgempty:     45887
+[SEQ 295]
+ total:     65080 dispatch:     65080   missing:         0
+ kicks:     52666 preemptions:    343
+   exp:    333832 exp_wait:     69718 exp_empty:    215310
+cgnext:     47653   cgcoll:      1151   cgempty:     46243
+[SEQ 296]
+ total:     65551 dispatch:     65551   missing:         0
+ kicks:     53071 preemptions:    343
+   exp:    336049 exp_wait:     70074 exp_empty:    216766
+cgnext:     48058   cgcoll:      1151   cgempty:     46649
+[SEQ 297]
+ total:     65960 dispatch:     65960   missing:         0
+ kicks:     53449 preemptions:    344
+   exp:    337597 exp_wait:     70443 exp_empty:    217567
+cgnext:     48435   cgcoll:      1152   cgempty:     47028
+[SEQ 298]
+ total:     66430 dispatch:     66430   missing:         0
+ kicks:     53854 preemptions:    344
+   exp:    339776 exp_wait:     70766 exp_empty:    219018
+cgnext:     48840   cgcoll:      1152   cgempty:     47438
+[SEQ 299]
+ total:     66843 dispatch:     66843   missing:         0
+ kicks:     54252 preemptions:    345
+   exp:    341370 exp_wait:     71130 exp_empty:    219851
+cgnext:     49237   cgcoll:      1152   cgempty:     47836
+[SEQ 300]
+ total:     67307 dispatch:     67307   missing:         0
+ kicks:     54648 preemptions:    345
+   exp:    343554 exp_wait:     71465 exp_empty:    221303
+cgnext:     49634   cgcoll:      1152   cgempty:     48240
+[SEQ 301]
+ total:     67712 dispatch:     67712   missing:         0
+ kicks:     55039 preemptions:    346
+   exp:    345071 exp_wait:     71833 exp_empty:    222062
+cgnext:     50024   cgcoll:      1152   cgempty:     48631
+[SEQ 302]
+ total:     68186 dispatch:     68186   missing:         0
+ kicks:     55455 preemptions:    346
+   exp:    347394 exp_wait:     72172 exp_empty:    223630
+cgnext:     50440   cgcoll:      1152   cgempty:     49054
+[SEQ 303]
+ total:     68559 dispatch:     68559   missing:         0
+ kicks:     55812 preemptions:    347
+   exp:    348820 exp_wait:     72514 exp_empty:    224358
+cgnext:     50796   cgcoll:      1152   cgempty:     49412
+[SEQ 304]
+ total:     69029 dispatch:     69028   missing:         0
+ kicks:     56204 preemptions:    347
+   exp:    351036 exp_wait:     72847 exp_empty:    225849
+cgnext:     51188   cgcoll:      1152   cgempty:     49808
+[SEQ 305]
+ total:     69419 dispatch:     69419   missing:         0
+ kicks:     56569 preemptions:    348
+   exp:    352540 exp_wait:     73207 exp_empty:    226629
+cgnext:     51552   cgcoll:      1152   cgempty:     50172
+[SEQ 306]
+ total:     69887 dispatch:     69887   missing:         0
+ kicks:     56962 preemptions:    348
+   exp:    354755 exp_wait:     73533 exp_empty:    228125
+cgnext:     51945   cgcoll:      1152   cgempty:     50567
+[SEQ 307]
+ total:     70274 dispatch:     70274   missing:         0
+ kicks:     57333 preemptions:    350
+   exp:    356252 exp_wait:     73881 exp_empty:    228905
+cgnext:     52314   cgcoll:      1152   cgempty:     50936
+[SEQ 308]
+ total:     70764 dispatch:     70764   missing:         0
+ kicks:     57744 preemptions:    350
+   exp:    358536 exp_wait:     74204 exp_empty:    230455
+cgnext:     52725   cgcoll:      1152   cgempty:     51353
+[SEQ 309]
+ total:     71161 dispatch:     71161   missing:         0
+ kicks:     58119 preemptions:    350
+   exp:    360003 exp_wait:     74555 exp_empty:    231196
+cgnext:     53100   cgcoll:      1152   cgempty:     51730
+[SEQ 310]
+ total:     71646 dispatch:     71646   missing:         0
+ kicks:     58528 preemptions:    350
+   exp:    362273 exp_wait:     74893 exp_empty:    232719
+cgnext:     53509   cgcoll:      1152   cgempty:     52140
+[SEQ 311]
+ total:     72036 dispatch:     72036   missing:         0
+ kicks:     58894 preemptions:    351
+   exp:    363729 exp_wait:     75233 exp_empty:    233470
+cgnext:     53874   cgcoll:      1152   cgempty:     52506
+[SEQ 312]
+ total:     72503 dispatch:     72503   missing:         0
+ kicks:     59294 preemptions:    351
+   exp:    365985 exp_wait:     75572 exp_empty:    234987
+cgnext:     54274   cgcoll:      1152   cgempty:     52909
+[SEQ 313]
+ total:     72900 dispatch:     72900   missing:         0
+ kicks:     59681 preemptions:    352
+   exp:    367450 exp_wait:     75932 exp_empty:    235706
+cgnext:     54660   cgcoll:      1152   cgempty:     53297
+[SEQ 314]
+ total:     73394 dispatch:     73393   missing:         0
+ kicks:     60102 preemptions:    352
+   exp:    369806 exp_wait:     76316 exp_empty:    237257
+cgnext:     55081   cgcoll:      1152   cgempty:     53720
+[SEQ 315]
+ total:     73784 dispatch:     73782   missing:         0
+ kicks:     60481 preemptions:    354
+   exp:    371255 exp_wait:     76674 exp_empty:    237971
+cgnext:     55458   cgcoll:      1152   cgempty:     54100
+[SEQ 316]
+ total:     74262 dispatch:     74262   missing:         0
+ kicks:     60883 preemptions:    354
+   exp:    373563 exp_wait:     77019 exp_empty:    239531
+cgnext:     55861   cgcoll:      1152   cgempty:     54507
+[SEQ 317]
+ total:     74640 dispatch:     74640   missing:         0
+ kicks:     61244 preemptions:    355
+   exp:    374930 exp_wait:     77341 exp_empty:    240216
+cgnext:     56221   cgcoll:      1152   cgempty:     54870
+[SEQ 318]
+ total:     75125 dispatch:     75125   missing:         0
+ kicks:     61670 preemptions:    355
+   exp:    377303 exp_wait:     77710 exp_empty:    241794
+cgnext:     56647   cgcoll:      1152   cgempty:     55303
+[SEQ 319]
+ total:     75504 dispatch:     75504   missing:         0
+ kicks:     62037 preemptions:    356
+   exp:    378692 exp_wait:     78057 exp_empty:    242470
+cgnext:     57013   cgcoll:      1152   cgempty:     55670
+[SEQ 320]
+ total:     75991 dispatch:     75991   missing:         0
+ kicks:     62442 preemptions:    356
+   exp:    381037 exp_wait:     78396 exp_empty:    244069
+cgnext:     57418   cgcoll:      1154   cgempty:     56081
+[SEQ 321]
+ total:     76371 dispatch:     76370   missing:         0
+ kicks:     62809 preemptions:    356
+   exp:    382384 exp_wait:     78742 exp_empty:    244703
+cgnext:     57785   cgcoll:      1154   cgempty:     56449
+[SEQ 322]
+ total:     76863 dispatch:     76863   missing:         0
+ kicks:     63224 preemptions:    356
+   exp:    384772 exp_wait:     79068 exp_empty:    246350
+cgnext:     58200   cgcoll:      1154   cgempty:     56869
+[SEQ 323]
+ total:     77263 dispatch:     77263   missing:         0
+ kicks:     63616 preemptions:    358
+   exp:    386184 exp_wait:     79444 exp_empty:    246996
+cgnext:     58590   cgcoll:      1154   cgempty:     57260
+[SEQ 324]
+ total:     77742 dispatch:     77742   missing:         0
+ kicks:     64025 preemptions:    358
+   exp:    388608 exp_wait:     79762 exp_empty:    248693
+cgnext:     58999   cgcoll:      1154   cgempty:     57674
+[SEQ 325]
+ total:     78128 dispatch:     78128   missing:         0
+ kicks:     64401 preemptions:    359
+   exp:    389915 exp_wait:     80116 exp_empty:    249271
+cgnext:     59374   cgcoll:      1154   cgempty:     58049
+[SEQ 326]
+ total:     78612 dispatch:     78612   missing:         0
+ kicks:     64828 preemptions:    359
+   exp:    392371 exp_wait:     80451 exp_empty:    250965
+cgnext:     59801   cgcoll:      1154   cgempty:     58489
+[SEQ 327]
+ total:     78936 dispatch:     78936   missing:         0
+ kicks:     65141 preemptions:    360
+   exp:    393711 exp_wait:     80745 exp_empty:    251699
+cgnext:     60113   cgcoll:      1154   cgempty:     58802

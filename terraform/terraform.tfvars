@@ -1,0 +1,6 @@
+gcp_project_id           = ""
+gcp_region               = "europe-west1"
+gcp_zone                 = "europe-west1-b"
+gcp_user                 = "terraform"
+gcp_private_key_filepath = "~/.ssh/id_rsa"
+gcp_public_key_filepath  = "~/.ssh/id_rsa.pub"

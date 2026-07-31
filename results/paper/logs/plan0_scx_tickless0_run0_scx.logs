@@ -1,0 +1,5 @@
+17:03:53 [0m[33m[WARN] [0mCPU capacity information is not available under sysfs.
+17:03:53 [0m[34m[INFO] [0mscx_tickless 1.0.8-g36048b96-dirty x86_64-unknown-linux-gnu SMT on
+17:03:53 [0m[33m[WARN] [0mnohz_full is not enabled in the kernel
+17:03:53 [0m[34m[INFO] [0mprimary CPU domain = 0x80
+17:03:53 [0m[34m[INFO] [0mscheduler flags: 0x12

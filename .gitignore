@@ -1,0 +1,40 @@
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment Variables
+.env
+.envrc
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Data & Output
+plan/
+samples/
+load-instance/**/plan0.csv
+load-instance/**/seed.txt
+data/
+misc/
+*.pdf
+
+# Results
+results/*
+!results/paper/
+
+# Compiled Binaries
+/open-lambda/linux_scheds/linux-scheds

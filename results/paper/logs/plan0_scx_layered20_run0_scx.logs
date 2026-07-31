@@ -1,0 +1,7 @@
+02:08:10 [0m[33m[WARN] [0mCPU capacity information is not available under sysfs.
+02:08:10 [0m[34m[INFO] [0mTopology awareness not specified, selecting disabled based on hardware
+02:08:10 [0m[34m[INFO] [0mCPUs: online/possible=8/8 nr_cores=4
+02:08:10 [0m[34m[INFO] [0mDisabling topology awareness
+02:08:11 [0m[34m[INFO] [0mRunning scx_layered (build ID: 1.0.19-g36048b96-dirty x86_64-unknown-linux-gnu)
+02:08:11 [0m[34m[INFO] [0mKernel does not support queued wakeup optimization
+02:08:12 [0m[34m[INFO] [0mLayered Scheduler Attached. Run `scx_layered --monitor` for metrics.

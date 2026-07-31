@@ -1,0 +1,8 @@
+10:48:02 [0m[33m[WARN] [0mCPU capacity information is not available under sysfs.
+10:48:02 [0m[34m[INFO] [0mRunning scx_mitosis (build ID: 0.0.14-g36048b96-dirty x86_64-unknown-linux-gnu)
+10:48:02 [0m[34m[INFO] [0mKernel does not support queued wakeup optimization.
+10:48:02 [0m[34m[INFO] [0mlibbpf: struct_ops mitosis: member priv not found in kernel, skipping it as it's set to zero
+
+10:48:03 [0m[33m[WARN] [0mlibbpf: map 'mitosis': BPF map skeleton link is uninitialized
+
+10:48:03 [0m[34m[INFO] [0mMitosis Scheduler Attached. Run `scx_mitosis --monitor` for metrics.

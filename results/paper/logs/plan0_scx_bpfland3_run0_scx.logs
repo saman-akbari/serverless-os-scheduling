@@ -1,0 +1,10 @@
+13:21:45 [0m[33m[WARN] [0mCPU capacity information is not available under sysfs.
+13:21:45 [0m[34m[INFO] [0mNUMA nodes: 1
+13:21:45 [0m[34m[INFO] [0mDisabling NUMA optimizations
+13:21:45 [0m[33m[WARN] [0mCPU capacity information is not available under sysfs.
+13:21:45 [0m[34m[INFO] [0mscx_bpfland 1.0.17-g36048b96-dirty x86_64-unknown-linux-gnu SMT on
+13:21:45 [0m[34m[INFO] [0mscheduler options: ./scx/target/release/scx_bpfland --slice-us 60853 --slice-us-lag 12765
+13:21:45 [0m[34m[INFO] [0mscheduler flags: 0x16
+13:21:45 [0m[34m[INFO] [0mprimary CPU domain = 0xff
+13:21:45 [0m[34m[INFO] [0mcpufreq performance level: max
+13:21:45 [0m[34m[INFO] [0mSMT sibling CPUs: [4, 5, 6, 7, 0, 1, 2, 3]

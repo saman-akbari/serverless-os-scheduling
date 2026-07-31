@@ -1,0 +1,9 @@
+15:41:28 [0m[34m[INFO] [0mRunning scx_rusty (build ID: 1.0.17-g36048b96-dirty x86_64-unknown-linux-gnu)
+15:41:28 [0m[33m[WARN] [0mCPU capacity information is not available under sysfs.
+15:41:28 [0m[34m[INFO] [0mNODE[00] mask= ff
+15:41:28 [0m[34m[INFO] [0m DOM[00] mask= ff
+15:41:28 [0m[34m[INFO] [0mlibbpf: struct_ops rusty: member priv not found in kernel, skipping it as it's set to zero
+
+15:41:28 [0m[33m[WARN] [0mlibbpf: map 'rusty': BPF map skeleton link is uninitialized
+
+15:41:28 [0m[34m[INFO] [0mRusty scheduler started! Run `scx_rusty --monitor` for metrics.

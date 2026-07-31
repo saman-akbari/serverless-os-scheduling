@@ -1,0 +1,4 @@
+19:51:13 [0m[33m[WARN] [0mCPU capacity information is not available under sysfs.
+19:51:13 [0m[34m[INFO] [0mscx_cosmos 1.0.3-g36048b96-dirty x86_64-unknown-linux-gnu SMT on
+19:51:13 [0m[34m[INFO] [0mscheduler options: ./scx/target/release/scx_cosmos --cpu-busy-thresh 91 --slice-us 10883 --slice-lag-us 7356
+19:51:13 [0m[34m[INFO] [0mscheduler flags: 0x16
