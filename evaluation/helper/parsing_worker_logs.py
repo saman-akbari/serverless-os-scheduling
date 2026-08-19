@@ -54,7 +54,7 @@ def _parse_open_lambda_log_item(logline: str):
     """Parses a custom log line in the worker logs file introduced by our measurement"""
     parts = logline.split(" ")
     start_index = parts.index("***")
-    request_id = parts[start_index + 2]
+    request_id = parts[start_index + 2].split("?", 1)[0]
     turnaround_time = parts[start_index + 3]
     start_time_string = parts[start_index + 4] + " " + parts[start_index + 5]
     return request_id, turnaround_time, _parse_ol_start_time(start_time_string)

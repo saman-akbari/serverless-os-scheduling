@@ -332,7 +332,7 @@ def plot_timeout_rate(
 
     ax.set_xticks(x_positions)
     ax.set_xticklabels(short_labels, rotation=90, fontsize=16)
-    ax.set_ylabel(r"Timeout Rate (\\%)")
+    ax.set_ylabel("Timeout Rate (\\%)")
     ax.set_ylim(0, 60)
     if x_positions:
         ax.set_xlim(*compute_xlim(x_positions))
