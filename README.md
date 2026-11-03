@@ -4,6 +4,26 @@
 
 This project investigates the impact of different OS scheduling policies on the performance and user costs of serverless functions. The goal is to improve the performance and reduce the cost of Function-as-a-Service (FaaS) systems by exploring alternatives to the default Linux scheduler (EEVDF).
 
+## Paper
+
+S. Akbari and M. Hauswirth, ‘Towards High-Performance eBPF-based OS Scheduling for Serverless Functions’, in *Proceedings of the 17th ACM SIGOPS Asia-Pacific Workshop on Systems (APSys)*, 2026, pp. 8–14.
+
+[![DOI](https://zenodo.org/badge/doi/10.1145/3838177.3841724.svg)](https://doi.org/10.1145/3838177.3841724)
+
+### Citation
+
+```bibtex
+@inproceedings{akbari2026towards,
+  title={Towards High-Performance eBPF-based OS Scheduling for Serverless Functions},
+  author={Akbari, Saman and Hauswirth, Manfred},
+  booktitle={Proceedings of the 17th ACM SIGOPS Asia-Pacific Workshop on Systems},
+  pages={8--14},
+  year={2026},
+  organization={ACM},
+  doi={10.1145/3838177.3841724}
+}
+```
+
 ## Requirements
 
 - Python 3.10+
